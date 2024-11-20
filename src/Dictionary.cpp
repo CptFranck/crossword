@@ -22,6 +22,10 @@ Dictionary::Dictionary(std::string filename)
 
 Dictionary::~Dictionary()
 {
+    for (WordDefinition *wd : wordsDefinition)
+    {
+        delete wd;
+    }
 }
 
 WordDefinition *Dictionary::getRandomWord()
