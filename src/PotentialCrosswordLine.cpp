@@ -16,12 +16,13 @@ PotentialCrosswordLine::~PotentialCrosswordLine()
 
 std::map<Coordinate, char> PotentialCrosswordLine::getFutureCoordinates() const
 {
-    std::map<Coordinate *, char> coordinates;
+    std::map<Coordinate, char> coordinates;
     std::string word = wordDefinition->getWord();
     for (size_t i = 0; word.size(); i++)
     {
         size_t cPosition = letterPosition - i;
-        Coordinate *newPosition = intersectionCoordinate->getPositionFrom(cPosition, direction);
+        Coordinate newPosition = intersectionCoordinate->getPositionFrom(cPosition, direction);
         coordinates[newPosition] = word[i];
     }
+    return coordinates;
 }
