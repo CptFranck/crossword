@@ -8,14 +8,14 @@
 class PotentialCrosswordLine
 {
 public:
-    PotentialCrosswordLine(WordDefinition *wordDefinition, Coordinate *coordinate, size_t letterPosition, Direction direction);
+    PotentialCrosswordLine(WordDefinition *wordDefinition, Coordinate *intersectionCoordinate, size_t letterPosition, Direction direction);
     ~PotentialCrosswordLine();
     std::map<Coordinate, char> getFutureCoordinates() const;
 
 private:
     size_t letterPosition;
     Direction direction;
-    Coordinate *coordinate;
+    Coordinate *intersectionCoordinate;
     WordDefinition *wordDefinition;
 };
 
