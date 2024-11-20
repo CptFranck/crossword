@@ -16,3 +16,8 @@ CrosswordLineIntersection::CrosswordLineIntersection(Coordinate *coordinate,
 CrosswordLineIntersection::~CrosswordLineIntersection()
 {
 }
+
+bool CrosswordLineIntersection::hasForCoordinate(Coordinate *coordinate) const
+{
+    return this->coordinate->isEqualTo(coordinate);
+}

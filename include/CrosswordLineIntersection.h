@@ -15,6 +15,7 @@ public:
                               size_t crosswordLine1Intersection,
                               size_t crosswordLine2Intersection);
     ~CrosswordLineIntersection();
+    bool hasForCoordinate(Coordinate *coordinate) const;
 
 private:
     Coordinate *coordinate;
