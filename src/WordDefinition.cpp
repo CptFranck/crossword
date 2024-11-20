@@ -10,16 +10,19 @@ WordDefinition::~WordDefinition()
 {
 }
 
-bool WordDefinition::hasLetterInCommon(std::string word) const
+std::map<char, std::vector<size_t>> WordDefinition::findPotentialIntersection(std::string futurWord) const
 {
-    for (const char &c : this->word)
+    std::map<char, std::vector<size_t>> potentialIntersection;
+    for (const char &c : futurWord)
     {
-        if (word.find(c))
+        size_t pos = word.find(c, 0);
+        while (pos != std::string::npos)
         {
-            return true;
+            potentialIntersection[c].push_back(pos);
+            pos = word.find(c, pos + 1);
         }
     }
-    return false;
+    return potentialIntersection;
 }
 
 std::string WordDefinition::getWord() const

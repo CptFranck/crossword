@@ -1,8 +1,10 @@
 #ifndef WORDDEFINITION_H
 #define WORDDEFINITION_H
-#include <string>
-
 #pragma once
+
+#include <string>
+#include <vector>
+#include <map>
 
 class WordDefinition
 {
@@ -10,7 +12,7 @@ public:
     WordDefinition(std::string word, std::string definition);
     ~WordDefinition();
 
-    bool hasLetterInCommon(std::string word) const;
+    std::map<char, std::vector<size_t>> findPotentialIntersection(std::string word) const;
 
     std::string getWord() const;
     std::string getDefinition() const;
