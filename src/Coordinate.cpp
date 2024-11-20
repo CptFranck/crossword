@@ -10,7 +10,7 @@ Coordinate::~Coordinate()
 {
 }
 
-Coordinate *Coordinate::getPositionFrom(size_t position, Direction direction) const
+Coordinate Coordinate::getPositionFrom(size_t position, Direction direction) const
 {
     int x = this->x;
     int y = this->y;
@@ -29,10 +29,10 @@ Coordinate *Coordinate::getPositionFrom(size_t position, Direction direction) co
         x += position;
         break;
     }
-    return new Coordinate(x, y);
+    return Coordinate(x, y);
 }
 
-bool Coordinate::isEqualTo(Coordinate *coordinate) const
+bool Coordinate::isEqualTo(Coordinate coordinate) const
 {
-    return this->x == coordinate->x && this->y == coordinate->y;
+    return this->x == coordinate.x && this->y == coordinate.y;
 }
