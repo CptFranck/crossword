@@ -3,19 +3,31 @@
 #pragma once
 
 #include <vector>
+#include "Coordinate.h"
 #include "Direction.h"
 #include "WordDefinition.h"
+#include "PotentialCrosswordLine.h"
 #include "CrosswordLineIntersection.h"
+
+class CrosswordLineIntersection;
 
 class CrosswordLine
 {
 public:
-    CrosswordLine(Direction direction, WordDefinition *wordDefinition);
+    CrosswordLine(Direction direction, WordDefinition *wordDefinition, Coordinate *coordinate);
     ~CrosswordLine();
-    void addCrosswordIntersection(CrosswordLineIntersection *crosswordLineIntersection);
+
+    std::vector<PotentialCrosswordLine *> findPotentialCrosswordLine(WordDefinition *wordDefinition) const;
+
+    Direction getDirection() const;
+    WordDefinition *getWordDefinition() const;
+    std::vector<CrosswordLineIntersection *> getCrosswordLineIntersections() const;
 
 private:
+    bool hasIntersectionOn(Coordinate *coordinate) const;
+
     Direction direction;
+    Coordinate *coordinate;
     WordDefinition *wordDefinition;
     std::vector<CrosswordLineIntersection *> crosswordLineIntersections;
 };
