@@ -1,22 +1,27 @@
 #ifndef CROSSWORDLINEINTERSECTION_H
 #define CROSSWORDLINEINTERSECTION_H
-
 #pragma once
+
+#include "CrosswordLine.h"
+
+class CrosswordLine;
 
 class CrosswordLineIntersection
 {
 public:
-    CrosswordLineIntersection(CrosswordLine *CrosswordLine1,
-                              CrosswordLine *CrosswordLine2,
-                              int crosswordLine1Intersection,
-                              int crosswordLine2Intersection);
+    CrosswordLineIntersection(Coordinate *coordinate,
+                              CrosswordLine *crosswordLine1,
+                              CrosswordLine *crosswordLine2,
+                              size_t crosswordLine1Intersection,
+                              size_t crosswordLine2Intersection);
     ~CrosswordLineIntersection();
 
 private:
-    CrosswordLine *CrosswordLine1;
-    CrosswordLine *CrosswordLine2;
-    int crosswordLine1Intersection;
-    int crosswordLine2Intersection;
+    Coordinate *coordinate;
+    CrosswordLine *crosswordLine1;
+    CrosswordLine *crosswordLine2;
+    size_t crosswordLine1Intersection;
+    size_t crosswordLine2Intersection;
 };
 
 #endif
