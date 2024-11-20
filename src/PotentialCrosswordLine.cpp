@@ -1,4 +1,4 @@
-#include "PotentionalCrosswordLine.h"
+#include "PotentialCrosswordLine.h"
 
 PotentialCrosswordLine::PotentialCrosswordLine(WordDefinition *wordDefinition, Coordinate *coordinate)
 {
