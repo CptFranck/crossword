@@ -18,6 +18,7 @@ public:
     ~CrosswordLine();
 
     std::vector<PotentialCrosswordLine *> findPotentialCrosswordLine(WordDefinition *wordDefinition) const;
+    std::map<Coordinate *, char> getCoordinates() const;
 
     Direction getDirection() const;
     WordDefinition *getWordDefinition() const;
