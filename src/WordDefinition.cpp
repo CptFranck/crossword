@@ -10,7 +10,7 @@ WordDefinition::~WordDefinition()
 {
 }
 
-std::map<char, std::vector<size_t>> WordDefinition::findPotentialIntersection(std::string futurWord) const
+std::map<char, std::vector<size_t>> WordDefinition::findCommonLetterPosition(std::string futurWord) const
 {
     std::map<char, std::vector<size_t>> potentialIntersection;
     for (const char &c : futurWord)
