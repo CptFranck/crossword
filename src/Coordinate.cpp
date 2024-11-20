@@ -10,7 +10,7 @@ Coordinate::~Coordinate()
 {
 }
 
-Coordinate *Coordinate::getIntersectionPosition(size_t position, Direction direction) const
+Coordinate *Coordinate::getPositionFrom(size_t position, Direction direction) const
 {
     int x = this->x;
     int y = this->y;
