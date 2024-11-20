@@ -9,3 +9,24 @@ WordDefinition::WordDefinition(std::string word, std::string definition)
 WordDefinition::~WordDefinition()
 {
 }
+
+bool WordDefinition::hasLetterInCommon(std::string word) const
+{
+    for (const char &c : this->word)
+    {
+        if (word.find(c))
+        {
+            return true;
+        }
+    }
+    return false;
+}
+
+std::string WordDefinition::getWord() const
+{
+    return this->word;
+}
+std::string WordDefinition::getDefinition() const
+{
+    return this->definition;
+}

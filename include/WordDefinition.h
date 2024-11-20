@@ -10,6 +10,11 @@ public:
     WordDefinition(std::string word, std::string definition);
     ~WordDefinition();
 
+    bool hasLetterInCommon(std::string word) const;
+
+    std::string getWord() const;
+    std::string getDefinition() const;
+
 private:
     std::string word;
     std::string definition;
