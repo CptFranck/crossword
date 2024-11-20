@@ -9,7 +9,7 @@ class Coordinate
 public:
     Coordinate(int x, int y);
     ~Coordinate();
-    Coordinate *getIntersectionPosition(size_t position, Direction direction) const;
+    Coordinate *getPositionFrom(size_t position, Direction direction) const;
     bool isEqualTo(Coordinate *coordinate) const;
 
 private:

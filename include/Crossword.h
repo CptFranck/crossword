@@ -3,18 +3,21 @@
 #pragma once
 
 #include <vector>
-#include "Dictionary.h"
 #include "CrosswordLine.h"
+#include "Dictionary.h"
 
 class Crossword
 {
 public:
-    Crossword(Dictionary *dictionary);
+    Crossword(Dictionary *dictionary, int wordNumber);
     ~Crossword();
-    void addCrosswordLine(CrosswordLine *crosswordLine);
+
+    bool isWordDefinitionUsed(WordDefinition *wordDefinition) const;
+    std::vector<const CrosswordLine *> findCrosswordLinePlacement(WordDefinition *wordDefinition);
 
 private:
-    Dictionary *dictionary;
+    void deleteWrongPotentialCrosswordLine(std::vector<PotentialCrosswordLine *> &potentialCrosswordLines);
+
     std::vector<CrosswordLine *> crosswordLines;
 };
 
