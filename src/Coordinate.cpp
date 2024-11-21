@@ -17,7 +17,7 @@ Coordinate *Coordinate::getPositionFrom(size_t position, Direction direction) co
     switch (direction)
     {
     case Direction::UP:
-        x += position;
+        y += position;
         break;
     case Direction::DOWN:
         y -= position;
