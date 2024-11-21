@@ -15,7 +15,7 @@ public:
     bool isWordDefinitionUsed(WordDefinition *wordDefinition) const;
     std::vector<const CrosswordLine *> findCrosswordLinePlacement(WordDefinition *wordDefinition);
     std::vector<CrosswordLine *> findCrosswordLinePlacements(WordDefinition *wordDefinition);
-    std::vector<CrosswordLine *> FilterConflictedPotentialCrosswordLine(std::vector<PotentialCrosswordLine *> potentialCrosswordLines);
+    std::vector<CrosswordLine *> filterPotentialCrosswordLineConflicted(std::vector<PotentialCrosswordLine *> potentialCrosswordLines);
 
 private:
     void deleteWrongPotentialCrosswordLine(std::vector<PotentialCrosswordLine *> &potentialCrosswordLines);
