@@ -1,22 +1,9 @@
 #include "PotentialCrosswordLine.h"
 
-PotentialCrosswordLine::PotentialCrosswordLine(WordDefinition *wordDefinition, Coordinate *intersectionCoordinate, size_t letterPosition, Direction direction)
+PotentialCrosswordLine::PotentialCrosswordLine(Direction direction, WordDefinition *wordDefinition, Coordinate *intersectionCoordinate, size_t letterPosition)
 {
     this->direction = direction;
-    this->intersectionCoordinate = intersectionCoordinate;
-    this->letterPosition = letterPosition;
     this->wordDefinition = wordDefinition;
-}
-
-PotentialCrosswordLine::~PotentialCrosswordLine()
-{
-    delete intersectionCoordinate;
-    delete wordDefinition;
-}
-
-std::map<Coordinate *, char> PotentialCrosswordLine::getFutureCoordinates() const
-{
-    std::map<Coordinate *, char> coordinates;
     std::string word = wordDefinition->getWord();
     for (size_t i = 0; word.size(); i++)
     {
@@ -24,5 +11,18 @@ std::map<Coordinate *, char> PotentialCrosswordLine::getFutureCoordinates() cons
         Coordinate *newPosition = intersectionCoordinate->getPositionFrom(cPosition, direction);
         coordinates[newPosition] = word[i];
     }
+}
+
+PotentialCrosswordLine::~PotentialCrosswordLine()
+{
+    delete wordDefinition;
+    for (auto it = coordinates.begin(); it != coordinates.end(); ++it)
+    {
+        delete it->first;
+    }
+}
+
+std::map<Coordinate *, char> PotentialCrosswordLine::getCoordinates() const
+{
     return coordinates;
 }
