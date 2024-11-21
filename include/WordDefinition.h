@@ -12,7 +12,7 @@ public:
     WordDefinition(std::string word, std::string definition);
     ~WordDefinition();
 
-    std::map<char, std::vector<size_t>> findCommonLetterPosition(std::string word) const;
+    std::map<std::pair<char, size_t>, std::vector<size_t>> findCommonLetterPosition(std::string word) const;
 
     std::string getWord() const;
     std::string getDefinition() const;

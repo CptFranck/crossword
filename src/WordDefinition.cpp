@@ -10,17 +10,20 @@ WordDefinition::~WordDefinition()
 {
 }
 
-std::map<char, std::vector<size_t>> WordDefinition::findCommonLetterPosition(std::string futurWord) const
+std::map<std::pair<char, size_t>, std::vector<size_t>> WordDefinition::findCommonLetterPosition(std::string futurWord) const
 {
-    std::map<char, std::vector<size_t>> potentialIntersection;
+    std::map<std::pair<char, size_t>, std::vector<size_t>> potentialIntersection;
+    int cIndex = 0;
     for (const char &c : futurWord)
     {
         size_t pos = word.find(c, 0);
         while (pos != std::string::npos)
         {
-            potentialIntersection[c].push_back(pos);
+            std::pair<char, size_t> key(c, cIndex);
+            potentialIntersection[key].push_back(pos);
             pos = word.find(c, pos + 1);
         }
+        cIndex++;
     }
     return potentialIntersection;
 }
