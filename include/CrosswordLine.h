@@ -14,16 +14,15 @@ class CrosswordLine : public PotentialCrosswordLine
 {
 public:
     CrosswordLine(Direction direction, WordDefinition *wordDefinition, Coordinate *coordinate);
-    CrosswordLine(PotentialCrosswordLine *potentialCrosswordLine, std::vector<Coordinate *> crosswordLineIntersections);
+    CrosswordLine(PotentialCrosswordLine *potentialCrosswordLine, std::map<Coordinate *, CrosswordLine *> crosswordLineIntersections);
     ~CrosswordLine();
 
+    bool hasIntersectionOn(Coordinate *coordinate) const;
+    std::map<Coordinate *, CrosswordLine *> getCrosswordLineIntersections() const;
     std::vector<PotentialCrosswordLine *> findPotentialCrosswordLine(WordDefinition *wordDefinition) const;
-    std::vector<Coordinate *> getCrosswordLineIntersections() const;
 
 private:
-    bool hasIntersectionOn(Coordinate *coordinate) const;
-
-    std::vector<Coordinate *> crosswordLineIntersections;
+    std::map<Coordinate *, CrosswordLine *> crosswordLineIntersections;
 };
 
 #endif

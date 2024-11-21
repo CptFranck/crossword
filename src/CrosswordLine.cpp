@@ -8,7 +8,7 @@ CrosswordLine::CrosswordLine(Direction direction,
 }
 
 CrosswordLine::CrosswordLine(PotentialCrosswordLine *potentialCrosswordLine,
-                             std::vector<Coordinate *> crosswordLineIntersections)
+                             std::map<Coordinate *, CrosswordLine *> crosswordLineIntersections)
     : PotentialCrosswordLine(direction, wordDefinition, potentialCrosswordLine->getCoordinates().begin()->first, 0)
 {
     this->crosswordLineIntersections = crosswordLineIntersections;
@@ -60,7 +60,7 @@ bool CrosswordLine::hasIntersectionOn(Coordinate *coordinate) const
 {
     for (auto cli : crosswordLineIntersections)
     {
-        if (cli->isEqualTo(coordinate))
+        if (cli.first->isEqualTo(coordinate))
         {
             return true;
         }
@@ -68,7 +68,7 @@ bool CrosswordLine::hasIntersectionOn(Coordinate *coordinate) const
     return false;
 }
 
-std::vector<Coordinate *> CrosswordLine::getCrosswordLineIntersections() const
+std::map<Coordinate *, CrosswordLine *> CrosswordLine::getCrosswordLineIntersections() const
 {
     return this->crosswordLineIntersections;
 }
