@@ -70,5 +70,5 @@ bool CrosswordLine::hasIntersectionOn(Coordinate *coordinate) const
 
 std::vector<Coordinate *> CrosswordLine::getCrosswordLineIntersections() const
 {
-    this->crosswordLineIntersections;
+    return this->crosswordLineIntersections;
 }
