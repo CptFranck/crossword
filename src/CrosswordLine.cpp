@@ -39,13 +39,13 @@ std::vector<PotentialCrosswordLine *> CrosswordLine::findPotentialCrosswordLine(
             {
                 if (direction == Direction::UP || direction == Direction::DOWN)
                 {
-                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(wordDefinition, intersectionCoordinate, pos, Direction::LEFT));
-                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(wordDefinition, intersectionCoordinate, pos, Direction::RIGHT));
+                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::LEFT, wordDefinition, intersectionCoordinate, pos));
+                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::RIGHT, wordDefinition, intersectionCoordinate, pos));
                 }
                 else
                 {
-                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(wordDefinition, intersectionCoordinate, pos, Direction::UP));
-                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(wordDefinition, intersectionCoordinate, pos, Direction::DOWN));
+                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::UP, wordDefinition, intersectionCoordinate, pos));
+                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::DOWN, wordDefinition, intersectionCoordinate, pos));
                 }
             }
             delete intersectionCoordinate;
