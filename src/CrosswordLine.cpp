@@ -3,29 +3,38 @@
 CrosswordLine::CrosswordLine(Direction direction, WordDefinition *wordDefinition, Coordinate *coordinate)
 {
     this->direction = direction;
-    this->coordinate = coordinate;
     this->wordDefinition = wordDefinition;
+    std::string word = wordDefinition->getWord();
+    for (size_t i = 0; word.size(); i++)
+    {
+        Coordinate *newPosition = coordinate->getPositionFrom(i, direction);
+        coordinates[newPosition] = word[i];
+    }
 }
 
 CrosswordLine::~CrosswordLine()
 {
-    delete this->coordinate;
     delete this->wordDefinition;
+    for (auto it = coordinates.begin(); it != coordinates.end(); ++it)
+    {
+        delete it->first;
+    }
 }
 
 std::vector<PotentialCrosswordLine *> CrosswordLine::findPotentialCrosswordLine(WordDefinition *wordDefinition) const
 {
-    std::vector<PotentialCrosswordLine *> potentialCrosswordLines;
+    // letter : list of working positions in current crosswordLine
     std::map<char, std::vector<size_t>> commonLetterPositions;
     commonLetterPositions = this->wordDefinition->findCommonLetterPosition(wordDefinition->getWord());
 
+    std::vector<PotentialCrosswordLine *> potentialCrosswordLines;
     for (auto it = commonLetterPositions.begin(); it != commonLetterPositions.end(); ++it)
     {
         std::vector<size_t> &positions = it->second;
 
         for (size_t pos : positions)
         {
-            Coordinate *intersectionCoordinate = coordinate->getPositionFrom(pos, direction);
+            Coordinate *intersectionCoordinate = coordinates.begin()->first->getPositionFrom(pos, direction);
             if (!hasIntersectionOn(intersectionCoordinate))
             {
                 if (direction == Direction::UP || direction == Direction::DOWN)
@@ -43,18 +52,6 @@ std::vector<PotentialCrosswordLine *> CrosswordLine::findPotentialCrosswordLine(
         }
     }
     return potentialCrosswordLines;
-}
-
-std::map<Coordinate *, char> CrosswordLine::getCoordinates() const
-{
-    std::map<Coordinate *, char> coordinates;
-    std::string word = wordDefinition->getWord();
-    for (size_t i = 0; word.size(); i++)
-    {
-        Coordinate *newPosition = coordinate->getPositionFrom(i, direction);
-        coordinates[newPosition] = word[i];
-    }
-    return coordinates;
 }
 
 bool CrosswordLine::hasIntersectionOn(Coordinate *coordinate) const
@@ -77,6 +74,11 @@ Direction CrosswordLine::getDirection() const
 WordDefinition *CrosswordLine::getWordDefinition() const
 {
     this->wordDefinition;
+}
+
+std::map<Coordinate *, char> CrosswordLine::getCoordinates() const
+{
+    return coordinates;
 }
 
 std::vector<CrosswordLineIntersection *> CrosswordLine::getCrosswordLineIntersections() const
