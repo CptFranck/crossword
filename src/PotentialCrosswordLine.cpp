@@ -31,7 +31,7 @@ Direction PotentialCrosswordLine::getDirection() const
 
 WordDefinition *PotentialCrosswordLine::getWordDefinition() const
 {
-    this->wordDefinition;
+    return this->wordDefinition;
 }
 
 std::map<Coordinate *, char> PotentialCrosswordLine::getCoordinates() const
