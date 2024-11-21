@@ -7,7 +7,6 @@
 #include "Direction.h"
 #include "WordDefinition.h"
 #include "PotentialCrosswordLine.h"
-#include "CrosswordLineIntersection.h"
 
 class CrosswordLineIntersection;
 
@@ -15,16 +14,16 @@ class CrosswordLine : public PotentialCrosswordLine
 {
 public:
     CrosswordLine(Direction direction, WordDefinition *wordDefinition, Coordinate *coordinate);
-    CrosswordLine(PotentialCrosswordLine *potentialCrosswordLine, std::vector<CrosswordLineIntersection *> crosswordLineIntersections);
+    CrosswordLine(PotentialCrosswordLine *potentialCrosswordLine, std::vector<Coordinate *> crosswordLineIntersections);
     ~CrosswordLine();
 
     std::vector<PotentialCrosswordLine *> findPotentialCrosswordLine(WordDefinition *wordDefinition) const;
-    std::vector<CrosswordLineIntersection *> getCrosswordLineIntersections() const;
+    std::vector<Coordinate *> getCrosswordLineIntersections() const;
 
 private:
     bool hasIntersectionOn(Coordinate *coordinate) const;
 
-    std::vector<CrosswordLineIntersection *> crosswordLineIntersections;
+    std::vector<Coordinate *> crosswordLineIntersections;
 };
 
 #endif
