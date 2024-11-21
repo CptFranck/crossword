@@ -7,8 +7,7 @@ enum Direction
     UP,
     DOWN,
     RIGHT,
-    LEFT,
-    UNKNOWN
+    LEFT
 };
 
 static std::random_device rd;
