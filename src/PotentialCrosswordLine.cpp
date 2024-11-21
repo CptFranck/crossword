@@ -18,7 +18,6 @@ PotentialCrosswordLine::PotentialCrosswordLine(Direction direction,
 
 PotentialCrosswordLine::~PotentialCrosswordLine()
 {
-    delete wordDefinition;
     for (auto it = coordinates.begin(); it != coordinates.end(); ++it)
     {
         delete it->first;
