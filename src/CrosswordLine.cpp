@@ -1,15 +1,17 @@
 #include "CrosswordLine.h"
 
-CrosswordLine::CrosswordLine(Direction direction, WordDefinition *wordDefinition, Coordinate *coordinate)
+CrosswordLine::CrosswordLine(Direction direction,
+                             WordDefinition *wordDefinition,
+                             Coordinate *coordinate)
+    : PotentialCrosswordLine(direction, wordDefinition, coordinate, 0)
 {
-    this->direction = direction;
-    this->wordDefinition = wordDefinition;
-    std::string word = wordDefinition->getWord();
-    for (size_t i = 0; word.size(); i++)
-    {
-        Coordinate *newPosition = coordinate->getPositionFrom(i, direction);
-        coordinates[newPosition] = word[i];
-    }
+}
+
+CrosswordLine::CrosswordLine(PotentialCrosswordLine *potentialCrosswordLine,
+                             std::vector<CrosswordLineIntersection *> crosswordLineIntersections)
+    : PotentialCrosswordLine(direction, wordDefinition, potentialCrosswordLine->getCoordinates().begin()->first, 0)
+{
+    this->crosswordLineIntersections = crosswordLineIntersections;
 }
 
 CrosswordLine::~CrosswordLine()
@@ -23,29 +25,30 @@ CrosswordLine::~CrosswordLine()
 
 std::vector<PotentialCrosswordLine *> CrosswordLine::findPotentialCrosswordLine(WordDefinition *wordDefinition) const
 {
-    // letter : list of working positions in current crosswordLine
-    std::map<char, std::vector<size_t>> commonLetterPositions;
+    // futur word letter and position : list of working positions in current crosswordLine
+    std::map<std::pair<char, size_t>, std::vector<size_t>> commonLetterPositions;
     commonLetterPositions = this->wordDefinition->findCommonLetterPosition(wordDefinition->getWord());
 
     std::vector<PotentialCrosswordLine *> potentialCrosswordLines;
     for (auto it = commonLetterPositions.begin(); it != commonLetterPositions.end(); ++it)
     {
-        std::vector<size_t> &positions = it->second;
+        size_t futurWordPotentialPosition = it->first.second;
+        std::vector<size_t> &currentWordPotentialPositions = it->second;
 
-        for (size_t pos : positions)
+        for (size_t pos : currentWordPotentialPositions)
         {
             Coordinate *intersectionCoordinate = coordinates.begin()->first->getPositionFrom(pos, direction);
             if (!hasIntersectionOn(intersectionCoordinate))
             {
                 if (direction == Direction::UP || direction == Direction::DOWN)
                 {
-                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::LEFT, wordDefinition, intersectionCoordinate, pos));
-                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::RIGHT, wordDefinition, intersectionCoordinate, pos));
+                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::LEFT, wordDefinition, intersectionCoordinate, futurWordPotentialPosition));
+                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::RIGHT, wordDefinition, intersectionCoordinate, futurWordPotentialPosition));
                 }
                 else
                 {
-                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::UP, wordDefinition, intersectionCoordinate, pos));
-                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::DOWN, wordDefinition, intersectionCoordinate, pos));
+                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::UP, wordDefinition, intersectionCoordinate, futurWordPotentialPosition));
+                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::DOWN, wordDefinition, intersectionCoordinate, futurWordPotentialPosition));
                 }
             }
             delete intersectionCoordinate;
@@ -64,21 +67,6 @@ bool CrosswordLine::hasIntersectionOn(Coordinate *coordinate) const
         }
     }
     return false;
-}
-
-Direction CrosswordLine::getDirection() const
-{
-    return this->direction;
-}
-
-WordDefinition *CrosswordLine::getWordDefinition() const
-{
-    this->wordDefinition;
-}
-
-std::map<Coordinate *, char> CrosswordLine::getCoordinates() const
-{
-    return coordinates;
 }
 
 std::vector<CrosswordLineIntersection *> CrosswordLine::getCrosswordLineIntersections() const

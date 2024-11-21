@@ -10,9 +10,12 @@ class PotentialCrosswordLine
 public:
     PotentialCrosswordLine(Direction direction, WordDefinition *wordDefinition, Coordinate *intersectionCoordinate, size_t letterPosition);
     ~PotentialCrosswordLine();
+
+    Direction getDirection() const;
+    WordDefinition *getWordDefinition() const;
     std::map<Coordinate *, char> getCoordinates() const;
 
-private:
+protected:
     Direction direction;
     WordDefinition *wordDefinition;
     std::map<Coordinate *, char> coordinates;
