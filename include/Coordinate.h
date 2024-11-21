@@ -2,6 +2,7 @@
 #define COORDINATE_H
 #pragma once
 
+#include <vector>
 #include "Direction.h"
 
 class Coordinate
