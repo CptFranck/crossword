@@ -28,6 +28,8 @@ Coordinate *Coordinate::getPositionFrom(size_t position, Direction direction) co
     case Direction::RIGHT:
         x += position;
         break;
+    default:
+        break;
     }
     return new Coordinate(x, y);
 }
