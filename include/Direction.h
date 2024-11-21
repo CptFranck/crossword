@@ -2,6 +2,9 @@
 #define DIRECTION_H
 #pragma once
 
+#include <random>
+#include <vector>
+
 enum Direction
 {
     UP,
