@@ -18,10 +18,6 @@ CrosswordLine::CrosswordLine(PotentialCrosswordLine *potentialCrosswordLine,
 
 CrosswordLine::~CrosswordLine()
 {
-    for (auto it = crosswordLineIntersections.begin(); it != crosswordLineIntersections.end(); ++it)
-    {
-        delete it->first;
-    }
 }
 
 std::vector<PotentialCrosswordLine *> CrosswordLine::findPotentialCrosswordLine(WordDefinition *wordDefinition) const
@@ -72,7 +68,12 @@ bool CrosswordLine::hasIntersectionOn(Coordinate *coordinate) const
     return false;
 }
 
+void CrosswordLine::addCrosswordLineIntersections(Coordinate *c, CrosswordLine *cl)
+{
+    crosswordLineIntersections[c] = cl;
+}
+
 std::map<Coordinate *, CrosswordLine *> CrosswordLine::getCrosswordLineIntersections() const
 {
-    return this->crosswordLineIntersections;
+    return crosswordLineIntersections;
 }

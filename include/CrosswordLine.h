@@ -18,6 +18,7 @@ public:
     ~CrosswordLine();
 
     bool hasIntersectionOn(Coordinate *coordinate) const;
+    void addCrosswordLineIntersections(Coordinate *c, CrosswordLine *cl);
     std::map<Coordinate *, CrosswordLine *> getCrosswordLineIntersections() const;
     std::vector<PotentialCrosswordLine *> findPotentialCrosswordLine(WordDefinition *wordDefinition) const;
 
