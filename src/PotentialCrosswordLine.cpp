@@ -8,8 +8,9 @@ PotentialCrosswordLine::PotentialCrosswordLine(Direction direction,
     this->direction = direction;
     this->wordDefinition = wordDefinition;
     std::string word = wordDefinition->getWord();
-    for (size_t i = 0; word.size(); i++)
+    for (size_t i = 0; i < word.length(); i++)
     {
+        std::cout << i << std::endl;
         size_t cPosition = i - letterPosition;
         Coordinate *newPosition = intersectionCoordinate->getPositionFrom(cPosition, direction);
         coordinates[newPosition] = word[i];
