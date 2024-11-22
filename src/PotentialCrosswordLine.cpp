@@ -6,6 +6,9 @@ PotentialCrosswordLine::PotentialCrosswordLine(Direction direction,
                                                Coordinate *intersectionCoordinate,
                                                size_t letterPosition)
 {
+    std::cout << "point d'intersection " << std::endl;
+    intersectionCoordinate->print();
+    std::cout << std::endl;
     this->direction = direction;
     this->wordDefinition = wordDefinition;
     std::string word = wordDefinition->getWord();

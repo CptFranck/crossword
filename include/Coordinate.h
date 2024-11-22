@@ -14,6 +14,7 @@ public:
     bool isEqualTo(Coordinate *coordinate) const;
     void ifMinUpdate(Coordinate *c);
     void ifMaxUpdate(Coordinate *c);
+    void print();
     int getX() const;
     int getY() const;
 

@@ -1,17 +1,19 @@
 #include "CrosswordLine.h"
+#include "iostream"
 
 CrosswordLine::CrosswordLine(Direction direction,
                              WordDefinition *wordDefinition,
                              Coordinate *coordinate)
     : PotentialCrosswordLine(direction, wordDefinition, coordinate, 0)
 {
+    std::cout << std::endl;
 }
 
 CrosswordLine::CrosswordLine(PotentialCrosswordLine *potentialCrosswordLine,
                              std::map<Coordinate *, CrosswordLine *> crosswordLineIntersections)
     : PotentialCrosswordLine(potentialCrosswordLine->getDirection(),
                              potentialCrosswordLine->getWordDefinition(),
-                             potentialCrosswordLine->getCoordinates().begin()->first, 0)
+                             potentialCrosswordLine->getFirstCoordinates(), 0)
 {
     this->crosswordLineIntersections = crosswordLineIntersections;
 }
@@ -31,25 +33,28 @@ std::vector<PotentialCrosswordLine *> CrosswordLine::findPotentialCrosswordLine(
     commonLetterPositions = this->wordDefinition->findCommonLetterPosition(wordDefinition->getWord());
 
     std::vector<PotentialCrosswordLine *> potentialCrosswordLines;
+    // for each char and position associate to list of position working
+    std::cout << "nb possibilité :" << commonLetterPositions.size() << std::endl;
     for (auto it = commonLetterPositions.begin(); it != commonLetterPositions.end(); ++it)
     {
-        size_t futurWordPotentialPosition = it->first.second;
-        std::vector<size_t> &currentWordPotentialPositions = it->second;
+        size_t futurWordPosition = it->first.second;
+        std::vector<size_t> &currentWordPositions = it->second;
 
-        for (size_t pos : currentWordPotentialPositions)
+        for (size_t pos : currentWordPositions)
         {
-            Coordinate *intersectionCoordinate = coordinates.begin()->first->getPositionFrom(pos, direction);
+
+            Coordinate *intersectionCoordinate = getFirstCoordinates()->getPositionFrom(pos, direction);
             if (!hasIntersectionOn(intersectionCoordinate))
             {
                 if (direction == Direction::UP || direction == Direction::DOWN)
                 {
-                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::LEFT, wordDefinition, intersectionCoordinate, futurWordPotentialPosition));
-                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::RIGHT, wordDefinition, intersectionCoordinate, futurWordPotentialPosition));
+                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::LEFT, wordDefinition, intersectionCoordinate, futurWordPosition));
+                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::RIGHT, wordDefinition, intersectionCoordinate, futurWordPosition));
                 }
                 else
                 {
-                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::UP, wordDefinition, intersectionCoordinate, futurWordPotentialPosition));
-                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::DOWN, wordDefinition, intersectionCoordinate, futurWordPotentialPosition));
+                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::UP, wordDefinition, intersectionCoordinate, futurWordPosition));
+                    potentialCrosswordLines.push_back(new PotentialCrosswordLine(Direction::DOWN, wordDefinition, intersectionCoordinate, futurWordPosition));
                 }
             }
             delete intersectionCoordinate;

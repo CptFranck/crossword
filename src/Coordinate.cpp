@@ -1,4 +1,5 @@
 #include "Coordinate.h"
+#include <iostream>
 
 Coordinate::Coordinate(int x, int y)
 {
@@ -50,6 +51,11 @@ void Coordinate::ifMaxUpdate(Coordinate *c)
         this->x = c->x;
     if (c->y > this->y)
         this->y = c->y;
+}
+
+void Coordinate::print()
+{
+    std::cout << "x: " << this->x << " y: " << this->y << std::endl;
 }
 
 int Coordinate::getX() const
