@@ -12,6 +12,10 @@ public:
     ~Coordinate();
     Coordinate *getPositionFrom(size_t position, Direction direction) const;
     bool isEqualTo(Coordinate *coordinate) const;
+    void ifMinUpdate(Coordinate *c);
+    void ifMaxUpdate(Coordinate *c);
+    int getX() const;
+    int getY() const;
 
 private:
     int x, y;
