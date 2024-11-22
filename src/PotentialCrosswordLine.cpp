@@ -5,7 +5,6 @@ PotentialCrosswordLine::PotentialCrosswordLine(Direction direction,
                                                Coordinate *intersectionCoordinate,
                                                size_t letterPosition)
 {
-    intersectionCoordinate->print();
     this->direction = direction;
     this->wordDefinition = wordDefinition;
     std::string word = wordDefinition->getWord();
@@ -13,7 +12,6 @@ PotentialCrosswordLine::PotentialCrosswordLine(Direction direction,
     {
         size_t cPosition = i - letterPosition;
         Coordinate *newPosition = intersectionCoordinate->getPositionFrom(cPosition, direction);
-        newPosition->print();
         coordinates[newPosition] = word[i];
     }
 }
