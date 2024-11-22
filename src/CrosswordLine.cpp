@@ -9,14 +9,16 @@ CrosswordLine::CrosswordLine(Direction direction,
 
 CrosswordLine::CrosswordLine(PotentialCrosswordLine *potentialCrosswordLine,
                              std::map<Coordinate *, CrosswordLine *> crosswordLineIntersections)
-    : PotentialCrosswordLine(direction, wordDefinition, potentialCrosswordLine->getCoordinates().begin()->first, 0)
+    : PotentialCrosswordLine(potentialCrosswordLine->getDirection(),
+                             potentialCrosswordLine->getWordDefinition(),
+                             potentialCrosswordLine->getCoordinates().begin()->first, 0)
 {
     this->crosswordLineIntersections = crosswordLineIntersections;
 }
 
 CrosswordLine::~CrosswordLine()
 {
-    for (auto it = coordinates.begin(); it != coordinates.end(); ++it)
+    for (auto it = crosswordLineIntersections.begin(); it != crosswordLineIntersections.end(); ++it)
     {
         delete it->first;
     }
