@@ -1,14 +1,11 @@
 #include "PotentialCrosswordLine.h"
-#include "iostream"
 
 PotentialCrosswordLine::PotentialCrosswordLine(Direction direction,
                                                WordDefinition *wordDefinition,
                                                Coordinate *intersectionCoordinate,
                                                size_t letterPosition)
 {
-    std::cout << "point d'intersection " << std::endl;
     intersectionCoordinate->print();
-    std::cout << std::endl;
     this->direction = direction;
     this->wordDefinition = wordDefinition;
     std::string word = wordDefinition->getWord();
@@ -16,11 +13,9 @@ PotentialCrosswordLine::PotentialCrosswordLine(Direction direction,
     {
         size_t cPosition = i - letterPosition;
         Coordinate *newPosition = intersectionCoordinate->getPositionFrom(cPosition, direction);
-        std::cout << "lettre " << word[i] << std::endl;
         newPosition->print();
         coordinates[newPosition] = word[i];
     }
-    std::cout << std::endl;
 }
 
 PotentialCrosswordLine::~PotentialCrosswordLine()
