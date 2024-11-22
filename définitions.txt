@@ -6,7 +6,7 @@ Acrylique : Matiere plastique ou type de peinture.
 Aerer : Laisser entrer de l'air.
 Aisselle : Partie du corps sous le bras.
 Alcove : Renfoncement dans une piece pour un lit.
-Allure : Vitesse ou façon de se deplacer.
+Allure : Vitesse ou facon de se deplacer.
 Amende : Sanction financiere pour une infraction.
 Ampleur : Grandeur ou importance de quelque chose.
 Ananas : Fruit tropical a peau epineuse.
@@ -231,7 +231,7 @@ Gazon : Herbe courte d'un jardin ou terrain.
 Gene : Element hereditaire ou sentiment de malaise.
 Genese : Origine ou debut d'une chose.
 Girouette : Objet indiquant la direction du vent.
-Glaçon : Bloc de glace.
+Glacon : Bloc de glace.
 Glissade : Mouvement en glissant.
 Gradin : Rangee de sieges en escalier.
 Grange : Batiment pour stocker du foin.
@@ -311,7 +311,7 @@ Machine : Appareil mecanique facilitant le travail.
 Machoire : Os de la bouche permettant de mastiquer.
 Magie : Art d'utiliser des pouvoirs surnaturels.
 Main : Partie du corps permettant de saisir.
-Malin : Intelligent et ruse, parfois de façon negative.
+Malin : Intelligent et ruse, parfois de facon negative.
 Manege : Attraction tournante ou stratageme.
 Mangue : Fruit tropical a la chair sucree.
 Marin : Relatif a la mer ou personne naviguant en mer.
@@ -436,7 +436,7 @@ Rafale : Souffle soudain et fort de vent, ou tir rapide d'armes.
 Rail : Barre metallique sur laquelle circulent les trains.
 Raison : Faculte de penser et de juger, ou motif pour une action.
 Rampe : Plan incline ou support pour faire monter quelque chose.
-Rançon : Somme d'argent demandee pour liberer quelqu'un ou quelque chose.
+Rancon : Somme d'argent demandee pour liberer quelqu'un ou quelque chose.
 Rangee : Ligne ou serie d'objets ou de personnes.
 Rapide : Qui se deplace ou se fait rapidement.
 Rassemblement : Action de regrouper des personnes ou des choses.
