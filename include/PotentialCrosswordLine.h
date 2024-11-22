@@ -14,6 +14,7 @@ public:
     Direction getDirection() const;
     WordDefinition *getWordDefinition() const;
     std::map<Coordinate *, char> getCoordinates() const;
+    Coordinate *getFirstCoordinates() const;
 
 protected:
     Direction direction;
