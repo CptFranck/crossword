@@ -1,12 +1,10 @@
 #include "CrosswordLine.h"
-#include "iostream"
 
 CrosswordLine::CrosswordLine(Direction direction,
                              WordDefinition *wordDefinition,
                              Coordinate *coordinate)
     : PotentialCrosswordLine(direction, wordDefinition, coordinate, 0)
 {
-    std::cout << std::endl;
 }
 
 CrosswordLine::CrosswordLine(PotentialCrosswordLine *potentialCrosswordLine,
@@ -34,7 +32,6 @@ std::vector<PotentialCrosswordLine *> CrosswordLine::findPotentialCrosswordLine(
 
     std::vector<PotentialCrosswordLine *> potentialCrosswordLines;
     // for each char and position associate to list of position working
-    std::cout << "nb possibilité :" << commonLetterPositions.size() << std::endl;
     for (auto it = commonLetterPositions.begin(); it != commonLetterPositions.end(); ++it)
     {
         size_t futurWordPosition = it->first.second;
