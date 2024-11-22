@@ -110,7 +110,7 @@ Cheval : Animal domestique utilise pour la monte.
 Cheveux : Filaments qui poussent sur la tete.
 Chiffon : Morceau de tissu, souvent use.
 Chocolat : Friandise a base de cacao.
-Chœur : Ensemble de chanteurs.
+Choeur : Ensemble de chanteurs.
 Choisir : Faire un choix parmi plusieurs options.
 Choral : Relatif au chant en groupe.
 Chronique : Recit d'evenements dans l'ordre du temps.
@@ -290,7 +290,7 @@ Lampion : Lanterne de papier souvent coloree.
 Lancier : Soldat arme d'une lance.
 Langue : Organe dans la bouche ou systeme de communication.
 Larme : Goutte de liquide qui coule des yeux.
-Lasso : Corde formant un nœud coulant pour attraper des animaux.
+Lasso : Corde formant un noeud coulant pour attraper des animaux.
 Legume : Plante comestible cultivee pour l'alimentation.
 Libellule : Insecte avec un corps fin et de grandes ailes transparentes.
 Ligne : Trait continu ou rangee d'elements.
@@ -409,7 +409,7 @@ Pomme : Fruit comestible, generalement rond et sucre.
 Pont : Structure qui permet de traverser un obstacle, comme une riviere.
 Porte : Ouverture dans un mur permettant d'entrer ou de sortir.
 Poudre : Matiere fine et pulverulente.
-Poule : Oiseau domestique pondeur d'œufs.
+Poule : Oiseau domestique pondeur d'oeufs.
 Pourpre : Couleur rouge-violet.
 Prairie : Champ de herbes et de plantes, souvent sauvage.
 Precipice : Bord d'une falaise ou abime profond.
