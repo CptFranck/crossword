@@ -8,7 +8,7 @@
 class PotentialCrosswordLine
 {
 public:
-    PotentialCrosswordLine(Direction direction, WordDefinition *wordDefinition, Coordinate *intersectionCoordinate, size_t letterPosition);
+    PotentialCrosswordLine(Direction d, WordDefinition *wd, Coordinate *intersectionCoordinate, size_t letterPosition);
     ~PotentialCrosswordLine();
 
     Direction getDirection() const;

@@ -1,23 +1,23 @@
 #include "PotentialCrosswordLine.h"
 
-PotentialCrosswordLine::PotentialCrosswordLine(Direction direction,
-                                               WordDefinition *wordDefinition,
+PotentialCrosswordLine::PotentialCrosswordLine(Direction d,
+                                               WordDefinition *wd,
                                                Coordinate *intersectionCoordinate,
                                                size_t letterPosition)
 {
-    this->direction = direction;
-    this->wordDefinition = wordDefinition;
-    std::string word = wordDefinition->getWord();
+    this->direction = d;
+    this->wordDefinition = wd;
+    std::string word = wd->getWord();
     for (size_t i = 0; i < word.length(); i++)
     {
-        Coordinate *newPosition = intersectionCoordinate->getPositionFrom(i - letterPosition, direction);
-        coordinates[newPosition] = word[i];
+        Coordinate *newPosition = intersectionCoordinate->getPositionFrom(i - letterPosition, d);
+        this->coordinates[newPosition] = word[i];
     }
 }
 
 PotentialCrosswordLine::~PotentialCrosswordLine()
 {
-    for (auto it = coordinates.begin(); it != coordinates.end(); ++it)
+    for (auto it = this->coordinates.begin(); it != this->coordinates.end(); ++it)
     {
         delete it->first;
     }
@@ -35,16 +35,16 @@ WordDefinition *PotentialCrosswordLine::getWordDefinition() const
 
 std::map<Coordinate *, char> PotentialCrosswordLine::getCoordinates() const
 {
-    return coordinates;
+    return this->coordinates;
 }
 
 Coordinate *PotentialCrosswordLine::getFirstCoordinates() const
 {
-    Coordinate *first = coordinates.begin()->first;
-    for (auto co : coordinates)
+    Coordinate *first = this->coordinates.begin()->first;
+    for (auto co : this->coordinates)
     {
         Coordinate *c = co.first;
-        switch (this->direction)
+        switch (direction)
         {
         case Direction::UP:
             if (first->getY() > c->getY())
