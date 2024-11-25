@@ -14,6 +14,7 @@ Crossword::Crossword(Dictionary *dictionary, int wordNumber)
             std::cout << "Essaie N°" << trialNumber + 1 << std::endl;
             wordFound = findNewCrosswordLine(dictionary);
         }
+        printCrossword();
     }
 
     std::cout << "Mot croisé construit !" << std::endl;
@@ -126,22 +127,17 @@ bool Crossword::isWordDefinitionUsed(WordDefinition *wordDefinition) const
 
 std::vector<CrosswordLine *> Crossword::findCrosswordLinePlacements(WordDefinition *wordDefinition)
 {
-    std::cout << "TEST : " << std::endl;
     std::vector<CrosswordLine *> allCrosswordLinePlacements;
     for (auto cl : crosswordLines)
     // for (auto clPaire : crosswordLines)
     {
         // CrosswordLine *cl = clPaire.second;
         std::vector<PotentialCrosswordLine *> potentialCrosswordLines = cl->findPotentialCrosswordLine(wordDefinition);
-        std::cout << "2 " << std::endl;
         std::vector<CrosswordLine *> crosswordLinePlacements = filterPotentialCrosswordLineConflicted(potentialCrosswordLines);
-        std::cout << "3 " << std::endl;
         allCrosswordLinePlacements.insert(allCrosswordLinePlacements.end(), crosswordLinePlacements.begin(), crosswordLinePlacements.end());
-        std::cout << "4 " << std::endl;
         for (PotentialCrosswordLine *pcl : potentialCrosswordLines)
             delete pcl;
     }
-    std::cout << "TEST BIS : " << std::endl;
     return allCrosswordLinePlacements;
 }
 
@@ -173,16 +169,14 @@ std::vector<CrosswordLine *> Crossword::filterPotentialCrosswordLineConflicted(s
                 for (auto it_cs = coordinateSet.begin(); it_cs != coordinateSet.end(); ++it_cs)
                 {
                     Coordinate *oneCoordinateSet = it_cs->first;
-                    char cs = it_fc->second;
+                    char cs = it_cs->second;
                     if (oneCoordinateSet->isEqualTo(oneFuturCoordinate))
                     {
                         coordonneEnCommun++;
-                        // std::cout << cl->getWordDefinition()->getWord() << std::endl;
 
                         intersection[oneFuturCoordinate] = cl;
                         if (fc != cs)
                         {
-                            std::cout << "CONFLICT ----------------------------------------" << std::endl;
                             hasNoConflict = false;
                         }
                     }
@@ -243,14 +237,14 @@ void Crossword::printCrossword()
             char letter = clc.second;
             tableau[newX][newY] = letter;
         }
-        for (int i = 0; i < x; ++i)
+    }
+    for (int i = 0; i < x; ++i)
+    {
+        for (int j = 0; j < y; ++j)
         {
-            for (int j = 0; j < y; ++j)
-            {
-                std::cout << tableau[i][j];
-            }
-            std::cout << std::endl;
+            std::cout << tableau[i][j];
         }
         std::cout << std::endl;
     }
+    std::cout << std::endl;
 }
