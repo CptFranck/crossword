@@ -1,41 +1,42 @@
 #include "Coordinate.h"
 #include <iostream>
 
-Coordinate::Coordinate(int x, int y)
+Coordinate::Coordinate(int x_, int y_)
 {
-    this->x = x;
-    this->y = y;
+    this->x = x_;
+    this->y = y_;
 }
 
 Coordinate::~Coordinate()
 {
 }
 
-Coordinate *Coordinate::getPositionFrom(size_t position, Direction direction) const
+Coordinate *Coordinate::getPositionFrom(size_t position, Direction d) const
 {
-    int x = this->x;
-    int y = this->y;
-    switch (direction)
+    int p = static_cast<int>(position);
+    int futur_x = this->x;
+    int futur_y = this->y;
+    switch (d)
     {
     case Direction::UP:
-        y += position;
+        futur_y += p;
         break;
     case Direction::DOWN:
-        y -= position;
+        futur_y -= p;
         break;
     case Direction::LEFT:
-        x -= position;
+        futur_x -= p;
         break;
     case Direction::RIGHT:
-        x += position;
+        futur_x += p;
         break;
     }
-    return new Coordinate(x, y);
+    return new Coordinate(futur_x, futur_y);
 }
 
-bool Coordinate::isEqualTo(Coordinate *coordinate) const
+bool Coordinate::isEqualTo(Coordinate *c) const
 {
-    return this->x == coordinate->x && this->y == coordinate->y;
+    return this->x == c->x && this->y == c->y;
 }
 
 void Coordinate::ifMinUpdate(Coordinate *c)
