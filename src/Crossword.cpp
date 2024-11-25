@@ -24,8 +24,7 @@ Crossword::~Crossword()
 {
     for (auto cl : crosswordLines)
     {
-        delete cl;
-        // delete cl.second;
+        delete cl.second;
     }
 }
 
@@ -34,13 +33,10 @@ bool Crossword::findNewCrosswordLine(Dictionary *dictionary)
     std::vector<CrosswordLine *> potentialsPlacement;
     WordDefinition *newWordDefinition = dictionary->getRandomWord();
 
-    if (crosswordLines.size() == 0)
+    if (this->crosswordLines.size() == 0)
     {
         std::cout << "Premier mot enregistrer : " << newWordDefinition->getWord() << std::endl;
-        crosswordLines.push_back(new CrosswordLine(randomDirection(), newWordDefinition, new Coordinate(0, 0)));
-        std::cout << "--1--DEBUT" << std::endl;
-        crosswordLinesBis[newWordDefinition->getWord()] = new CrosswordLine(randomDirection(), newWordDefinition, new Coordinate(0, 0));
-        std::cout << "--1--FIN" << std::endl;
+        this->crosswordLines[newWordDefinition->getWord()] = new CrosswordLine(randomDirection(), newWordDefinition, new Coordinate(0, 0));
         return true;
     }
 
@@ -58,7 +54,6 @@ bool Crossword::findNewCrosswordLine(Dictionary *dictionary)
         return false;
     }
 
-    // Mot le plus long ...
     auto maxIntersectionCrosswordLine = std::max_element(potentialsPlacement.begin(),
                                                          potentialsPlacement.end(),
                                                          [](const CrosswordLine *a, const CrosswordLine *b)
@@ -67,7 +62,7 @@ bool Crossword::findNewCrosswordLine(Dictionary *dictionary)
 
     if (maxIntersectionCrosswordLine == potentialsPlacement.end())
     {
-        std::cout << "BUG ??" << std::endl;
+        std::cout << "BUG" << std::endl;
         for (CrosswordLine *pl : potentialsPlacement)
             delete pl;
         return false;
@@ -82,29 +77,19 @@ bool Crossword::findNewCrosswordLine(Dictionary *dictionary)
         }
     }
     std::cout << "Mot ajouté : " << newWordDefinition->getWord() << std::endl;
-    crosswordLines.push_back(newCrosswordLine);
-    std::cout << "--2--DEBUT" << std::endl;
-    crosswordLinesBis[newWordDefinition->getWord()] = newCrosswordLine;
-    std::cout << "--2--FIN" << std::endl;
+    this->crosswordLines[newWordDefinition->getWord()] = newCrosswordLine;
     return true;
 }
 
 bool Crossword::isWordDefinitionUsed(WordDefinition *wordDefinition) const
 {
-    // auto isPresentInCrosswordLine = [&wordDefinition](const CrosswordLine *cl)
-    // {
-    //     return wordDefinition->getWord() == cl->getWordDefinition()->getWord();
-    // };
-    // auto it = find_if(crosswordLines.begin(), crosswordLines.end(), isPresentInCrosswordLine);
-    // return it != crosswordLines.end();
-    return crosswordLinesBis.find(wordDefinition->getWord()) != crosswordLinesBis.end();
+    return this->crosswordLines.find(wordDefinition->getWord()) != this->crosswordLines.end();
 }
 
 std::vector<CrosswordLine *> Crossword::findCrosswordLinePlacements(WordDefinition *wordDefinition)
 {
     std::vector<CrosswordLine *> allCrosswordLinePlacements;
-    // for (auto cl : crosswordLines)
-    for (auto clPaire : crosswordLinesBis)
+    for (auto clPaire : this->crosswordLines)
     {
         CrosswordLine *cl = clPaire.second;
         std::vector<PotentialCrosswordLine *> potentialCrosswordLines = cl->findPotentialCrosswordLine(wordDefinition);
@@ -128,12 +113,10 @@ std::vector<CrosswordLine *> Crossword::filterPotentialCrosswordLineConflicted(s
         intersection.clear();
         std::map<Coordinate *, char> futureCoordinates = pcl->getCoordinates();
 
-        auto it_cl = crosswordLinesBis.begin();
-        while (it_cl != crosswordLinesBis.end() && hasNoConflict)
+        auto it_cl = this->crosswordLines.begin();
+        while (it_cl != this->crosswordLines.end() && hasNoConflict)
         {
             int coordonneEnCommun = 0;
-
-            // CrosswordLine *cl = *it_cl;
             CrosswordLine *cl = (*it_cl).second;
             std::map<Coordinate *, char> coordinateSet = cl->getCoordinates();
             for (auto it_fc = futureCoordinates.begin(); it_fc != futureCoordinates.end(); ++it_fc)
@@ -171,8 +154,7 @@ void Crossword::printCrossword()
     Coordinate min = Coordinate(0, 0);
     Coordinate max = Coordinate(0, 0);
     std::vector<std::pair<Coordinate *, char>> allCoordinates;
-    // for (auto cl : crosswordLines)
-    for (auto clPaire : crosswordLinesBis)
+    for (auto clPaire : this->crosswordLines)
     {
         const CrosswordLine *cl = clPaire.second;
         std::map<Coordinate *, char> clCoordinates = cl->getCoordinates();
@@ -189,8 +171,7 @@ void Crossword::printCrossword()
 
     std::vector<char> tableau(x * y, '.');
 
-    // for (auto cl : crosswordLines)
-    for (auto clPaire : crosswordLinesBis)
+    for (auto clPaire : this->crosswordLines)
     {
         const CrosswordLine *cl = clPaire.second;
         std::map<Coordinate *, char> clCoordinates = cl->getCoordinates();

@@ -22,8 +22,7 @@ public:
 private:
     void deleteWrongPotentialCrosswordLine(std::vector<PotentialCrosswordLine *> &potentialCrosswordLines);
 
-    std::vector<CrosswordLine *> crosswordLines;
-    std::map<std::string, CrosswordLine *> crosswordLinesBis;
+    std::map<std::string, CrosswordLine *> crosswordLines;
 };
 
 #endif
