@@ -7,7 +7,7 @@ OBJ_DIR = obj
 CC = g++
 
 # Options de compilation
-CFLAGS = -I$(INC_DIR)
+CFLAGS = -I$(INC_DIR) -Wall -Wextra -pedantic -Wshadow -Wconversion -Wsign-conversion
 
 # Fichiers source
 SRC = $(wildcard $(SRC_DIR)/*.cpp)
