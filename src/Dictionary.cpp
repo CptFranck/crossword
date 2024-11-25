@@ -12,17 +12,17 @@ Dictionary::Dictionary(std::string filename)
         {
             std::size_t simlicon = line.find(" : ");
             WordDefinition *wd = new WordDefinition(line.substr(0, simlicon), line.substr(simlicon, line.find(".")));
-            wordsDefinition.push_back(wd);
+            this->wordDefinitions.push_back(wd);
         }
         definitionFile.close(); // close the file object.
 
-        std::cout << "nombre de mot : " << wordsDefinition.size() << "\n"; // print the data of the string
+        std::cout << "nombre de mot : " << this->wordDefinitions.size() << "\n"; // print the data of the string
     }
 }
 
 Dictionary::~Dictionary()
 {
-    for (WordDefinition *wd : wordsDefinition)
+    for (WordDefinition *wd : this->wordDefinitions)
     {
         delete wd;
     }
@@ -30,11 +30,11 @@ Dictionary::~Dictionary()
 
 WordDefinition *Dictionary::getRandomWord()
 {
-    std::random_device rd;                                              // obtient une graine aléatoire
-    std::mt19937 gen(rd());                                             // initialise le générateur avec la graine
-    std::uniform_int_distribution<> dis(0, wordsDefinition.size() - 1); // distribution uniforme
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<> dis(0, static_cast<int>(wordDefinitions.size() - 1));
 
     // Sélection aléatoire d'un index
-    int randomIndex = dis(gen);
-    return wordsDefinition[randomIndex];
+    size_t randomIndex = static_cast<size_t>(dis(gen));
+    return wordDefinitions[randomIndex];
 }

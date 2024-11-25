@@ -18,7 +18,7 @@ public:
     WordDefinition *getRandomWord();
 
 private:
-    std::vector<WordDefinition *> wordsDefinition;
+    std::vector<WordDefinition *> wordDefinitions;
 };
 
 #endif
