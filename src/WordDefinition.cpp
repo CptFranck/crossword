@@ -1,9 +1,9 @@
 #include "WordDefinition.h"
 
-WordDefinition::WordDefinition(std::string word, std::string definition)
+WordDefinition::WordDefinition(std::string newWord, std::string newDefinition)
 {
-    this->word = word;
-    this->definition = definition;
+    this->word = newWord;
+    this->definition = newDefinition;
 }
 
 WordDefinition::~WordDefinition()
