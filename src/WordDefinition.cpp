@@ -12,6 +12,7 @@ WordDefinition::~WordDefinition()
 
 std::map<std::pair<char, size_t>, std::vector<size_t>> WordDefinition::findCommonLetterPosition(std::string futurWord) const
 {
+    // futur word letter and its position : list of common letter positions with current word
     std::map<std::pair<char, size_t>, std::vector<size_t>> potentialIntersection;
     int cIndex = 0;
     for (const char &c : futurWord)
