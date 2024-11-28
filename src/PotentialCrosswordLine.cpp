@@ -1,8 +1,8 @@
 #include "PotentialCrosswordLine.h"
 
 PotentialCrosswordLine::PotentialCrosswordLine(Direction d,
-                                               WordDefinition *wd,
-                                               Coordinate *intersectionCoordinate,
+                                               std::shared_ptr<WordDefinition> wd,
+                                               std::shared_ptr<Coordinate> intersectionCoordinate,
                                                size_t letterPosition)
 {
     this->direction = d;
@@ -10,17 +10,13 @@ PotentialCrosswordLine::PotentialCrosswordLine(Direction d,
     std::string word = wd->getWord();
     for (size_t i = 0; i < word.length(); i++)
     {
-        Coordinate *newPosition = intersectionCoordinate->getPositionFrom(i - letterPosition, d);
+        std::shared_ptr<Coordinate> newPosition = intersectionCoordinate->getPositionFrom(i - letterPosition, d);
         this->coordinates[newPosition] = word[i];
     }
 }
 
 PotentialCrosswordLine::~PotentialCrosswordLine()
 {
-    for (auto it = this->coordinates.begin(); it != this->coordinates.end(); ++it)
-    {
-        delete it->first;
-    }
 }
 
 Direction PotentialCrosswordLine::getDirection() const
@@ -28,22 +24,22 @@ Direction PotentialCrosswordLine::getDirection() const
     return this->direction;
 }
 
-WordDefinition *PotentialCrosswordLine::getWordDefinition() const
+std::shared_ptr<WordDefinition> PotentialCrosswordLine::getWordDefinition() const
 {
     return this->wordDefinition;
 }
 
-std::map<Coordinate *, char> PotentialCrosswordLine::getCoordinates() const
+std::map<std::shared_ptr<Coordinate>, char> PotentialCrosswordLine::getCoordinates() const
 {
     return this->coordinates;
 }
 
-Coordinate *PotentialCrosswordLine::getFirstCoordinates() const
+std::shared_ptr<Coordinate> PotentialCrosswordLine::getFirstCoordinates() const
 {
-    Coordinate *first = this->coordinates.begin()->first;
+    std::shared_ptr<Coordinate> first = this->coordinates.begin()->first;
     for (auto co : this->coordinates)
     {
-        Coordinate *c = co.first;
+        std::shared_ptr<Coordinate> c = co.first;
         switch (direction)
         {
         case Direction::UP:
