@@ -6,6 +6,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include <memory>
 #include <random>
 
 #include "WordDefinition.h"
@@ -15,10 +16,10 @@ class Dictionary
 public:
     Dictionary(std::string filename);
     ~Dictionary();
-    WordDefinition *getRandomWord();
+    std::shared_ptr<WordDefinition> getRandomWord();
 
 private:
-    std::vector<WordDefinition *> wordDefinitions;
+    std::vector<std::shared_ptr<WordDefinition>> wordDefinitions;
 };
 
 #endif
