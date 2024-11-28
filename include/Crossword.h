@@ -2,7 +2,6 @@
 #define CROSSWORD_H
 #pragma once
 
-#include <iostream>
 #include <algorithm>
 #include "Dictionary.h"
 #include "CrosswordLine.h"
@@ -10,19 +9,18 @@
 class Crossword
 {
 public:
-    Crossword(Dictionary *dictionary, int wordNumber);
+    Crossword(std::shared_ptr<Dictionary> dictionary, int wordNumber);
     ~Crossword();
-    bool findNewCrosswordLine(Dictionary *dictionary);
-    bool isWordDefinitionUsed(WordDefinition *wordDefinition) const;
-    std::vector<const CrosswordLine *> findCrosswordLinePlacement(WordDefinition *wordDefinition);
-    std::vector<CrosswordLine *> findCrosswordLinePlacements(WordDefinition *wordDefinition);
-    std::vector<CrosswordLine *> filterPotentialCrosswordLineConflicted(std::vector<PotentialCrosswordLine *> potentialCrosswordLines);
+    bool findNewCrosswordLine(std::shared_ptr<Dictionary> dictionary);
+    bool isWordDefinitionUsed(std::shared_ptr<WordDefinition> wordDefinition) const;
+    std::vector<std::shared_ptr<CrosswordLine>> findCrosswordLinePlacements(std::shared_ptr<WordDefinition> wordDefinition);
+    std::vector<std::shared_ptr<CrosswordLine>> filterPotentialCrosswordLineConflicted(std::vector<std::shared_ptr<PotentialCrosswordLine>> potentialCrosswordLines);
     void printCrossword();
 
 private:
     void deleteWrongPotentialCrosswordLine(std::vector<PotentialCrosswordLine *> &potentialCrosswordLines);
 
-    std::map<std::string, CrosswordLine *> crosswordLines;
+    std::map<std::string, std::shared_ptr<CrosswordLine>> crosswordLines;
 };
 
 #endif
