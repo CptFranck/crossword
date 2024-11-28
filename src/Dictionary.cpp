@@ -11,7 +11,7 @@ Dictionary::Dictionary(std::string filename)
         while (getline(definitionFile, line))
         {
             std::size_t simlicon = line.find(" : ");
-            std::shared_ptr<WordDefinition> wd = std::make_shared<WordDefinition>(new WordDefinition(line.substr(0, simlicon), line.substr(simlicon, line.find("."))));
+            std::shared_ptr<WordDefinition> wd = std::make_shared<WordDefinition>(line.substr(0, simlicon), line.substr(simlicon, line.find(".")));
             this->wordDefinitions.push_back(wd);
         }
         definitionFile.close();
