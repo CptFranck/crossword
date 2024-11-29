@@ -6,12 +6,6 @@ WordDefinition::WordDefinition(std::string newWord, std::string newDefinition)
     this->definition = newDefinition;
 }
 
-WordDefinition::WordDefinition(const WordDefinition &wd)
-{
-    this->word = wd.word;
-    this->definition = wd.definition;
-}
-
 WordDefinition::~WordDefinition()
 {
 }

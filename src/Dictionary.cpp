@@ -24,7 +24,7 @@ Dictionary::~Dictionary()
 {
 }
 
-WordDefinition Dictionary::getRandomWord()
+WordDefinition Dictionary::getRandomWord() const
 {
     std::random_device rd;
     std::mt19937 gen(rd());

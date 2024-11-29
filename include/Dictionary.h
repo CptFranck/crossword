@@ -16,7 +16,7 @@ class Dictionary
 public:
     Dictionary(std::string filename);
     ~Dictionary();
-    WordDefinition getRandomWord();
+    WordDefinition getRandomWord() const;
 
 private:
     std::vector<WordDefinition> wordDefinitions;

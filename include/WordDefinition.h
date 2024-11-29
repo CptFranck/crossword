@@ -10,7 +10,6 @@ class WordDefinition
 {
 public:
     WordDefinition(std::string newWord, std::string newDefinition);
-    WordDefinition(const WordDefinition &wd);
     ~WordDefinition();
 
     std::map<std::pair<char, size_t>, std::vector<size_t>> findCommonLetterPosition(std::string futurWord) const;
