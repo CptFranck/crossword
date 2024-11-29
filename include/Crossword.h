@@ -12,8 +12,8 @@ public:
     Crossword(std::shared_ptr<Dictionary> dictionary, int wordNumber);
     ~Crossword();
     bool findNewCrosswordLine(std::shared_ptr<Dictionary> dictionary);
-    bool isWordDefinitionUsed(std::shared_ptr<WordDefinition> wordDefinition) const;
-    std::vector<std::shared_ptr<CrosswordLine>> findCrosswordLinePlacements(std::shared_ptr<WordDefinition> wordDefinition);
+    bool isWordDefinitionUsed(WordDefinition wordDefinition) const;
+    std::vector<std::shared_ptr<CrosswordLine>> findCrosswordLinePlacements(WordDefinition wordDefinition);
     std::vector<std::shared_ptr<CrosswordLine>> filterPotentialCrosswordLineConflicted(std::vector<std::shared_ptr<PotentialCrosswordLine>> potentialCrosswordLines);
     void printCrossword();
 

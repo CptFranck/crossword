@@ -11,7 +11,7 @@ Dictionary::Dictionary(std::string filename)
         while (getline(definitionFile, line))
         {
             std::size_t simlicon = line.find(" : ");
-            std::shared_ptr<WordDefinition> wd = std::make_shared<WordDefinition>(line.substr(0, simlicon), line.substr(simlicon, line.find(".")));
+            WordDefinition wd = WordDefinition(line.substr(0, simlicon), line.substr(simlicon, line.find(".")));
             this->wordDefinitions.push_back(wd);
         }
         definitionFile.close();
@@ -24,7 +24,7 @@ Dictionary::~Dictionary()
 {
 }
 
-std::shared_ptr<WordDefinition> Dictionary::getRandomWord()
+WordDefinition Dictionary::getRandomWord()
 {
     std::random_device rd;
     std::mt19937 gen(rd());

@@ -1,13 +1,12 @@
 #include "PotentialCrosswordLine.h"
 
 PotentialCrosswordLine::PotentialCrosswordLine(Direction d,
-                                               std::shared_ptr<WordDefinition> wd,
+                                               WordDefinition wd,
                                                std::shared_ptr<Coordinate> intersectionCoordinate,
                                                size_t letterPosition)
+    : direction(d), wordDefinition(wd)
 {
-    this->direction = d;
-    this->wordDefinition = wd;
-    std::string word = wd->getWord();
+    std::string word = wd.getWord();
     for (size_t i = 0; i < word.length(); i++)
     {
         std::shared_ptr<Coordinate> newPosition = intersectionCoordinate->getPositionFrom(i - letterPosition, d);
@@ -24,7 +23,7 @@ Direction PotentialCrosswordLine::getDirection() const
     return this->direction;
 }
 
-std::shared_ptr<WordDefinition> PotentialCrosswordLine::getWordDefinition() const
+WordDefinition PotentialCrosswordLine::getWordDefinition() const
 {
     return this->wordDefinition;
 }

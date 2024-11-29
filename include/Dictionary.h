@@ -16,10 +16,10 @@ class Dictionary
 public:
     Dictionary(std::string filename);
     ~Dictionary();
-    std::shared_ptr<WordDefinition> getRandomWord();
+    WordDefinition getRandomWord();
 
 private:
-    std::vector<std::shared_ptr<WordDefinition>> wordDefinitions;
+    std::vector<WordDefinition> wordDefinitions;
 };
 
 #endif

@@ -26,18 +26,18 @@ Crossword::~Crossword()
 
 bool Crossword::findNewCrosswordLine(std::shared_ptr<Dictionary> dictionary)
 {
-    std::shared_ptr<WordDefinition> newWordDefinition = dictionary.get()->getRandomWord();
+    WordDefinition newWordDefinition = dictionary.get()->getRandomWord();
 
     if (this->crosswordLines.size() == 0)
     {
-        std::cout << "Premier mot enregistrer : " << newWordDefinition->getWord() << std::endl;
-        this->crosswordLines[newWordDefinition->getWord()] = std::make_shared<CrosswordLine>(randomDirection(), newWordDefinition, std::make_unique<Coordinate>(0, 0));
+        std::cout << "Premier mot enregistrer : " << newWordDefinition.getWord() << std::endl;
+        this->crosswordLines[newWordDefinition.getWord()] = std::make_shared<CrosswordLine>(randomDirection(), newWordDefinition, std::make_unique<Coordinate>(0, 0));
         return true;
     }
 
     if (isWordDefinitionUsed(newWordDefinition))
     {
-        std::cout << "Mot déjà utilisé : " << newWordDefinition->getWord() << std::endl;
+        std::cout << "Mot déjà utilisé : " << newWordDefinition.getWord() << std::endl;
         return false;
     }
 
@@ -45,7 +45,7 @@ bool Crossword::findNewCrosswordLine(std::shared_ptr<Dictionary> dictionary)
 
     if (potentialsPlacement.size() == 0)
     {
-        std::cout << "Aucune lettre en commun " << newWordDefinition->getWord() << std::endl;
+        std::cout << "Aucune lettre en commun " << newWordDefinition.getWord() << std::endl;
         return false;
     }
 
@@ -62,17 +62,17 @@ bool Crossword::findNewCrosswordLine(std::shared_ptr<Dictionary> dictionary)
     }
 
     std::shared_ptr<CrosswordLine> newCrosswordLine = *maxIntersectionCrosswordLine;
-    this->crosswordLines[newWordDefinition->getWord()] = newCrosswordLine;
-    std::cout << "Mot ajouté : " << newWordDefinition->getWord() << std::endl;
+    this->crosswordLines[newWordDefinition.getWord()] = newCrosswordLine;
+    std::cout << "Mot ajouté : " << newWordDefinition.getWord() << std::endl;
     return true;
 }
 
-bool Crossword::isWordDefinitionUsed(std::shared_ptr<WordDefinition> wordDefinition) const
+bool Crossword::isWordDefinitionUsed(WordDefinition wordDefinition) const
 {
-    return this->crosswordLines.find(wordDefinition->getWord()) != this->crosswordLines.end();
+    return this->crosswordLines.find(wordDefinition.getWord()) != this->crosswordLines.end();
 }
 
-std::vector<std::shared_ptr<CrosswordLine>> Crossword::findCrosswordLinePlacements(std::shared_ptr<WordDefinition> wordDefinition)
+std::vector<std::shared_ptr<CrosswordLine>> Crossword::findCrosswordLinePlacements(WordDefinition wordDefinition)
 {
     std::vector<std::shared_ptr<CrosswordLine>> allCrosswordLinePlacements;
     for (auto &clPaire : this->crosswordLines)

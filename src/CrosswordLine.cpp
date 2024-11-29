@@ -1,6 +1,6 @@
 #include "CrosswordLine.h"
 
-CrosswordLine::CrosswordLine(Direction d, std::shared_ptr<WordDefinition> wd, std::shared_ptr<Coordinate> c)
+CrosswordLine::CrosswordLine(Direction d, WordDefinition wd, std::shared_ptr<Coordinate> c)
     : PotentialCrosswordLine(d, wd, c, 0)
 {
 }
@@ -18,11 +18,11 @@ CrosswordLine::~CrosswordLine()
 {
 }
 
-std::vector<std::shared_ptr<PotentialCrosswordLine>> CrosswordLine::findPotentialCrosswordLine(std::shared_ptr<WordDefinition> wd) const
+std::vector<std::shared_ptr<PotentialCrosswordLine>> CrosswordLine::findPotentialCrosswordLine(WordDefinition wd) const
 {
     // // futur word letter and its position : list of common letter positions with the word of the current crosswordLine
     std::map<std::pair<char, size_t>, std::vector<size_t>> commonLetterPositions;
-    commonLetterPositions = this->wordDefinition->findCommonLetterPosition(wd->getWord());
+    commonLetterPositions = this->wordDefinition.findCommonLetterPosition(wd.getWord());
 
     std::vector<std::shared_ptr<PotentialCrosswordLine>> potentialCrosswordLines;
     // for each char and position associate to list of position working
