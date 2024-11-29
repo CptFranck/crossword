@@ -1,499 +1,499 @@
-Abandon : Action de renoncer a quelque chose.
+Abandon : Action de renoncer à quelque chose.
 Abri : Lieu de protection contre le danger.
-Acajou : Bois rouge utilise en menuiserie.
+Acajou : Bois rouge utilisé en menuiserie.
 Accoster : S'approcher d'un rivage ou de quelqu'un.
-Acrylique : Matiere plastique ou type de peinture.
-Aerer : Laisser entrer de l'air.
+Acrylique : Matière plastique ou type de peinture.
+Aérer : Laisser entrer de l'air.
 Aisselle : Partie du corps sous le bras.
-Alcove : Renfoncement dans une piece pour un lit.
-Allure : Vitesse ou facon de se deplacer.
-Amende : Sanction financiere pour une infraction.
+Alcôve : Renfoncement dans une pièce pour un lit.
+Allure : Vitesse ou façon de se déplacer.
+Amende : Sanction financière pour une infraction.
 Ampleur : Grandeur ou importance de quelque chose.
-Ananas : Fruit tropical a peau epineuse.
-Ancien : Qui date d'une epoque passee.
-Angle : Coin forme par deux lignes qui se rejoignent.
-Anse : Partie recourbee pour tenir un objet.
-Anxiete : Inquietude profonde et constante.
+Ananas : Fruit tropical à peau épineuse.
+Ancien : Qui date d'une époque passée.
+Angle : Coin formé par deux lignes qui se rejoignent.
+Anse : Partie recourbée pour tenir un objet.
+Anxiété : Inquiétude profonde et constante.
 Apaiser : Calmer ou rendre moins intense.
-Apogee : Point culminant d'une situation.
-Appat : Ce qui attire pour capturer.
+Apogée : Point culminant d'une situation.
+Appât : Ce qui attire pour capturer.
 Approche : Fait de se rapprocher.
-Araignee : Insecte a huit pattes qui tisse des toiles.
-Arbalete : Arme de jet utilisant des fleches.
-Ardent : Tres intense ou brulant.
-Arete : Partie pointue d'un poisson ou d'une montagne.
-Arome : Odeur agreable d'une substance.
-Artifice : Astuce ou dispositif ingenieux.
+Araignée : Insecte à huit pattes qui tisse des toiles.
+Arbalète : Arme de jet utilisant des flèches.
+Ardent : Très intense ou brûlant.
+Arête : Partie pointue d'un poisson ou d'une montagne.
+Arôme : Odeur agréable d'une substance.
+Artifice : Astuce ou dispositif ingénieux.
 Aube : Moment qui suit la nuit, avant le lever du soleil.
 Auberge : Lieu où l'on peut manger et dormir.
-Audace : Courage ou temerite.
-Aumone : Don fait aux personnes necessiteuses.
+Audace : Courage ou témérité.
+Aumône : Don fait aux personnes nécessiteuses.
 Autruche : Oiseau coureur de grande taille, incapable de voler.
-Avide : Qui desire quelque chose avec passion.
+Avide : Qui désire quelque chose avec passion.
 Axe : Ligne centrale autour de laquelle tourne un objet.
-Axiome : Verite evidente acceptee sans demonstration.
+Axiome : Vérité évidente acceptée sans démonstration.
 Azur : Couleur bleu du ciel ou de la mer.
 Babel : Tour biblique symbole de la confusion des langues.
-Bac : Recipient pour transporter des objets ou un examen scolaire.
+Bac : Récipient pour transporter des objets ou un examen scolaire.
 Baie : Petit fruit ou ouverture sur la mer.
 Balise : Marque signalant un danger ou un passage.
-Balneaire : Relatif a la plage ou aux bains de mer.
+Balnéaire : Relatif à la plage ou aux bains de mer.
 Ballon : Objet rond pour jouer ou contenant de l'air.
 Banquet : Grand repas festif.
-Barge : Bateau a fond plat pour transporter des marchandises.
-Barriere : Cloture qui limite ou bloque un passage.
+Barge : Bateau à fond plat pour transporter des marchandises.
+Barrière : Clôture qui limite ou bloque un passage.
 Basalte : Roche volcanique noire et dense.
-Bateau : Vehicule pour naviguer sur l'eau.
+Bateau : Véhicule pour naviguer sur l'eau.
 Battre : Frapper ou vaincre.
 Baume : Pommade apaisante ou adoucissante.
 Bec : Partie dure et pointue du visage des oiseaux.
-Beton : Materiau de construction solide a base de ciment.
-Biere : Boisson alcoolisee a base de houblon.
-Bijou : Objet precieux porte comme ornement.
+Béton : Matériau de construction solide à base de ciment.
+Bière : Boisson alcoolisée à base de houblon.
+Bijou : Objet précieux porté comme ornement.
 Billet : Petit papier pour voyager ou un titre de paiement.
 Bise : Vent froid du nord ou baiser rapide.
-Bitume : Revetement noir pour les routes.
-Blason : Embleme representant une famille ou une ville.
-Ble : Cereale utilisee pour faire de la farine.
-Blouse : Vetement ample pour proteger les habits.
-Boisson : Liquide que l'on boit pour se desalterer.
+Bitume : Revêtement noir pour les routes.
+Blason : Emblème représentant une famille ou une ville.
+Blé : Céréale utilisée pour faire de la farine.
+Blouse : Vêtement ample pour protéger les habits.
+Boisson : Liquide que l'on boit pour se désaltérer.
 Bonheur : Sentiment de grande satisfaction ou joie.
-Bord : Extremite ou limite d'une surface.
-Borne : Repere marquant une limite ou une distance.
-Bougie : Objet en cire avec une meche pour l'eclairage.
+Bord : Extrémité ou limite d'une surface.
+Borne : Repère marquant une limite ou une distance.
+Bougie : Objet en cire avec une mèche pour l'éclairage.
 Bourdon : Gros insecte ou son grave d'une cloche.
-Bouton : Petit element pour fermer un vetement ou une fleur naissante.
+Bouton : Petit élément pour fermer un vêtement ou une fleur naissante.
 Braise : Charbon ardent et rougeoyant.
 Brin : Petite tige fine d'herbe ou de fil.
-Brise : Vent leger et agreable.
+Brise : Vent léger et agréable.
 Broderie : Ornement fait avec du fil sur un tissu.
-Bruine : Pluie fine et legere.
-Brume : Legere vapeur d'eau dans l'air, reduisant la visibilite.
-Bucolique : Qui evoque la vie a la campagne, pastorale.
-Bureau : Meuble de travail ou piece destinee au travail.
-Butte : Petite colline ou elevation de terrain.
+Bruine : Pluie fine et légère.
+Brume : Légère vapeur d'eau dans l'air, réduisant la visibilité.
+Bucolique : Qui évoque la vie à la campagne, pastorale.
+Bureau : Meuble de travail ou pièce destinée au travail.
+Butte : Petite colline ou élévation de terrain.
 Cabane : Petite construction simple pour s'abriter.
 Cacher : Dissimuler ou rendre invisible.
-Cadence : Rythme regulier ou mesure du temps.
-Cafe : Boisson chaude a base de grains torrefies.
-Cage : Enclos grillage pour enfermer des animaux.
+Cadence : Rythme régulier ou mesure du temps.
+Café : Boisson chaude à base de grains torréfiés.
+Cage : Enclos grillagé pour enfermer des animaux.
 Caillou : Petite pierre.
 Calme : Tranquille, sans agitation.
 Campagne : Zone rurale, en dehors de la ville.
-Canne : Baton pour s'aider a marcher.
+Canne : Bâton pour s'aider à marcher.
 Cantine : Lieu où l'on prend des repas collectifs.
-Caprice : Desir soudain et imprevisible.
+Caprice : Désir soudain et imprévisible.
 Carence : Manque de quelque chose d'essentiel.
-Carotte : Legume orange racine.
-Carte : Representation geographique ou document de jeu.
+Carotte : Légume orange racine.
+Carte : Représentation géographique ou document de jeu.
 Cascade : Chute d'eau.
-Casque : Protection pour la tete.
-Cauchemar : Reve angoissant.
+Casque : Protection pour la tête.
+Cauchemar : Rêve angoissant.
 Causette : Petite conversation informelle.
-Cave : Piece souterraine pour stocker.
-Cedre : Grand arbre resineux.
-Celeste : Relatif au ciel ou aux astres.
-Cellule : Unite de base d'un organisme ou petite piece.
-Cercle : Forme geometrique ronde.
-Cerise : Petit fruit rouge a noyau.
-Cerner : Delimiter ou entourer.
-Chaleur : Sensation produite par une haute temperature.
-Chapeau : Coiffure pour la tete.
-Charme : Attrait ou seduction particuliere.
+Cave : Pièce souterraine pour stocker.
+Cèdre : Grand arbre résineux.
+Céleste : Relatif au ciel ou aux astres.
+Cellule : Unité de base d'un organisme ou petite pièce.
+Cercle : Forme géométrique ronde.
+Cerise : Petit fruit rouge à noyau.
+Cerner : Délimiter ou entourer.
+Chaleur : Sensation produite par une haute température.
+Chapeau : Coiffure pour la tête.
+Charme : Attrait ou séduction particulière.
 Chaton : Petit du chat ou partie d'une bague.
-Chaud : Qui a une temperature elevee.
+Chaud : Qui a une température élevée.
 Chauve : Sans cheveux.
 Chef : Personne qui dirige.
-Chemin : Voie ou route a suivre.
+Chemin : Voie ou route à suivre.
 Chenille : Larve de papillon.
-Cheval : Animal domestique utilise pour la monte.
-Cheveux : Filaments qui poussent sur la tete.
-Chiffon : Morceau de tissu, souvent use.
-Chocolat : Friandise a base de cacao.
-Choeur : Ensemble de chanteurs.
+Cheval : Animal domestique utilisé pour la monte.
+Cheveux : Filaments qui poussent sur la tête.
+Chiffon : Morceau de tissu, souvent usé.
+Chocolat : Friandise à base de cacao.
+Chœur : Ensemble de chanteurs.
 Choisir : Faire un choix parmi plusieurs options.
 Choral : Relatif au chant en groupe.
-Chronique : Recit d'evenements dans l'ordre du temps.
+Chronique : Récit d'événements dans l'ordre du temps.
 Chut : Interjection pour demander le silence.
 Ciel : Espace au-dessus de la Terre, où se trouvent les nuages et les astres.
-Cirque : Lieu de spectacle itinerant ou depression naturelle.
-Clarte : Lumiere douce ou comprehensibilite.
-Classe : Groupe d'eleves ou niveau d'enseignement.
-Cle : Instrument pour ouvrir une serrure.
+Cirque : Lieu de spectacle itinérant ou dépression naturelle.
+Clarté : Lumière douce ou compréhensibilité.
+Classe : Groupe d'élèves ou niveau d'enseignement.
+Clé : Instrument pour ouvrir une serrure.
 Cloche : Instrument qui sonne.
 Clou : Petit objet pointu pour fixer.
 Cocarde : Insigne circulaire de couleur.
 Coffre : Grand meuble pour ranger des objets.
-Coiffe : Accessoire pour couvrir la tete.
-Colere : Forte irritation ou rage.
-Colline : Elevation de terrain de faible hauteur.
+Coiffe : Accessoire pour couvrir la tête.
+Colère : Forte irritation ou rage.
+Colline : Élévation de terrain de faible hauteur.
 Combat : Affrontement physique ou moral.
 Comble : Point le plus haut ou espace sous le toit.
-Comete : Corps celeste avec une queue lumineuse.
-Complice : Personne aidant a une action, souvent illegale.
+Comète : Corps céleste avec une queue lumineuse.
+Complice : Personne aidant à une action, souvent illégale.
 Complot : Conspiration ou plan secret.
-Confort : Bien-etre materiel.
-Conique : Qui a la forme d'un cone.
-Conte : Recit souvent imaginaire ou fantastique.
-Corail : Animal marin formant des recifs.
-Corde : Long fil resistant pour attacher ou grimper.
+Confort : Bien-être matériel.
+Conique : Qui a la forme d'un cône.
+Conte : Récit souvent imaginaire ou fantastique.
+Corail : Animal marin formant des récifs.
+Corde : Long fil résistant pour attacher ou grimper.
 Couette : Couverture remplie de duvet ou de fibres.
-Couleur : Apparence d'un objet selon la lumiere qu'il reflechit.
-Courant : Mouvement de l'eau ou d'air, ou idee repandue.
+Couleur : Apparence d'un objet selon la lumière qu'il réfléchit.
+Courant : Mouvement de l'eau ou d'air, ou idée répandue.
 Coussin : Petit oreiller pour s'asseoir ou se reposer.
-Creature : Etre vivant, souvent fantastique.
-Creer : Produire quelque chose de nouveau.
-Creuset : Recipient pour fondre des metaux ou lieu d'echanges.
+Créature : Être vivant, souvent fantastique.
+Créer : Produire quelque chose de nouveau.
+Creuset : Récipient pour fondre des métaux ou lieu d'échanges.
 Crime : Acte grave contre la loi.
 Crique : Petite baie rocheuse.
-Cristal : Mineral transparent aux facettes brillantes.
-Crochet : Objet courbe pour accrocher ou outil de couture.
+Cristal : Minéral transparent aux facettes brillantes.
+Crochet : Objet courbé pour accrocher ou outil de couture.
 Croissant : Forme en arc de cercle ou viennoiserie.
-Cuivre : Metal rougeatre, conducteur d'electricite.
-Curiosite : Desir de connaitre ou d'apprendre.
-Dalle : Plaque de pierre ou de beton pour recouvrir un sol.
-Danse : Mouvement rythme du corps, souvent sur de la musique.
-Debris : Restes d'objets casses ou detruits.
-Declin : Baisse progressive d'une chose.
-Defi : Action de provoquer ou de mettre au defi.
-Degre : Unite de mesure pour la temperature ou les angles.
-Dentelle : Tissu fin et ajoure, souvent decoratif.
-Desastre : Evenement catastrophique.
-Desert : Region aride et peu peuplee.
-Dessin : Representation graphique faite a la main.
-Diamant : Pierre precieuse, dure et brillante.
-Diete : Regime alimentaire particulier ou privation de nourriture.
-Differend : Desaccord ou conflit entre plusieurs parties.
-Digne : Qui merite respect ou consideration.
+Cuivre : Métal rougeâtre, conducteur d'électricité.
+Curiosité : Désir de connaître ou d'apprendre.
+Dalle : Plaque de pierre ou de béton pour recouvrir un sol.
+Danse : Mouvement rythmé du corps, souvent sur de la musique.
+Débris : Restes d'objets cassés ou détruits.
+Déclin : Baisse progressive d'une chose.
+Défi : Action de provoquer ou de mettre au défi.
+Degré : Unité de mesure pour la température ou les angles.
+Dentelle : Tissu fin et ajouré, souvent décoratif.
+Désastre : Événement catastrophique.
+Désert : Région aride et peu peuplée.
+Dessin : Représentation graphique faite à la main.
+Diamant : Pierre précieuse, dure et brillante.
+Diète : Régime alimentaire particulier ou privation de nourriture.
+Différend : Désaccord ou conflit entre plusieurs parties.
+Digne : Qui mérite respect ou considération.
 Dimanche : Dernier jour de la semaine, souvent jour de repos.
-Diner : Repas principal du soir.
+Dîner : Repas principal du soir.
 Direction : Orientation ou gestion d'une entreprise.
 Domicile : Lieu où l'on habite.
-Douceur : Caractere agreable ou tendre.
-Douleur : Sensation physique ou emotionnelle de souffrance.
-Drame : Evenement tragique ou piece de theatre.
-Drapeau : Symbole national ou embleme colore.
-Ecarlate : Rouge vif.
-Eclair : Lumiere intense et breve pendant un orage.
-Ecume : Mousse blanche sur les vagues.
-Effort : Usage d'energie pour accomplir quelque chose.
-Egal : Identique en quantite ou qualite.
-Eglise : Lieu de culte chretien.
-Elan : Mouvement rapide vers l'avant ou motivation.
-Element : Partie constitutive d'un ensemble.
-Eloge : Discours ou ecrit de louange.
-Enigme : Probleme mysterieux a resoudre.
-Enquete : Recherche pour decouvrir la verite.
+Douceur : Caractère agréable ou tendre.
+Douleur : Sensation physique ou émotionnelle de souffrance.
+Drame : Événement tragique ou pièce de théâtre.
+Drapeau : Symbole national ou emblème coloré.
+Écarlate : Rouge vif.
+Éclair : Lumière intense et brève pendant un orage.
+Écume : Mousse blanche sur les vagues.
+Effort : Usage d'énergie pour accomplir quelque chose.
+Égal : Identique en quantité ou qualité.
+Église : Lieu de culte chrétien.
+Élan : Mouvement rapide vers l'avant ou motivation.
+Élément : Partie constitutive d'un ensemble.
+Éloge : Discours ou écrit de louange.
+Énigme : Problème mystérieux à résoudre.
+Enquête : Recherche pour découvrir la vérité.
 Enseigne : Signe ou panneau indiquant un commerce.
 Entente : Accord ou bonne relation entre personnes.
-Epervier : Petit rapace, oiseau de proie.
-Epice : Substance aromatique pour parfumer les plats.
-Epine : Piquant d'une plante ou d'un arbuste.
-Epoque : Periode historique ou temps passe.
-Epreuve : Test ou difficulte a surmonter.
-Equilibre : Stabilite ou harmonie entre plusieurs elements.
-Erable : Arbre celebre pour sa seve sucree.
-Esclave : Personne privee de liberte et exploitee.
-Espion : Personne qui collecte secretement des informations.
-Esprit : Pensee, intelligence ou caractere immateriel.
-Essor : Developpement rapide ou envol.
-Etage : Niveau dans un batiment.
-Etamine : Partie de la fleur qui produit le pollen.
-Etang : Petite etendue d'eau stagnante.
-Etau : Outil de serrage pour maintenir des objets.
-Etendard : Drapeau utilise comme symbole ou signe de ralliement.
-Etoile : Corps celeste brillant dans le ciel.
-Etroit : Qui a peu de largeur, serre.
-Eveil : Passage du sommeil a l'etat de conscience.
-Exode : Deplacement massif de personnes.
+Épervier : Petit rapace, oiseau de proie.
+Épice : Substance aromatique pour parfumer les plats.
+Épine : Piquant d'une plante ou d'un arbuste.
+Époque : Période historique ou temps passé.
+Épreuve : Test ou difficulté à surmonter.
+Équilibre : Stabilité ou harmonie entre plusieurs éléments.
+Érable : Arbre célèbre pour sa sève sucrée.
+Esclave : Personne privée de liberté et exploitée.
+Espion : Personne qui collecte secrètement des informations.
+Esprit : Pensée, intelligence ou caractère immatériel.
+Essor : Développement rapide ou envol.
+Étage : Niveau dans un bâtiment.
+Étamine : Partie de la fleur qui produit le pollen.
+Étang : Petite étendue d'eau stagnante.
+Étau : Outil de serrage pour maintenir des objets.
+Étendard : Drapeau utilisé comme symbole ou signe de ralliement.
+Étoile : Corps céleste brillant dans le ciel.
+Étroit : Qui a peu de largeur, serré.
+Éveil : Passage du sommeil à l'état de conscience.
+Exode : Déplacement massif de personnes.
 Facile : Qui ne demande pas beaucoup d'efforts.
 Faconde : Aisance de parole souvent excessive.
-Farce : Blague ou preparation culinaire avec de la viande hachee.
+Farce : Blague ou préparation culinaire avec de la viande hachée.
 Ferme : Exploitation agricole ou solide.
 Feuillage : Ensemble des feuilles d'un arbre ou d'une plante.
-Fiere : Qui eprouve de la satisfaction par rapport a soi-meme.
-Fleur : Organe colore des plantes.
-Foudre : Decharge electrique violente pendant un orage.
+Fière : Qui éprouve de la satisfaction par rapport à soi-même.
+Fleur : Organe coloré des plantes.
+Foudre : Décharge électrique violente pendant un orage.
 Fracas : Bruit violent d'un choc ou d'une chute.
-Frequent : Qui arrive souvent.
-Froid : Qui a une temperature basse.
-Fromage : Aliment fait de lait caille.
-Fuite : Echappee ou ecoulement de liquide.
-Fumee : Gaz degage par une combustion.
+Fréquent : Qui arrive souvent.
+Froid : Qui a une température basse.
+Fromage : Aliment fait de lait caillé.
+Fuite : Échappée ou écoulement de liquide.
+Fumée : Gaz dégagé par une combustion.
 Gage : Garantie ou preuve d'engagement.
-Galere : Ancien bateau a rames ou situation difficile.
-Gamin : Enfant, souvent espiegle.
+Galère : Ancien bateau à rames ou situation difficile.
+Gamin : Enfant, souvent espiègle.
 Gant : Accessoire pour couvrir les mains.
 Garde : Surveillance ou protection.
-Garniture : Ce qui accompagne un plat ou decoration.
-Gateau : Patisserie sucree cuite au four.
+Garniture : Ce qui accompagne un plat ou décoration.
+Gâteau : Pâtisserie sucrée cuite au four.
 Gazon : Herbe courte d'un jardin ou terrain.
-Gene : Element hereditaire ou sentiment de malaise.
-Genese : Origine ou debut d'une chose.
+Gène : Élément héréditaire ou sentiment de malaise.
+Genèse : Origine ou début d'une chose.
 Girouette : Objet indiquant la direction du vent.
-Glacon : Bloc de glace.
+Glaçon : Bloc de glace.
 Glissade : Mouvement en glissant.
-Gradin : Rangee de sieges en escalier.
-Grange : Batiment pour stocker du foin.
-Gravier : Petites pierres servant de revetement.
-Grenade : Fruit rouge a graines ou arme explosive.
-Grenier : Partie superieure d'une maison pour le stockage.
-Greve : Arret de travail ou plage de galets.
+Gradin : Rangée de sièges en escalier.
+Grange : Bâtiment pour stocker du foin.
+Gravier : Petites pierres servant de revêtement.
+Grenade : Fruit rouge à graines ou arme explosive.
+Grenier : Partie supérieure d'une maison pour le stockage.
+Grève : Arrêt de travail ou plage de galets.
 Grillon : Insecte qui chante la nuit.
 Grisaille : Temps nuageux ou monotonie.
-Grondement : Bruit sourd et prolonge.
+Grondement : Bruit sourd et prolongé.
 Groseille : Petit fruit rouge acide.
-Hameau : Petit groupe de maisons, village tres reduit.
-Hasard : Evenement imprevisible ou chance.
-Helice : Objet tournant avec des pales, souvent utilise pour propulser.
-Herbe : Plante verte a tige tendre.
-Hibou : Oiseau nocturne au plumage epais et aux grands yeux.
-Hiver : Saison froide de l'annee.
+Hameau : Petit groupe de maisons, village très réduit.
+Hasard : Événement imprévisible ou chance.
+Hélice : Objet tournant avec des pales, souvent utilisé pour propulser.
+Herbe : Plante verte à tige tendre.
+Hibou : Oiseau nocturne au plumage épais et aux grands yeux.
+Hiver : Saison froide de l'année.
 Horloge : Appareil indiquant l'heure.
-Humain : Relatif a l'espece humaine ou caracteristique de l'homme.
-Hurler : Crier tres fort.
-Icare : Personnage mythologique ayant vole trop pres du soleil.
-Icone : Image ou symbole representant quelque chose de sacre ou important.
-Ideal : Ce qui est parfait ou represente un modele a suivre.
-Idyllique : Qui est parfait, comme dans un reve ou un conte.
-Illusion : Perception erronee de la realite.
-Imbrique : Entrelace ou emboite.
+Humain : Relatif à l'espèce humaine ou caractéristique de l'homme.
+Hurler : Crier très fort.
+Icare : Personnage mythologique ayant volé trop près du soleil.
+Icône : Image ou symbole représentant quelque chose de sacré ou important.
+Idéal : Ce qui est parfait ou représente un modèle à suivre.
+Idyllique : Qui est parfait, comme dans un rêve ou un conte.
+Illusion : Perception erronée de la réalité.
+Imbriqué : Entrelacé ou emboîté.
 Impair : Nombre qui n'est pas divisible par deux.
-Incendie : Feu destructeur, souvent incontrole.
-Indien : Relatif a l'Inde ou aux peuples autochtones des Ameriques.
-Insecte : Petit animal a six pattes et souvent des ailes.
+Incendie : Feu destructeur, souvent incontrôlé.
+Indien : Relatif à l'Inde ou aux peuples autochtones des Amériques.
+Insecte : Petit animal à six pattes et souvent des ailes.
 Instant : Bref moment dans le temps.
 Insulte : Propos offensant ou injurieux.
-Interieur : Ce qui est dedans ou a l'abri.
-Isole : Separe des autres, seul.
-Itineraire : Chemin ou parcours a suivre.
-Jade : Pierre precieuse verte.
-Jardin : Terrain plante de fleurs, legumes ou arbres.
-Jasmin : Plante a fleurs blanches parfumees.
+Intérieur : Ce qui est dedans ou à l'abri.
+Isolé : Séparé des autres, seul.
+Itinéraire : Chemin ou parcours à suivre.
+Jade : Pierre précieuse verte.
+Jardin : Terrain planté de fleurs, légumes ou arbres.
+Jasmin : Plante à fleurs blanches parfumées.
 Jauge : Instrument de mesure.
 Jeter : Lancer quelque chose.
 Joie : Sentiment de bonheur intense.
-Jonc : Plante aquatique ou bague simple en metal precieux.
+Jonc : Plante aquatique ou bague simple en métal précieux.
 Jouer : S'amuser ou pratiquer un jeu.
 Joug : Instrument pour atteler des animaux ou contrainte.
-Joute : Combat amical ou competition.
+Joute : Combat amical ou compétition.
 Juge : Personne qui rend la justice.
-Jungle : Foret tropicale dense.
-Jurer : Promettre ou prononcer des paroles grossieres.
-Juve : Se refere a quelque chose de jeune ou relatif a la jeunesse.
+Jungle : Forêt tropicale dense.
+Jurer : Promettre ou prononcer des paroles grossières.
+Juve : Se réfère à quelque chose de jeune ou relatif à la jeunesse.
 Kiosque : Petite structure ouverte pour vendre des journaux ou des souvenirs.
-Labeur : Travail penible ou effort prolonge.
+Labeur : Travail pénible ou effort prolongé.
 Lacune : Vide, manque ou trou dans un texte ou une connaissance.
 Laine : Fibre provenant de la toison des moutons.
 Lame : Partie tranchante d'un couteau ou vague d'eau.
-Lampion : Lanterne de papier souvent coloree.
-Lancier : Soldat arme d'une lance.
-Langue : Organe dans la bouche ou systeme de communication.
+Lampion : Lanterne de papier souvent colorée.
+Lancier : Soldat armé d'une lance.
+Langue : Organe dans la bouche ou système de communication.
 Larme : Goutte de liquide qui coule des yeux.
-Lasso : Corde formant un noeud coulant pour attraper des animaux.
-Legume : Plante comestible cultivee pour l'alimentation.
+Lasso : Corde formant un nœud coulant pour attraper des animaux.
+Légume : Plante comestible cultivée pour l'alimentation.
 Libellule : Insecte avec un corps fin et de grandes ailes transparentes.
-Ligne : Trait continu ou rangee d'elements.
-Limite : Frontiere ou point où une chose s'arrete.
-Lion : Grand felin carnivore, appele le roi des animaux.
-Lisse : Surface sans asperites ou rugosites.
-Liste : Enumeration d'elements.
-Litige : Conflit ou desaccord necessitant une resolution.
-Livre : Recueil de pages reliees contenant du texte.
-Local : Piece ou endroit reserve a une activite.
+Ligne : Trait continu ou rangée d'éléments.
+Limite : Frontière ou point où une chose s'arrête.
+Lion : Grand félin carnivore, appelé le roi des animaux.
+Lisse : Surface sans aspérités ou rugosités.
+Liste : Énumération d'éléments.
+Litige : Conflit ou désaccord nécessitant une résolution.
+Livre : Recueil de pages reliées contenant du texte.
+Local : Pièce ou endroit réservé à une activité.
 Logis : Lieu où l'on habite, maison.
 Longueur : Mesure de la distance entre deux points.
-Lueur : Lumiere faible ou tremblante.
-Lumiere : Eclat emis par une source lumineuse.
-Lutin : Petit etre imaginaire, espiegle et malin.
-Lutte : Combat physique ou figure.
-Machine : Appareil mecanique facilitant le travail.
-Machoire : Os de la bouche permettant de mastiquer.
+Lueur : Lumière faible ou tremblante.
+Lumière : Éclat émis par une source lumineuse.
+Lutin : Petit être imaginaire, espiègle et malin.
+Lutte : Combat physique ou figuré.
+Machine : Appareil mécanique facilitant le travail.
+Mâchoire : Os de la bouche permettant de mastiquer.
 Magie : Art d'utiliser des pouvoirs surnaturels.
 Main : Partie du corps permettant de saisir.
-Malin : Intelligent et ruse, parfois de facon negative.
-Manege : Attraction tournante ou stratageme.
-Mangue : Fruit tropical a la chair sucree.
-Marin : Relatif a la mer ou personne naviguant en mer.
+Malin : Intelligent et rusé, parfois de façon négative.
+Manège : Attraction tournante ou stratagème.
+Mangue : Fruit tropical à la chair sucrée.
+Marin : Relatif à la mer ou personne naviguant en mer.
 Marque : Signe distinctif ou symbole d'une entreprise.
 Marteau : Outil pour enfoncer des clous.
 Masse : Gros volume ou outil lourd pour frapper.
-Matin : Debut de la journee, avant midi.
-Medecin : Professionnel de la sante.
-Meduse : Animal marin gelatineux avec des tentacules.
-Melange : Assemblage de plusieurs elements.
-Menage : Taches domestiques ou couple vivant ensemble.
-Mer : Grande etendue d'eau salee.
-Merveille : Chose qui suscite l'admiration par sa beaute ou sa rarete.
-Mesure : Action de determiner une quantite ou dimension.
-Metal : Materiau solide, conducteur, souvent brillant.
-Metier : Profession ou savoir-faire artisanal.
-Midi : Douzieme heure de la journee, au milieu du jour.
+Matin : Début de la journée, avant midi.
+Médecin : Professionnel de la santé.
+Méduse : Animal marin gélatineux avec des tentacules.
+Mélange : Assemblage de plusieurs éléments.
+Ménage : Tâches domestiques ou couple vivant ensemble.
+Mer : Grande étendue d'eau salée.
+Merveille : Chose qui suscite l'admiration par sa beauté ou sa rareté.
+Mesure : Action de déterminer une quantité ou dimension.
+Métal : Matériau solide, conducteur, souvent brillant.
+Métier : Profession ou savoir-faire artisanal.
+Midi : Douzième heure de la journée, au milieu du jour.
 Mine : Site d'extraction ou expression du visage.
-Miroir : Surface reflechissante pour voir son reflet.
-Moine : Religieux vivant en communaute.
-Molaire : Dent large servant a broyer les aliments.
-Monstre : Creature imaginaire souvent effrayante.
-Montagne : Relief eleve de la surface terrestre.
-Morale : Ensemble de regles de conduite ou ethique.
-Mosaique : Assemblage de petites pieces colorees formant un motif.
-Mouette : Oiseau marin a plumage blanc et gris.
-Mousse : Plante verte sans racines ou ecume legere.
-Mouton : Animal a laine, souvent eleve pour sa viande.
-Murir : Atteindre la maturite ou devenir pret.
-Murmure : Bruit doux et leger, souvent un chuchotement.
-Muse : Inspiration artistique ou poetique.
-Mystere : Chose incomprehensible ou secrete.
-Naissance : Moment où un etre vivant vient au monde.
+Miroir : Surface réfléchissante pour voir son reflet.
+Moine : Religieux vivant en communauté.
+Molaire : Dent large servant à broyer les aliments.
+Monstre : Créature imaginaire souvent effrayante.
+Montagne : Relief élevé de la surface terrestre.
+Morale : Ensemble de règles de conduite ou éthique.
+Mosaïque : Assemblage de petites pièces colorées formant un motif.
+Mouette : Oiseau marin à plumage blanc et gris.
+Mousse : Plante verte sans racines ou écume légère.
+Mouton : Animal à laine, souvent élevé pour sa viande.
+Mûrir : Atteindre la maturité ou devenir prêt.
+Murmure : Bruit doux et léger, souvent un chuchotement.
+Muse : Inspiration artistique ou poétique.
+Mystère : Chose incompréhensible ou secrète.
+Naissance : Moment où un être vivant vient au monde.
 Navire : Grand bateau.
-Neant : Absence totale de tout, rien.
-Neon : Gaz utilise dans des tubes lumineux.
+Néant : Absence totale de tout, rien.
+Néon : Gaz utilisé dans des tubes lumineux.
 Nervure : Partie rigide d'une feuille ou d'une aile.
 Niche : Petit abri pour un animal, ou petit espace dans un mur.
 Nuage : Masse de vapeur d'eau dans le ciel.
-Nuance : Subtilite dans les differences de couleurs ou de sens.
-Nymphe : Creature mythologique ou jeune forme d'insecte.
-Ocre : Couleur jaune-brun, souvent associee a une terre coloree.
+Nuance : Subtilité dans les différences de couleurs ou de sens.
+Nymphe : Créature mythologique ou jeune forme d'insecte.
+Ocre : Couleur jaune-brun, souvent associée à une terre colorée.
 Octave : Intervalle musical couvrant huit notes.
-Odyssee : Long voyage, souvent aventureux.
-Offrande : Presentation de quelque chose en cadeau, generalement en signe de devotion.
-Ombre : Zone sombre creee par un obstacle a la lumiere.
+Odyssée : Long voyage, souvent aventureux.
+Offrande : Présentation de quelque chose en cadeau, généralement en signe de dévotion.
+Ombre : Zone sombre créée par un obstacle à la lumière.
 Onde : Mouvement oscillant de l'eau ou de l'air.
-Ongle : Partie dure a l'extremite des doigts et des orteils.
-Opale : Pierre precieuse aux couleurs changeantes.
-Opera : Genre musical theatral avec chant et orchestre.
-Orage : Tempete avec eclairs, tonnerre et pluie.
+Ongle : Partie dure à l'extrémité des doigts et des orteils.
+Opale : Pierre précieuse aux couleurs changeantes.
+Opéra : Genre musical théâtral avec chant et orchestre.
+Orage : Tempête avec éclairs, tonnerre et pluie.
 Orchestre : Groupe de musiciens qui jouent ensemble.
-Orgie : Fete excessive ou debauchee.
-Orgueil : Sentiment de fierte excessive et arrogante.
-Ouate : Coton ou matiere douce et moelleuse.
-Ouragan : Tempete violente avec des vents extremement forts.
-Oursin : Animal marin a epines, souvent utilise en cuisine.
+Orgie : Fête excessive ou débauchée.
+Orgueil : Sentiment de fierté excessive et arrogante.
+Ouate : Coton ou matière douce et moelleuse.
+Ouragan : Tempête violente avec des vents extrêmement forts.
+Oursin : Animal marin à épines, souvent utilisé en cuisine.
 Page : Feuille d'un livre ou jeune serviteur dans une maison noble.
-Palais : Grand batiment, souvent residence royale.
-Palet : Disque de bois utilise dans certains jeux, ou petite galette.
+Palais : Grand bâtiment, souvent résidence royale.
+Palet : Disque de bois utilisé dans certains jeux, ou petite galette.
 Pamplemousse : Fruit d'un agrume, gros et acide.
-Panier : Contenant generalement fabrique en osier ou autre materiau tresse.
-Parfum : Odeur agreable ou liquide odorant.
-Parole : Discours ou mots prononces.
-Parure : Ensemble de bijoux ou decoration.
+Panier : Contenant généralement fabriqué en osier ou autre matériau tressé.
+Parfum : Odeur agréable ou liquide odorant.
+Parole : Discours ou mots prononcés.
+Parure : Ensemble de bijoux ou décoration.
 Passage : Action de traverser ou lieu permettant de passer.
-Passion : Sentiment intense et profond, souvent pour une activite ou une personne.
-Pasteur : Pretre ou religieux, ou professionnel qui s'occupe des animaux.
-Pature : Terrain où les animaux broutent de l'herbe.
-Pave : Pierre plate utilisee pour recouvrir un sol.
-Paysage : Vue d'un lieu, souvent d'un point de vue esthetique.
-Peine : Souffrance, douleur ou difficulte a surmonter.
-Peinture : Art de peindre ou matiere utilisee pour peindre.
+Passion : Sentiment intense et profond, souvent pour une activité ou une personne.
+Pasteur : Prêtre ou religieux, ou professionnel qui s'occupe des animaux.
+Pâture : Terrain où les animaux broutent de l'herbe.
+Pavé : Pierre plate utilisée pour recouvrir un sol.
+Paysage : Vue d'un lieu, souvent d'un point de vue esthétique.
+Peine : Souffrance, douleur ou difficulté à surmonter.
+Peinture : Art de peindre ou matière utilisée pour peindre.
 Pente : Inclinaison d'un terrain.
-Perle : Petite boule precieuse formee dans certains mollusques.
-Persan : Relatif a la Perse ou chat de race persane.
-Phare : Tour emettant de la lumiere pour guider les navires.
+Perle : Petite boule précieuse formée dans certains mollusques.
+Persan : Relatif à la Perse ou chat de race persane.
+Phare : Tour émettant de la lumière pour guider les navires.
 Phrase : Ensemble de mots qui forment un sens.
-Pigeon : Oiseau souvent urbain, ou terme pour designer une personne naive.
+Pigeon : Oiseau souvent urbain, ou terme pour désigner une personne naïve.
 Pilier : Colonne soutenant une structure.
 Pirate : Personne qui attaque des navires ou pratique le vol en mer.
-Pivot : Axe autour duquel quelque chose tourne, ou joueur cle dans une equipe.
-Plafond : Surface du dessus d'une piece.
-Plage : Etendue de sable ou de galets au bord de la mer.
-Plante : Organisme vegetal, souvent cultive.
-Platine : Metal precieux de couleur gris-blanc.
-Plomb : Metal lourd et toxique, ou role dans un film (acteur principal).
-Pluie : Precipitation d'eau provenant des nuages.
-Poeme : Texte ecrit en vers, souvent lyrique.
-Poing : Main fermee avec les doigts replies.
-Pointe : Extremite aigue ou aceree de quelque chose.
-Poison : Substance nuisible ou toxique pour les etres vivants.
+Pivot : Axe autour duquel quelque chose tourne, ou joueur clé dans une équipe.
+Plafond : Surface du dessus d'une pièce.
+Plage : Étendue de sable ou de galets au bord de la mer.
+Plante : Organisme végétal, souvent cultivé.
+Platine : Métal précieux de couleur gris-blanc.
+Plomb : Métal lourd et toxique, ou rôle dans un film (acteur principal).
+Pluie : Précipitation d'eau provenant des nuages.
+Poème : Texte écrit en vers, souvent lyrique.
+Poing : Main fermée avec les doigts repliés.
+Pointe : Extrémité aiguë ou acérée de quelque chose.
+Poison : Substance nuisible ou toxique pour les êtres vivants.
 Poisson : Animal aquatique souvent comestible.
-Pomme : Fruit comestible, generalement rond et sucre.
-Pont : Structure qui permet de traverser un obstacle, comme une riviere.
+Pomme : Fruit comestible, généralement rond et sucré.
+Pont : Structure qui permet de traverser un obstacle, comme une rivière.
 Porte : Ouverture dans un mur permettant d'entrer ou de sortir.
-Poudre : Matiere fine et pulverulente.
-Poule : Oiseau domestique pondeur d'oeufs.
+Poudre : Matière fine et pulvérulente.
+Poule : Oiseau domestique pondeur d'œufs.
 Pourpre : Couleur rouge-violet.
 Prairie : Champ de herbes et de plantes, souvent sauvage.
-Precipice : Bord d'une falaise ou abime profond.
-Preface : Texte introductif d'un livre.
-Presage : Indice ou signe qui annonce quelque chose.
-Prisme : Objet geometrique a plusieurs faces, souvent transparent.
-Prison : Lieu de detention pour les personnes condamnees.
-Profondeur : Distance sous la surface, ou grande intensite dans un domaine.
-Projet : Plan ou idee d'une action a realiser.
-Promesse : Engagement a faire ou ne pas faire quelque chose.
-Prophete : Personne qui predit l'avenir ou transmet des messages divins.
-Prose : Texte ecrit sans rime ni structure poetique.
-Protection : Action de defendre ou d'empecher les dangers.
+Précipice : Bord d'une falaise ou abîme profond.
+Préface : Texte introductif d'un livre.
+Présage : Indice ou signe qui annonce quelque chose.
+Prisme : Objet géométrique à plusieurs faces, souvent transparent.
+Prison : Lieu de détention pour les personnes condamnées.
+Profondeur : Distance sous la surface, ou grande intensité dans un domaine.
+Projet : Plan ou idée d'une action à réaliser.
+Promesse : Engagement à faire ou ne pas faire quelque chose.
+Prophète : Personne qui prédit l'avenir ou transmet des messages divins.
+Prose : Texte écrit sans rime ni structure poétique.
+Protection : Action de défendre ou d'empêcher les dangers.
 Proue : Partie avant d'un navire.
-Prudence : Attitude de precaution et de sagesse.
-Puits : Trou creuse pour trouver de l'eau.
-Quete : Recherche ou mission pour obtenir quelque chose.
-Quietude : Calme, tranquillite.
-Quinte : Serie de cinq elements ou de cinq notes musicales.
+Prudence : Attitude de précaution et de sagesse.
+Puits : Trou creusé pour trouver de l'eau.
+Quête : Recherche ou mission pour obtenir quelque chose.
+Quiétude : Calme, tranquillité.
+Quinte : Série de cinq éléments ou de cinq notes musicales.
 Quotidien : Ce qui se fait tous les jours, quotidien.
 Racine : Partie souterraine d’une plante, ou origine de quelque chose.
 Radeau : Embarcation de fortune, souvent faite de morceaux de bois.
 Rafale : Souffle soudain et fort de vent, ou tir rapide d'armes.
-Rail : Barre metallique sur laquelle circulent les trains.
-Raison : Faculte de penser et de juger, ou motif pour une action.
-Rampe : Plan incline ou support pour faire monter quelque chose.
-Rancon : Somme d'argent demandee pour liberer quelqu'un ou quelque chose.
-Rangee : Ligne ou serie d'objets ou de personnes.
-Rapide : Qui se deplace ou se fait rapidement.
+Rail : Barre métallique sur laquelle circulent les trains.
+Raison : Faculté de penser et de juger, ou motif pour une action.
+Rampe : Plan incliné ou support pour faire monter quelque chose.
+Rançon : Somme d'argent demandée pour libérer quelqu'un ou quelque chose.
+Rangée : Ligne ou série d'objets ou de personnes.
+Rapide : Qui se déplace ou se fait rapidement.
 Rassemblement : Action de regrouper des personnes ou des choses.
-Rateau : Outil pour ramasser des feuilles ou travailler le sol.
-Rayon : Legere lumiere, ou barre qui forme la roue d’un vehicule.
+Râteau : Outil pour ramasser des feuilles ou travailler le sol.
+Rayon : Légère lumière, ou barre qui forme la roue d’un véhicule.
 Reine : Femme souveraine, ou insecte femelle dominant dans une ruche.
 Relais : Personne ou dispositif qui prend le relais d’une autre.
-Remede : Moyen pour soigner ou guerir une maladie.
-Renard : Mammifere carnivore a fourrure rouge, ou personne rusee.
+Remède : Moyen pour soigner ou guérir une maladie.
+Renard : Mammifère carnivore à fourrure rouge, ou personne rusée.
 Rencontre : Moment où deux ou plusieurs personnes se retrouvent.
 Renouveau : Nouveau commencement, ou reprise de quelque chose de vivant.
-Repere : Point de reference, ou marque pour se guider.
-Repos : Moment de detente ou d’inactivite pour se reposer.
-Requin : Poisson carnivore a la forme allongee et aux dents acerees.
-Ressort : Objet qui revient a sa forme originale apres avoir ete comprime.
-Retraite : Action de se retirer d’un endroit ou d’une activite.
-Reunion : Action de rassembler des personnes pour discuter ou travailler ensemble.
-Reveil : Appareil pour se reveiller, ou moment où l’on se reveille.
-Rivage : Bord de la mer, d’un lac ou d’une riviere.
-Roche : Masse dure constituant la croute terrestre.
+Repère : Point de référence, ou marque pour se guider.
+Repos : Moment de détente ou d’inactivité pour se reposer.
+Requin : Poisson carnivore à la forme allongée et aux dents acérées.
+Ressort : Objet qui revient à sa forme originale après avoir été comprimé.
+Retraite : Action de se retirer d’un endroit ou d’une activité.
+Réunion : Action de rassembler des personnes pour discuter ou travailler ensemble.
+Réveil : Appareil pour se réveiller, ou moment où l’on se réveille.
+Rivage : Bord de la mer, d’un lac ou d’une rivière.
+Roche : Masse dure constituant la croûte terrestre.
 Rond : Forme circulaire ou ayant une courbure.
-Roseau : Plante aquatique a tige longue et souple.
-Route : Voie de circulation pour les vehicules.
-Rubis : Pierre precieuse rouge.
+Roseau : Plante aquatique à tige longue et souple.
+Route : Voie de circulation pour les véhicules.
+Rubis : Pierre précieuse rouge.
 Ruche : Habitat des abeilles où elles produisent le miel.
-Ruine : Ce qui est detruit, ou vestige d’un batiment ancien.
-Sabre : Epee courbee et tranchante.
-Sable : Petit grain mineral que l'on trouve sur les plages.
-Sagesse : Qualite de celui qui agit avec discernement et prudence.
-Salade : Melange de legumes crus ou plat leger.
-Salon : Piece dans une maison, ou reunion d'une profession ou activite.
-Saltimbanque : Artiste de rue qui execute des acrobaties ou spectacles.
-Sanctuaire : Lieu sacre ou refuge protege.
-Sang : Liquide rouge dans les veines, transportant les nutriments et l’oxygene.
+Ruine : Ce qui est détruit, ou vestige d’un bâtiment ancien.
+Sabre : Epée courbée et tranchante.
+Sable : Petit grain minéral que l'on trouve sur les plages.
+Sagesse : Qualité de celui qui agit avec discernement et prudence.
+Salade : Mélange de légumes crus ou plat léger.
+Salon : Pièce dans une maison, ou réunion d'une profession ou activité.
+Saltimbanque : Artiste de rue qui exécute des acrobaties ou spectacles.
+Sanctuaire : Lieu sacré ou refuge protégé.
+Sang : Liquide rouge dans les veines, transportant les nutriments et l’oxygène.
 Sarcelle : Canard de couleur verte, ou une nuance de vert.
 Sauterelle : Insecte sauteur, souvent vert.
-Sauvage : Qui vit dans la nature, ou non domestique.
-Savane : Grande etendue d'herbe, souvent en Afrique, habitee par des animaux sauvages.
-Savoir : Connaissance, ou capacite d'accomplir quelque chose.
-Sceau : Embleme ou cachet utilise pour authentifier un document.
-Sceptre : Baton porte par un roi comme symbole de son pouvoir.
-Seisme : Tremblement de terre.
-Semaine : Periode de sept jours.
-Sentier : Petite voie ou chemin etroit.
+Sauvage : Qui vit dans la nature, ou non domestiqué.
+Savane : Grande étendue d'herbe, souvent en Afrique, habitée par des animaux sauvages.
+Savoir : Connaissance, ou capacité d'accomplir quelque chose.
+Sceau : Emblème ou cachet utilisé pour authentifier un document.
+Sceptre : Bâton porté par un roi comme symbole de son pouvoir.
+Séisme : Tremblement de terre.
+Semaine : Période de sept jours.
+Sentier : Petite voie ou chemin étroit.
 Serpent : Reptile sans jambes, souvent long et sinueux.
-Serenite : Etat de calme et de tranquillite.
+Sérénité : État de calme et de tranquillité.
 Serviteur : Personne qui sert, ou aide.
-Siege : Meuble pour s'asseoir, ou action de prendre un controle sur un lieu.
-Signe : Indice ou marque permettant de reconnaitre quelque chose.
-Sirene : Creature mythologique a la voix envoutante, ou avertisseur sonore.
-Soleil : Etoile centrale de notre systeme solaire.
+Siège : Meuble pour s'asseoir, ou action de prendre un contrôle sur un lieu.
+Signe : Indice ou marque permettant de reconnaître quelque chose.
+Sirène : Créature mythologique à la voix envoûtante, ou avertisseur sonore.
+Soleil : Étoile centrale de notre système solaire.
 Solitaire : Personne ou animal qui vit seul, ou jeu pour une seule personne.
-Sommet : Point le plus haut, ou conclusion d'un evenement.
-Songe : Reve ou reflexion.
-Sphere : Forme geometrique parfaitement ronde.
-Statue : Representation sculptee d'une personne ou d'un objet.
-Stratageme : Ruse ou plan pour tromper ou atteindre un but.
-Succes : Resultat positif ou victoire.
-Symbole : Image ou signe representant quelque chose d’autre.
-Syntonie : Harmonie ou accord parfait entre plusieurs elements.
+Sommet : Point le plus haut, ou conclusion d'un événement.
+Songe : Rêve ou réflexion.
+Sphère : Forme géométrique parfaitement ronde.
+Statue : Représentation sculptée d'une personne ou d'un objet.
+Stratagème : Ruse ou plan pour tromper ou atteindre un but.
+Succès : Résultat positif ou victoire.
+Symbole : Image ou signe représentant quelque chose d’autre.
+Syntonie : Harmonie ou accord parfait entre plusieurs éléments.

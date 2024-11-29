@@ -6,7 +6,6 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include <memory>
 #include <random>
 
 #include "WordDefinition.h"

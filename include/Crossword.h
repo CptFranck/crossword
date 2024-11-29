@@ -19,8 +19,8 @@ public:
     void printCrossword();
 
 private:
-    bool checkConflicts(const std::map<Coordinate, char> futureCoordinates,
-                        const std::map<Coordinate, char> coordinateSet,
+    bool checkConflicts(const std::map<Coordinate, wchar_t> futureCoordinates,
+                        const std::map<Coordinate, wchar_t> coordinateSet,
                         std::map<Coordinate, CrosswordLine> &intersection,
                         const CrosswordLine cl);
 

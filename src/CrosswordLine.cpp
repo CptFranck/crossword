@@ -21,7 +21,7 @@ CrosswordLine::~CrosswordLine()
 std::vector<PotentialCrosswordLine> CrosswordLine::findPotentialCrosswordLine(WordDefinition wd) const
 {
     // // futur word letter and its position : list of common letter positions with the word of the current crosswordLine
-    std::map<std::pair<char, size_t>, std::vector<size_t>> commonLetterPositions;
+    std::map<std::pair<wchar_t, size_t>, std::vector<size_t>> commonLetterPositions;
     commonLetterPositions = this->wordDefinition.findCommonLetterPosition(wd.getWord());
 
     std::vector<PotentialCrosswordLine> potentialCrosswordLines;

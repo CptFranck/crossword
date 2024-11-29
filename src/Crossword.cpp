@@ -94,11 +94,11 @@ std::vector<CrosswordLine> Crossword::filterPotentialCrosswordLineConflicted(std
     {
         hasNoConflict = true;
         intersection.clear();
-        std::map<Coordinate, char> futureCoordinates = pcl.getCoordinates();
+        std::map<Coordinate, wchar_t> futureCoordinates = pcl.getCoordinates();
 
         for (const auto &[_, cl] : crosswordLines)
         {
-            std::map<Coordinate, char> coordinateSet = cl.getCoordinates();
+            std::map<Coordinate, wchar_t> coordinateSet = cl.getCoordinates();
             if (!checkConflicts(futureCoordinates, coordinateSet, intersection, cl))
             {
                 hasNoConflict = false;
@@ -113,8 +113,8 @@ std::vector<CrosswordLine> Crossword::filterPotentialCrosswordLineConflicted(std
     return workingPotentialCrosswordLinesWithScore;
 }
 
-bool Crossword::checkConflicts(const std::map<Coordinate, char> futureCoordinates,
-                               const std::map<Coordinate, char> coordinateSet,
+bool Crossword::checkConflicts(const std::map<Coordinate, wchar_t> futureCoordinates,
+                               const std::map<Coordinate, wchar_t> coordinateSet,
                                std::map<Coordinate, CrosswordLine> &intersection,
                                const CrosswordLine cl)
 {
@@ -137,11 +137,11 @@ void Crossword::printCrossword()
 {
     Coordinate min = Coordinate(0, 0);
     Coordinate max = Coordinate(0, 0);
-    std::vector<std::pair<Coordinate, char>> allCoordinates;
+    std::vector<std::pair<Coordinate, wchar_t>> allCoordinates;
     for (auto &clPaire : this->crosswordLines)
     {
         const CrosswordLine cl = clPaire.second;
-        std::map<Coordinate, char> clCoordinates = cl.getCoordinates();
+        std::map<Coordinate, wchar_t> clCoordinates = cl.getCoordinates();
         for (auto &c : clCoordinates)
         {
             Coordinate coordinate = c.first;
@@ -153,26 +153,27 @@ void Crossword::printCrossword()
     size_t x = static_cast<size_t>(max.getX() - min.getX() + 1);
     size_t y = static_cast<size_t>(max.getY() - min.getY() + 1);
 
-    std::vector<char> tableau(x * y, '.');
+    std::vector<wchar_t> tableau(x * y, L'.');
 
     for (auto &clPaire : this->crosswordLines)
     {
         const CrosswordLine cl = clPaire.second;
-        std::map<Coordinate, char> clCoordinates = cl.getCoordinates();
+        std::map<Coordinate, wchar_t> clCoordinates = cl.getCoordinates();
         for (auto &clc : clCoordinates)
         {
             Coordinate c = clc.first;
             size_t newX = static_cast<size_t>(c.getX() - min.getX());
             size_t newY = static_cast<size_t>(c.getY() - min.getY());
-            char letter = clc.second;
+            wchar_t letter = clc.second;
             tableau[newX * y + newY] = letter;
         }
     }
+
     for (size_t i = 0; i < x; ++i)
     {
         for (size_t j = 0; j < y; ++j)
         {
-            std::cout << tableau[i * y + j];
+            std::wcout << tableau[i * y + j];
         }
         std::cout << std::endl;
     }
