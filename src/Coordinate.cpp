@@ -11,7 +11,7 @@ Coordinate::~Coordinate()
 {
 }
 
-std::shared_ptr<Coordinate> Coordinate::getPositionFrom(size_t position, Direction d) const
+Coordinate Coordinate::getPositionFrom(size_t position, Direction d) const
 {
     int p = static_cast<int>(position);
     int futur_x = this->x;
@@ -31,27 +31,34 @@ std::shared_ptr<Coordinate> Coordinate::getPositionFrom(size_t position, Directi
         futur_x += p;
         break;
     }
-    return std::make_unique<Coordinate>(futur_x, futur_y);
+    return Coordinate(futur_x, futur_y);
 }
 
-bool Coordinate::isEqualTo(std::shared_ptr<Coordinate> c) const
+bool Coordinate::operator<(const Coordinate &other) const
 {
-    return this->x == c->x && this->y == c->y;
+    if (x != other.x)
+        return x < other.x;
+    return y < other.y;
 }
 
-void Coordinate::ifMinUpdate(std::shared_ptr<Coordinate> c)
+bool Coordinate::isEqualTo(Coordinate c) const
 {
-    if (c->x < this->x)
-        this->x = c->x;
-    if (c->y < this->y)
-        this->y = c->y;
+    return this->x == c.x && this->y == c.y;
 }
-void Coordinate::ifMaxUpdate(std::shared_ptr<Coordinate> c)
+
+void Coordinate::ifMinUpdate(Coordinate c)
 {
-    if (c->x > this->x)
-        this->x = c->x;
-    if (c->y > this->y)
-        this->y = c->y;
+    if (c.x < this->x)
+        this->x = c.x;
+    if (c.y < this->y)
+        this->y = c.y;
+}
+void Coordinate::ifMaxUpdate(Coordinate c)
+{
+    if (c.x > this->x)
+        this->x = c.x;
+    if (c.y > this->y)
+        this->y = c.y;
 }
 
 void Coordinate::print()

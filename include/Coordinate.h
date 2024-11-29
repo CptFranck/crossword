@@ -11,10 +11,11 @@ class Coordinate
 public:
     Coordinate(int x_, int y_);
     ~Coordinate();
-    std::shared_ptr<Coordinate> getPositionFrom(size_t position, Direction d) const;
-    bool isEqualTo(std::shared_ptr<Coordinate> c) const;
-    void ifMinUpdate(std::shared_ptr<Coordinate> c);
-    void ifMaxUpdate(std::shared_ptr<Coordinate> c);
+    Coordinate getPositionFrom(size_t position, Direction d) const;
+    bool operator<(const Coordinate &other) const;
+    bool isEqualTo(Coordinate c) const;
+    void ifMinUpdate(Coordinate c);
+    void ifMaxUpdate(Coordinate c);
     void print();
     int getX() const;
     int getY() const;

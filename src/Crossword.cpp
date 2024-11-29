@@ -31,7 +31,7 @@ bool Crossword::findNewCrosswordLine(std::shared_ptr<Dictionary> dictionary)
     if (this->crosswordLines.size() == 0)
     {
         std::cout << "Premier mot enregistrer : " << newWordDefinition.getWord() << std::endl;
-        this->crosswordLines[newWordDefinition.getWord()] = std::make_shared<CrosswordLine>(randomDirection(), newWordDefinition, std::make_unique<Coordinate>(0, 0));
+        this->crosswordLines[newWordDefinition.getWord()] = std::make_shared<CrosswordLine>(randomDirection(), newWordDefinition, Coordinate(0, 0));
         return true;
     }
 
@@ -88,30 +88,30 @@ std::vector<std::shared_ptr<CrosswordLine>> Crossword::findCrosswordLinePlacemen
 std::vector<std::shared_ptr<CrosswordLine>> Crossword::filterPotentialCrosswordLineConflicted(std::vector<std::shared_ptr<PotentialCrosswordLine>> potentialCrosswordLines)
 {
     bool hasNoConflict;
-    std::map<std::shared_ptr<Coordinate>, std::shared_ptr<CrosswordLine>> intersection;
+    std::map<Coordinate, std::shared_ptr<CrosswordLine>> intersection;
     std::vector<std::shared_ptr<CrosswordLine>> workingPotentialCrosswordLinesWithScore;
 
     for (auto &pcl : potentialCrosswordLines)
     {
         hasNoConflict = true;
         intersection.clear();
-        std::map<std::shared_ptr<Coordinate>, char> futureCoordinates = pcl->getCoordinates();
+        std::map<Coordinate, char> futureCoordinates = pcl->getCoordinates();
 
         auto it_cl = this->crosswordLines.begin();
         while (it_cl != this->crosswordLines.end() && hasNoConflict)
         {
             int coordonneEnCommun = 0;
             std::shared_ptr<CrosswordLine> cl = (*it_cl).second;
-            std::map<std::shared_ptr<Coordinate>, char> coordinateSet = cl->getCoordinates();
+            std::map<Coordinate, char> coordinateSet = cl->getCoordinates();
             for (auto it_fc = futureCoordinates.begin(); it_fc != futureCoordinates.end(); ++it_fc)
             {
-                std::shared_ptr<Coordinate> oneFuturCoordinate = it_fc->first;
+                Coordinate oneFuturCoordinate = it_fc->first;
                 char fc = it_fc->second;
                 for (auto it_cs = coordinateSet.begin(); it_cs != coordinateSet.end(); ++it_cs)
                 {
-                    std::shared_ptr<Coordinate> oneCoordinateSet = it_cs->first;
+                    Coordinate oneCoordinateSet = it_cs->first;
                     char cs = it_cs->second;
-                    if (oneCoordinateSet->isEqualTo(oneFuturCoordinate))
+                    if (oneCoordinateSet.isEqualTo(oneFuturCoordinate))
                     {
                         coordonneEnCommun++;
 
@@ -137,14 +137,14 @@ void Crossword::printCrossword()
 {
     Coordinate min = Coordinate(0, 0);
     Coordinate max = Coordinate(0, 0);
-    std::vector<std::pair<std::shared_ptr<Coordinate>, char>> allCoordinates;
+    std::vector<std::pair<Coordinate, char>> allCoordinates;
     for (auto &clPaire : this->crosswordLines)
     {
         const std::shared_ptr<CrosswordLine> cl = clPaire.second;
-        std::map<std::shared_ptr<Coordinate>, char> clCoordinates = cl->getCoordinates();
+        std::map<Coordinate, char> clCoordinates = cl->getCoordinates();
         for (auto &c : clCoordinates)
         {
-            std::shared_ptr<Coordinate> coordinate = c.first;
+            Coordinate coordinate = c.first;
             min.ifMinUpdate(coordinate);
             max.ifMaxUpdate(coordinate);
         }
@@ -158,12 +158,12 @@ void Crossword::printCrossword()
     for (auto &clPaire : this->crosswordLines)
     {
         const std::shared_ptr<CrosswordLine> cl = clPaire.second;
-        std::map<std::shared_ptr<Coordinate>, char> clCoordinates = cl->getCoordinates();
+        std::map<Coordinate, char> clCoordinates = cl->getCoordinates();
         for (auto &clc : clCoordinates)
         {
-            std::shared_ptr<Coordinate> c = clc.first;
-            size_t newX = static_cast<size_t>(c->getX() - min.getX());
-            size_t newY = static_cast<size_t>(c->getY() - min.getY());
+            Coordinate c = clc.first;
+            size_t newX = static_cast<size_t>(c.getX() - min.getX());
+            size_t newY = static_cast<size_t>(c.getY() - min.getY());
             char letter = clc.second;
             tableau[newX * y + newY] = letter;
         }

@@ -1,12 +1,12 @@
 #include "CrosswordLine.h"
 
-CrosswordLine::CrosswordLine(Direction d, WordDefinition wd, std::shared_ptr<Coordinate> c)
+CrosswordLine::CrosswordLine(Direction d, const WordDefinition wd, const Coordinate c)
     : PotentialCrosswordLine(d, wd, c, 0)
 {
 }
 
 CrosswordLine::CrosswordLine(std::shared_ptr<PotentialCrosswordLine> pcl,
-                             std::map<std::shared_ptr<Coordinate>, std::shared_ptr<CrosswordLine>> cli)
+                             std::map<Coordinate, std::shared_ptr<CrosswordLine>> cli)
     : PotentialCrosswordLine(pcl->getDirection(),
                              pcl->getWordDefinition(),
                              pcl->getFirstCoordinates(), 0)
@@ -33,7 +33,7 @@ std::vector<std::shared_ptr<PotentialCrosswordLine>> CrosswordLine::findPotentia
 
         for (size_t pos : currentWordPositions)
         {
-            std::shared_ptr<Coordinate> intersectionCoordinate = getFirstCoordinates()->getPositionFrom(pos, direction);
+            Coordinate intersectionCoordinate = getFirstCoordinates().getPositionFrom(pos, direction);
             if (!hasIntersectionOn(intersectionCoordinate))
             {
                 if (direction == Direction::UP || direction == Direction::DOWN)
@@ -52,11 +52,11 @@ std::vector<std::shared_ptr<PotentialCrosswordLine>> CrosswordLine::findPotentia
     return potentialCrosswordLines;
 }
 
-bool CrosswordLine::hasIntersectionOn(std::shared_ptr<Coordinate> c) const
+bool CrosswordLine::hasIntersectionOn(Coordinate c) const
 {
     for (auto cli : this->crosswordLineIntersections)
     {
-        if (cli.first->isEqualTo(c))
+        if (cli.first.isEqualTo(c))
         {
             return true;
         }
@@ -64,12 +64,12 @@ bool CrosswordLine::hasIntersectionOn(std::shared_ptr<Coordinate> c) const
     return false;
 }
 
-void CrosswordLine::addCrosswordLineIntersections(std::shared_ptr<Coordinate> c, std::shared_ptr<CrosswordLine> cl)
+void CrosswordLine::addCrosswordLineIntersections(Coordinate c, std::shared_ptr<CrosswordLine> cl)
 {
     this->crosswordLineIntersections[c] = cl;
 }
 
-std::map<std::shared_ptr<Coordinate>, std::shared_ptr<CrosswordLine>> CrosswordLine::getCrosswordLineIntersections() const
+std::map<Coordinate, std::shared_ptr<CrosswordLine>> CrosswordLine::getCrosswordLineIntersections() const
 {
     return this->crosswordLineIntersections;
 }

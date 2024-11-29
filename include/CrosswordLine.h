@@ -13,17 +13,17 @@ class CrosswordLineIntersection;
 class CrosswordLine : public PotentialCrosswordLine
 {
 public:
-    CrosswordLine(Direction d, WordDefinition wd, std::shared_ptr<Coordinate> c);
-    CrosswordLine(std::shared_ptr<PotentialCrosswordLine> pcl, std::map<std::shared_ptr<Coordinate>, std::shared_ptr<CrosswordLine>> cli);
+    CrosswordLine(Direction d, const WordDefinition wd, const Coordinate c);
+    CrosswordLine(std::shared_ptr<PotentialCrosswordLine> pcl, std::map<Coordinate, std::shared_ptr<CrosswordLine>> cli);
     ~CrosswordLine();
 
-    bool hasIntersectionOn(std::shared_ptr<Coordinate> c) const;
-    void addCrosswordLineIntersections(std::shared_ptr<Coordinate> c, std::shared_ptr<CrosswordLine> cl);
-    std::map<std::shared_ptr<Coordinate>, std::shared_ptr<CrosswordLine>> getCrosswordLineIntersections() const;
+    bool hasIntersectionOn(Coordinate c) const;
+    void addCrosswordLineIntersections(Coordinate c, std::shared_ptr<CrosswordLine> cl);
+    std::map<Coordinate, std::shared_ptr<CrosswordLine>> getCrosswordLineIntersections() const;
     std::vector<std::shared_ptr<PotentialCrosswordLine>> findPotentialCrosswordLine(WordDefinition wd) const;
 
 private:
-    std::map<std::shared_ptr<Coordinate>, std::shared_ptr<CrosswordLine>> crosswordLineIntersections;
+    std::map<Coordinate, std::shared_ptr<CrosswordLine>> crosswordLineIntersections;
 };
 
 #endif
