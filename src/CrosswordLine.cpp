@@ -5,26 +5,26 @@ CrosswordLine::CrosswordLine(Direction d, const WordDefinition wd, const Coordin
 {
 }
 
-CrosswordLine::CrosswordLine(std::shared_ptr<PotentialCrosswordLine> pcl,
-                             std::map<Coordinate, std::shared_ptr<CrosswordLine>> cli)
-    : PotentialCrosswordLine(pcl->getDirection(),
-                             pcl->getWordDefinition(),
-                             pcl->getFirstCoordinates(), 0)
+CrosswordLine::CrosswordLine(PotentialCrosswordLine pcl,
+                             std::map<Coordinate, CrosswordLine> cli)
+    : PotentialCrosswordLine(pcl.getDirection(),
+                             pcl.getWordDefinition(),
+                             pcl.getFirstCoordinates(), 0),
+      crosswordLineIntersections(cli)
 {
-    this->crosswordLineIntersections = cli;
 }
 
 CrosswordLine::~CrosswordLine()
 {
 }
 
-std::vector<std::shared_ptr<PotentialCrosswordLine>> CrosswordLine::findPotentialCrosswordLine(WordDefinition wd) const
+std::vector<PotentialCrosswordLine> CrosswordLine::findPotentialCrosswordLine(WordDefinition wd) const
 {
     // // futur word letter and its position : list of common letter positions with the word of the current crosswordLine
     std::map<std::pair<char, size_t>, std::vector<size_t>> commonLetterPositions;
     commonLetterPositions = this->wordDefinition.findCommonLetterPosition(wd.getWord());
 
-    std::vector<std::shared_ptr<PotentialCrosswordLine>> potentialCrosswordLines;
+    std::vector<PotentialCrosswordLine> potentialCrosswordLines;
     // for each char and position associate to list of position working
     for (auto it = commonLetterPositions.begin(); it != commonLetterPositions.end(); ++it)
     {
@@ -38,13 +38,13 @@ std::vector<std::shared_ptr<PotentialCrosswordLine>> CrosswordLine::findPotentia
             {
                 if (direction == Direction::UP || direction == Direction::DOWN)
                 {
-                    potentialCrosswordLines.push_back(std::make_unique<PotentialCrosswordLine>(Direction::LEFT, wd, intersectionCoordinate, futurWordLetterPosition));
-                    potentialCrosswordLines.push_back(std::make_unique<PotentialCrosswordLine>(Direction::RIGHT, wd, intersectionCoordinate, futurWordLetterPosition));
+                    potentialCrosswordLines.push_back(PotentialCrosswordLine(Direction::LEFT, wd, intersectionCoordinate, futurWordLetterPosition));
+                    potentialCrosswordLines.push_back(PotentialCrosswordLine(Direction::RIGHT, wd, intersectionCoordinate, futurWordLetterPosition));
                 }
                 else
                 {
-                    potentialCrosswordLines.push_back(std::make_unique<PotentialCrosswordLine>(Direction::UP, wd, intersectionCoordinate, futurWordLetterPosition));
-                    potentialCrosswordLines.push_back(std::make_unique<PotentialCrosswordLine>(Direction::DOWN, wd, intersectionCoordinate, futurWordLetterPosition));
+                    potentialCrosswordLines.push_back(PotentialCrosswordLine(Direction::UP, wd, intersectionCoordinate, futurWordLetterPosition));
+                    potentialCrosswordLines.push_back(PotentialCrosswordLine(Direction::DOWN, wd, intersectionCoordinate, futurWordLetterPosition));
                 }
             }
         }
@@ -64,12 +64,7 @@ bool CrosswordLine::hasIntersectionOn(Coordinate c) const
     return false;
 }
 
-void CrosswordLine::addCrosswordLineIntersections(Coordinate c, std::shared_ptr<CrosswordLine> cl)
-{
-    this->crosswordLineIntersections[c] = cl;
-}
-
-std::map<Coordinate, std::shared_ptr<CrosswordLine>> CrosswordLine::getCrosswordLineIntersections() const
+std::map<Coordinate, CrosswordLine> CrosswordLine::getCrosswordLineIntersections() const
 {
     return this->crosswordLineIntersections;
 }

@@ -13,14 +13,18 @@ public:
     ~Crossword();
     bool findNewCrosswordLine(std::shared_ptr<Dictionary> dictionary);
     bool isWordDefinitionUsed(WordDefinition wordDefinition) const;
-    std::vector<std::shared_ptr<CrosswordLine>> findCrosswordLinePlacements(WordDefinition wordDefinition);
-    std::vector<std::shared_ptr<CrosswordLine>> filterPotentialCrosswordLineConflicted(std::vector<std::shared_ptr<PotentialCrosswordLine>> potentialCrosswordLines);
+    std::vector<CrosswordLine> findCrosswordLinePlacements(WordDefinition wordDefinition);
+    std::vector<CrosswordLine> filterPotentialCrosswordLineConflicted(std::vector<PotentialCrosswordLine> potentialCrosswordLines);
+
     void printCrossword();
 
 private:
-    void deleteWrongPotentialCrosswordLine(std::vector<PotentialCrosswordLine *> &potentialCrosswordLines);
+    bool checkConflicts(const std::map<Coordinate, char> futureCoordinates,
+                        const std::map<Coordinate, char> coordinateSet,
+                        std::map<Coordinate, CrosswordLine> &intersection,
+                        const CrosswordLine cl);
 
-    std::map<std::string, std::shared_ptr<CrosswordLine>> crosswordLines;
+    std::map<std::string, CrosswordLine> crosswordLines;
 };
 
 #endif

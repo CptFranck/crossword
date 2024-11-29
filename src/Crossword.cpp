@@ -31,7 +31,7 @@ bool Crossword::findNewCrosswordLine(std::shared_ptr<Dictionary> dictionary)
     if (this->crosswordLines.size() == 0)
     {
         std::cout << "Premier mot enregistrer : " << newWordDefinition.getWord() << std::endl;
-        this->crosswordLines[newWordDefinition.getWord()] = std::make_shared<CrosswordLine>(randomDirection(), newWordDefinition, Coordinate(0, 0));
+        this->crosswordLines.emplace(newWordDefinition.getWord(), CrosswordLine(randomDirection(), newWordDefinition, Coordinate(0, 0)));
         return true;
     }
 
@@ -41,7 +41,7 @@ bool Crossword::findNewCrosswordLine(std::shared_ptr<Dictionary> dictionary)
         return false;
     }
 
-    std::vector<std::shared_ptr<CrosswordLine>> potentialsPlacement = findCrosswordLinePlacements(newWordDefinition);
+    std::vector<CrosswordLine> potentialsPlacement = findCrosswordLinePlacements(newWordDefinition);
 
     if (potentialsPlacement.size() == 0)
     {
@@ -51,9 +51,9 @@ bool Crossword::findNewCrosswordLine(std::shared_ptr<Dictionary> dictionary)
 
     auto maxIntersectionCrosswordLine = std::max_element(potentialsPlacement.begin(),
                                                          potentialsPlacement.end(),
-                                                         [](const std::shared_ptr<CrosswordLine> a, const std::shared_ptr<CrosswordLine> b)
-                                                         { return a->getCrosswordLineIntersections().size() <=
-                                                                  b->getCrosswordLineIntersections().size(); });
+                                                         [](const CrosswordLine a, const CrosswordLine b)
+                                                         { return a.getCrosswordLineIntersections().size() <=
+                                                                  b.getCrosswordLineIntersections().size(); });
 
     if (maxIntersectionCrosswordLine == potentialsPlacement.end())
     {
@@ -61,8 +61,8 @@ bool Crossword::findNewCrosswordLine(std::shared_ptr<Dictionary> dictionary)
         return false;
     }
 
-    std::shared_ptr<CrosswordLine> newCrosswordLine = *maxIntersectionCrosswordLine;
-    this->crosswordLines[newWordDefinition.getWord()] = newCrosswordLine;
+    CrosswordLine newCrosswordLine = *maxIntersectionCrosswordLine;
+    this->crosswordLines.emplace(newWordDefinition.getWord(), newCrosswordLine);
     std::cout << "Mot ajouté : " << newWordDefinition.getWord() << std::endl;
     return true;
 }
@@ -72,65 +72,65 @@ bool Crossword::isWordDefinitionUsed(WordDefinition wordDefinition) const
     return this->crosswordLines.find(wordDefinition.getWord()) != this->crosswordLines.end();
 }
 
-std::vector<std::shared_ptr<CrosswordLine>> Crossword::findCrosswordLinePlacements(WordDefinition wordDefinition)
+std::vector<CrosswordLine> Crossword::findCrosswordLinePlacements(WordDefinition wordDefinition)
 {
-    std::vector<std::shared_ptr<CrosswordLine>> allCrosswordLinePlacements;
+    std::vector<CrosswordLine> allCrosswordLinePlacements;
     for (auto &clPaire : this->crosswordLines)
     {
-        std::shared_ptr<CrosswordLine> cl = clPaire.second;
-        std::vector<std::shared_ptr<PotentialCrosswordLine>> potentialCrosswordLines = cl->findPotentialCrosswordLine(wordDefinition);
-        std::vector<std::shared_ptr<CrosswordLine>> crosswordLinePlacements = filterPotentialCrosswordLineConflicted(potentialCrosswordLines);
+        std::vector<PotentialCrosswordLine> potentialCrosswordLines = clPaire.second.findPotentialCrosswordLine(wordDefinition);
+        std::vector<CrosswordLine> crosswordLinePlacements = filterPotentialCrosswordLineConflicted(potentialCrosswordLines);
         allCrosswordLinePlacements.insert(allCrosswordLinePlacements.end(), crosswordLinePlacements.begin(), crosswordLinePlacements.end());
     }
     return allCrosswordLinePlacements;
 }
 
-std::vector<std::shared_ptr<CrosswordLine>> Crossword::filterPotentialCrosswordLineConflicted(std::vector<std::shared_ptr<PotentialCrosswordLine>> potentialCrosswordLines)
+std::vector<CrosswordLine> Crossword::filterPotentialCrosswordLineConflicted(std::vector<PotentialCrosswordLine> potentialCrosswordLines)
 {
     bool hasNoConflict;
-    std::map<Coordinate, std::shared_ptr<CrosswordLine>> intersection;
-    std::vector<std::shared_ptr<CrosswordLine>> workingPotentialCrosswordLinesWithScore;
+    std::map<Coordinate, CrosswordLine> intersection;
+    std::vector<CrosswordLine> workingPotentialCrosswordLinesWithScore;
 
     for (auto &pcl : potentialCrosswordLines)
     {
         hasNoConflict = true;
         intersection.clear();
-        std::map<Coordinate, char> futureCoordinates = pcl->getCoordinates();
+        std::map<Coordinate, char> futureCoordinates = pcl.getCoordinates();
 
-        auto it_cl = this->crosswordLines.begin();
-        while (it_cl != this->crosswordLines.end() && hasNoConflict)
+        for (const auto &[_, cl] : crosswordLines)
         {
-            int coordonneEnCommun = 0;
-            std::shared_ptr<CrosswordLine> cl = (*it_cl).second;
-            std::map<Coordinate, char> coordinateSet = cl->getCoordinates();
-            for (auto it_fc = futureCoordinates.begin(); it_fc != futureCoordinates.end(); ++it_fc)
+            std::map<Coordinate, char> coordinateSet = cl.getCoordinates();
+            if (!checkConflicts(futureCoordinates, coordinateSet, intersection, cl))
             {
-                Coordinate oneFuturCoordinate = it_fc->first;
-                char fc = it_fc->second;
-                for (auto it_cs = coordinateSet.begin(); it_cs != coordinateSet.end(); ++it_cs)
-                {
-                    Coordinate oneCoordinateSet = it_cs->first;
-                    char cs = it_cs->second;
-                    if (oneCoordinateSet.isEqualTo(oneFuturCoordinate))
-                    {
-                        coordonneEnCommun++;
-
-                        intersection[oneFuturCoordinate] = cl;
-                        if (fc != cs)
-                        {
-                            hasNoConflict = false;
-                        }
-                    }
-                }
+                hasNoConflict = false;
+                break;
             }
-            ++it_cl;
         }
         if (hasNoConflict)
         {
-            workingPotentialCrosswordLinesWithScore.push_back(std::make_shared<CrosswordLine>(pcl, intersection));
+            workingPotentialCrosswordLinesWithScore.push_back(CrosswordLine(pcl, intersection));
         }
     }
     return workingPotentialCrosswordLinesWithScore;
+}
+
+bool Crossword::checkConflicts(const std::map<Coordinate, char> futureCoordinates,
+                               const std::map<Coordinate, char> coordinateSet,
+                               std::map<Coordinate, CrosswordLine> &intersection,
+                               const CrosswordLine cl)
+{
+    for (const auto &[futureCoord, futureChar] : futureCoordinates)
+    {
+        auto it = coordinateSet.find(futureCoord);
+        if (it != coordinateSet.end())
+        {
+            intersection.emplace(futureCoord, cl);
+            if (futureChar != it->second)
+            {
+                return false;
+            }
+        }
+    }
+    return true;
 }
 
 void Crossword::printCrossword()
@@ -140,8 +140,8 @@ void Crossword::printCrossword()
     std::vector<std::pair<Coordinate, char>> allCoordinates;
     for (auto &clPaire : this->crosswordLines)
     {
-        const std::shared_ptr<CrosswordLine> cl = clPaire.second;
-        std::map<Coordinate, char> clCoordinates = cl->getCoordinates();
+        const CrosswordLine cl = clPaire.second;
+        std::map<Coordinate, char> clCoordinates = cl.getCoordinates();
         for (auto &c : clCoordinates)
         {
             Coordinate coordinate = c.first;
@@ -157,8 +157,8 @@ void Crossword::printCrossword()
 
     for (auto &clPaire : this->crosswordLines)
     {
-        const std::shared_ptr<CrosswordLine> cl = clPaire.second;
-        std::map<Coordinate, char> clCoordinates = cl->getCoordinates();
+        const CrosswordLine cl = clPaire.second;
+        std::map<Coordinate, char> clCoordinates = cl.getCoordinates();
         for (auto &clc : clCoordinates)
         {
             Coordinate c = clc.first;
