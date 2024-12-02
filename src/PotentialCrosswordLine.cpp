@@ -36,31 +36,11 @@ std::map<Coordinate, std::pair<wchar_t, size_t>> PotentialCrosswordLine::getCoor
 
 Coordinate PotentialCrosswordLine::getFirstCoordinates() const
 {
-    Coordinate first = this->coordinates.begin()->first;
-    for (auto co : this->coordinates)
+    for (auto &[c, pair] : this->coordinates)
     {
-        Coordinate c = co.first;
-        switch (direction)
-        {
-        case Direction::UP:
-            if (first.getY() > c.getY())
-                first = c;
-            break;
-        case Direction::DOWN:
-            if (first.getY() < c.getY())
-                first = c;
-            break;
-        case Direction::LEFT:
-            if (first.getX() < c.getX())
-                first = c;
-            break;
-        case Direction::RIGHT:
-            if (first.getX() > c.getX())
-                first = c;
-            break;
-        default:
-            break;
-        }
+        const auto &[character, position] = pair;
+        if (position == 0)
+            return c;
     }
-    return first;
+    throw std::runtime_error("Une erreur s'est produite ! :: getFirstCoordinates");
 }

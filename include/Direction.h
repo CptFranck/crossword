@@ -7,18 +7,14 @@
 
 enum Direction
 {
-    UP,
-    DOWN,
-    RIGHT,
-    LEFT
+    HORIZONTAL,
+    VERTICAL
 };
 
 static std::random_device rd;
 static std::mt19937 gen(rd());
-static std::vector<Direction> ALL_DIRECTIONS({Direction::UP,
-                                              Direction::DOWN,
-                                              Direction::RIGHT,
-                                              Direction::LEFT});
+static std::vector<Direction> ALL_DIRECTIONS({Direction::HORIZONTAL,
+                                              Direction::VERTICAL});
 
 Direction randomDirection();
 

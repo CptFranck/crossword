@@ -38,16 +38,10 @@ Coordinate Coordinate::getPositionFrom(int position, Direction d) const
     int futur_y = this->y;
     switch (d)
     {
-    case Direction::UP:
-        futur_y += position;
-        break;
-    case Direction::DOWN:
+    case Direction::VERTICAL:
         futur_y -= position;
         break;
-    case Direction::LEFT:
-        futur_x -= position;
-        break;
-    case Direction::RIGHT:
+    case Direction::HORIZONTAL:
         futur_x += position;
         break;
     }

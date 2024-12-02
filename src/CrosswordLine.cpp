@@ -36,16 +36,10 @@ std::vector<PotentialCrosswordLine> CrosswordLine::findPotentialCrosswordLine(Wo
             Coordinate intersectionCoordinate = getFirstCoordinates().getPositionFrom(static_cast<int>(pos), direction);
             if (!hasIntersectionOn(intersectionCoordinate))
             {
-                if (direction == Direction::UP || direction == Direction::DOWN)
-                {
-                    potentialCrosswordLines.push_back(PotentialCrosswordLine(Direction::LEFT, wd, intersectionCoordinate, futurWordLetterPosition));
-                    potentialCrosswordLines.push_back(PotentialCrosswordLine(Direction::RIGHT, wd, intersectionCoordinate, futurWordLetterPosition));
-                }
+                if (direction == Direction::VERTICAL)
+                    potentialCrosswordLines.push_back(PotentialCrosswordLine(Direction::HORIZONTAL, wd, intersectionCoordinate, futurWordLetterPosition));
                 else
-                {
-                    potentialCrosswordLines.push_back(PotentialCrosswordLine(Direction::UP, wd, intersectionCoordinate, futurWordLetterPosition));
-                    potentialCrosswordLines.push_back(PotentialCrosswordLine(Direction::DOWN, wd, intersectionCoordinate, futurWordLetterPosition));
-                }
+                    potentialCrosswordLines.push_back(PotentialCrosswordLine(Direction::VERTICAL, wd, intersectionCoordinate, futurWordLetterPosition));
             }
         }
     }
