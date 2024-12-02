@@ -11,24 +11,44 @@ Coordinate::~Coordinate()
 {
 }
 
-Coordinate Coordinate::getPositionFrom(size_t position, Direction d) const
+// Coordinate Coordinate::getOppositionFrom(Direction wordDirection, Direction d) const
+// {
+//     int futur_x = this->x;
+//     int futur_y = this->y;
+//     if (wordDirection == Direction::LEFT || wordDirection == Direction::RIGHT)
+//     {
+//         if (d == Direction::UP)
+//             futur_y += 1;
+//         else
+//             futur_y -= 1;
+//     }
+//     else
+//     {
+//         if (d == Direction::LEFT)
+//             futur_y += 1;
+//         else
+//             futur_y -= 1;
+//     }
+//     return Coordinate(futur_x, futur_y);
+// }
+
+Coordinate Coordinate::getPositionFrom(int position, Direction d) const
 {
-    int p = static_cast<int>(position);
     int futur_x = this->x;
     int futur_y = this->y;
     switch (d)
     {
     case Direction::UP:
-        futur_y += p;
+        futur_y += position;
         break;
     case Direction::DOWN:
-        futur_y -= p;
+        futur_y -= position;
         break;
     case Direction::LEFT:
-        futur_x -= p;
+        futur_x -= position;
         break;
     case Direction::RIGHT:
-        futur_x += p;
+        futur_x += position;
         break;
     }
     return Coordinate(futur_x, futur_y);

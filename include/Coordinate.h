@@ -3,7 +3,6 @@
 #pragma once
 
 #include <vector>
-#include <memory>
 #include "Direction.h"
 
 class Coordinate
@@ -11,7 +10,8 @@ class Coordinate
 public:
     Coordinate(int x_, int y_);
     ~Coordinate();
-    Coordinate getPositionFrom(size_t position, Direction d) const;
+    Coordinate getPositionFrom(int position, Direction d) const;
+    // Coordinate getOppositionFrom(Direction wordDirection, Direction d) const;
     bool operator<(const Coordinate &other) const;
     bool isEqualTo(Coordinate c) const;
     void ifMinUpdate(Coordinate c);
