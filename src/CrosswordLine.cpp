@@ -33,7 +33,7 @@ std::vector<PotentialCrosswordLine> CrosswordLine::findPotentialCrosswordLine(Wo
 
         for (size_t pos : currentWordPositions)
         {
-            Coordinate intersectionCoordinate = getFirstCoordinates().getPositionFrom(pos, direction);
+            Coordinate intersectionCoordinate = getFirstCoordinates().getPositionFrom(static_cast<int>(pos), direction);
             if (!hasIntersectionOn(intersectionCoordinate))
             {
                 if (direction == Direction::UP || direction == Direction::DOWN)
