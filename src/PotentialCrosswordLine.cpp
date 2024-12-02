@@ -10,8 +10,8 @@ PotentialCrosswordLine::PotentialCrosswordLine(Direction d,
     std::wstring word = converter.from_bytes(wd.getWord());
     for (size_t i = 0; i < word.length(); i++)
     {
-        Coordinate newPosition = intersectionCoordinate.getPositionFrom(i - letterPosition, d);
-        this->coordinates[newPosition] = word[i];
+        Coordinate newPosition = intersectionCoordinate.getPositionFrom(static_cast<int>(i - letterPosition), d);
+        this->coordinates[newPosition] = std::make_pair(word[i], i);
     }
 }
 
@@ -29,7 +29,7 @@ WordDefinition PotentialCrosswordLine::getWordDefinition() const
     return this->wordDefinition;
 }
 
-std::map<Coordinate, wchar_t> PotentialCrosswordLine::getCoordinates() const
+std::map<Coordinate, std::pair<wchar_t, size_t>> PotentialCrosswordLine::getCoordinates() const
 {
     return this->coordinates;
 }

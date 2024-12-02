@@ -17,13 +17,13 @@ public:
 
     Direction getDirection() const;
     WordDefinition getWordDefinition() const;
-    std::map<Coordinate, wchar_t> getCoordinates() const;
+    std::map<Coordinate, std::pair<wchar_t, size_t>> getCoordinates() const;
     Coordinate getFirstCoordinates() const;
 
 protected:
     Direction direction;
     WordDefinition wordDefinition;
-    std::map<Coordinate, wchar_t> coordinates;
+    std::map<Coordinate, std::pair<wchar_t, size_t>> coordinates;
 };
 
 #endif
