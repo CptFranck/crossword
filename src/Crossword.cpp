@@ -1,8 +1,7 @@
 #include "Crossword.h"
 
-Crossword::Crossword(std::shared_ptr<Dictionary> dictionary, int wordNumber) : min(Coordinate(0, 0)), max(Coordinate(0, 0))
+Crossword::Crossword(std::shared_ptr<Dictionary> dictionary, int wordNumber, int dimension) : dimension(dimension), min(Coordinate(0, 0)), max(Coordinate(0, 0))
 {
-    this->dimension = 10;
     std::cout << "Creation du mot croisé" << std::endl;
 
     bool wordFound;

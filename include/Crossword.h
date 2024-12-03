@@ -10,7 +10,7 @@
 class Crossword
 {
 public:
-    Crossword(std::shared_ptr<Dictionary> dictionary, int wordNumber);
+    Crossword(std::shared_ptr<Dictionary> dictionary, int wordNumber, int dimension);
     ~Crossword();
     void printCrossword();
 
