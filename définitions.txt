@@ -506,16 +506,103 @@ Domicile : Lieu où l'on habite.
 Douceur : Caractère agréable ou tendre.
 Douleur : Sensation physique ou émotionnelle de souffrance.
 Drame : Événement tragique ou pièce de théâtre.
+Éblouir : Émerveiller ou aveugler par une lumière intense.
+Écaille : Petite plaque dure, souvent présente sur les poissons ou les reptiles.
+École : Lieu où l'on reçoit une instruction.
+Écorce : Enveloppe extérieure des arbres.
+Économie : Science qui étudie les ressources et leur gestion.
+Écouter : Prêter attention à ce que l'on entend.
+Écran : Surface qui diffuse ou protège contre les projections.
+Écrou : Élément métallique avec une forme hexagonale servant à fixer un boulon.
+Édifice : Grande construction, souvent de type religieux ou public.
+Égal : Qui est identique ou uniforme en quantité, qualité.
+Égarer : Perdre ou dévier.
+Élégance : Grâce et beauté dans les gestes ou l'apparence.
+Élève : Personne suivant une formation ou une éducation.
+Élixir : Liquide médicinal préparé à partir de plantes ou de substances.
+Émanciper : Libérer d’une contrainte ou d’une tutelle.
+Émission : Action de diffuser quelque chose, comme un programme ou des ondes.
+Émoi : Agitation ou trouble intérieur provoqué par une émotion.
+Émouvoir : Provoquer une émotion intense.
+Empêcher : Rendre quelque chose impossible ou empêcher l’action.
+Emplacement : Lieu précis ou position d'un objet.
+Empire : Grande puissance politique ou territoire soumis à un souverain.
+Employé : Personne qui travaille pour un employeur.
+Emprunter : Prendre quelque chose avec l'intention de le rendre.
+Enclume : Bloc de métal sur lequel on frappe le fer.
+Endroit : Lieu spécifique ou position géographique.
+Endurance : Capacité à supporter des efforts prolongés.
+Enfance : Période de la vie avant l'adolescence.
+Enfer : Lieu de souffrance éternelle selon certaines croyances religieuses.
+Enfermer : Mettre quelqu'un dans un espace clos.
+Enflammer : Mettre le feu ou exciter fortement une émotion.
+Énigme : Problème ou question difficile à résoudre.
+Enlacer : Enrouler ses bras autour de quelqu'un pour marquer l'affection.
+Enlever : Retirer ou ôter quelque chose.
+Ennemi : Personne hostile ou adverse.
+Ensemble : Groupe d'éléments qui forment un tout.
+Ensorceler : Charmer ou envoûter par des moyens surnaturels.
+Entendre : Percevoir des sons avec l'oreille.
+Enthousiasme : Grande joie ou excitation envers quelque chose.
+Entier : Qui n’est pas divisé ou incomplet.
+Entourer : Placer autour de quelque chose.
+Entraînement : Préparation physique ou mentale à une activité.
+Entreprendre : Commencer un projet ou une activité.
+Entretien : Discussion ou soin régulier d’une chose ou d’une personne.
+Envahir : Occuper ou pénétrer en grand nombre un lieu.
+Enveloppe : Support en papier dans lequel on met une lettre ou un document.
+Envoyer : Faire parvenir quelque chose à quelqu'un.
+Éolienne : Dispositif qui utilise l’énergie du vent pour produire de l’électricité.
+Équipe : Groupe de personnes travaillant ensemble pour un objectif commun.
+Érosion : Usure progressive des sols par l’eau ou le vent.
+Erreur : Action incorrecte, fautive.
+Espion : Personne chargée de recueillir des informations.
+Esquisse : Dessin préparatoire ou première ébauche d’une œuvre.
+Essai : Tentative de réaliser quelque chose ou étude scientifique.
+Essence : Substance tirée des plantes ou carburant.
+Estimer : Apprécier ou évaluer la valeur de quelque chose.
+Étoile : Corps céleste lumineux ou symbole d'excellence.
+Étonner : Surprendre ou choquer par quelque chose d'inattendu.
+Étudier : Analyser et apprendre sur un sujet ou une matière.
+Événement : Fait important ou marquant.
+Évidence : Ce qui est évident, qui ne peut être contesté.
+Examen : Test ou évaluation des connaissances ou compétences.
+Exercer : Pratiquer une activité ou une fonction.
+Exigence : Condition ou critère strict à respecter.
+Exil : État d’une personne forcée de quitter son pays.
+Existence : Condition d’être en vie ou d’avoir une réalité.
+Exubérance : Manifestation excessive de joie ou de vivacité.
+Exécuter : Réaliser une action ou accomplir un ordre.
+Exposition : Présentation ou ouverture de quelque chose au public.
+Extension : Augmentation en taille, ou ajout à quelque chose.
+Extraire : Enlever ou sortir quelque chose d’un lieu.
+Exemple : Cas concret utilisé pour illustrer une idée.
+Extinction : Action de faire cesser, disparition d’une espèce ou d’un phénomène.
+Exubérant : Qui manifeste une joie ou une énergie débordante.
+Efficace : Qui produit l’effet attendu, qui fonctionne bien.
+Équitable : Juste, qui respecte les principes de justice.
+Élan : Mouvement rapide ou impulsion, ou motivation.
+Épicerie : Magasin de produits alimentaires courants.
+Éruption : Explosion soudaine, notamment d'un volcan.
+Éthique : Ensemble de principes moraux guidant la conduite humaine.
+Émigrer : Quitter son pays pour s’installer dans un autre.
+Étonnement : Sentiment de grande surprise ou stupéfaction.
+Espace : Étendue dans laquelle se trouvent les objets et êtres vivants.
+Édition : Processus de publication ou de production de livres ou journaux.
+Égalité : Principe selon lequel tous sont traités de la même manière.
+Élaboration : Processus de création ou de développement.
+Énigmatique : Qui est difficile à comprendre ou à résoudre.
+Exigé : Requis ou demandé avec force.
+Exposer : Montrer ou présenter quelque chose au public.
+Évalué : Estimé, mesuré en fonction de critères.
+Envoler : Prendre son vol, quitter le sol.
 Écarlate : Rouge vif.
-Éclair : Lumière intense et brève pendant un orage.
+Éclair : Lumière intense et brève.
 Écume : Mousse blanche sur les vagues.
 Effort : Usage d'énergie pour accomplir quelque chose.
-Égal : Identique en quantité ou qualité.
 Église : Lieu de culte chrétien.
-Élan : Mouvement rapide vers l'avant ou motivation.
 Élément : Partie constitutive d'un ensemble.
 Éloge : Discours ou écrit de louange.
-Énigme : Problème mystérieux à résoudre.
 Enquête : Recherche pour découvrir la vérité.
 Enseigne : Signe ou panneau indiquant un commerce.
 Entente : Accord ou bonne relation entre personnes.
@@ -527,7 +614,6 @@ Entente : Accord ou bonne relation entre personnes.
 Équilibre : Stabilité ou harmonie entre plusieurs éléments.
 Érable : Arbre célèbre pour sa sève sucrée.
 Esclave : Personne privée de liberté et exploitée.
-Espion : Personne qui collecte secrètement des informations.
 Esprit : Pensée, intelligence ou caractère immatériel.
 Essor : Développement rapide ou envol.
 Étage : Niveau dans un bâtiment.
@@ -535,7 +621,6 @@ Essor : Développement rapide ou envol.
 Étang : Petite étendue d'eau stagnante.
 Étau : Outil de serrage pour maintenir des objets.
 Étendard : Drapeau utilisé comme symbole ou signe de ralliement.
-Étoile : Corps céleste brillant dans le ciel.
 Étroit : Qui a peu de largeur, serré.
 Éveil : Passage du sommeil à l'état de conscience.
 Exode : Déplacement massif de personnes.
