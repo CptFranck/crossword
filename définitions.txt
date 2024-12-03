@@ -1,4 +1,3 @@
-Abandon : Action de renoncer à quelque chose.
 Abri : Lieu de protection contre le danger.
 Acajou : Bois rouge utilisé en menuiserie.
 Accoster : S'approcher d'un rivage ou de quelqu'un.
@@ -8,19 +7,13 @@ Aisselle : Partie du corps sous le bras.
 Alcôve : Renfoncement dans une pièce pour un lit.
 Allure : Vitesse ou façon de se déplacer.
 Amende : Sanction financière pour une infraction.
-Ampleur : Grandeur ou importance de quelque chose.
 Ananas : Fruit tropical à peau épineuse.
 Ancien : Qui date d'une époque passée.
-Angle : Coin formé par deux lignes qui se rejoignent.
 Anse : Partie recourbée pour tenir un objet.
-Anxiété : Inquiétude profonde et constante.
 Apaiser : Calmer ou rendre moins intense.
-Apogée : Point culminant d'une situation.
 Appât : Ce qui attire pour capturer.
-Approche : Fait de se rapprocher.
 Araignée : Insecte à huit pattes qui tisse des toiles.
 Arbalète : Arme de jet utilisant des flèches.
-Ardent : Très intense ou brûlant.
 Arête : Partie pointue d'un poisson ou d'une montagne.
 Arôme : Odeur agréable d'une substance.
 Artifice : Astuce ou dispositif ingénieux.
@@ -33,6 +26,106 @@ Avide : Qui désire quelque chose avec passion.
 Axe : Ligne centrale autour de laquelle tourne un objet.
 Axiome : Vérité évidente acceptée sans démonstration.
 Azur : Couleur bleu du ciel ou de la mer.
+Abandon : Action de renoncer à quelque chose.
+Abîme : Gouffre profond et souvent dangereux.
+Abject : Qui inspire le dégoût ou le mépris.
+Abolir : Supprimer légalement ou officiellement.
+Abondance : Grande quantité de quelque chose.
+Abrupt : Qui est très raide ou brutal.
+Abscons : Difficile à comprendre.
+Absolu : Qui existe sans restriction ni condition.
+Abstrait : Qui est détaché de la réalité concrète.
+Abuser : Faire un mauvais usage de quelque chose.
+Académie : Institution chargée de promouvoir les lettres ou les sciences.
+Accabler : Écraser sous une charge morale ou physique.
+Accalmie : Période de calme temporaire.
+Accord : Convention ou harmonie entre des parties.
+Accroître : Augmenter ou intensifier.
+Acharné : Extrêmement persévérant ou passionné.
+Acide : Qui a un goût piquant ou corrosif.
+Acolyte : Compagnon ou complice souvent secondaire.
+Acquérir : Obtenir quelque chose pour soi.
+Acteur : Personne qui joue un rôle dans un spectacle ou un film.
+Action : Fait ou manière d'agir.
+Adagio : En musique, un mouvement lent.
+Admettre : Reconnaître ou accepter comme vrai.
+Admirer : Éprouver un grand respect ou une vive appréciation.
+Adopter : Prendre légalement comme enfant ou choisir quelque chose.
+Adresse : Lieu où quelqu'un réside ou compétence particulière.
+Adversaire : Personne opposée dans un conflit ou une compétition.
+Aérien : Relatif à l’air ou aux activités dans les airs.
+Affable : Aimable et accueillant.
+Affection : Sentiment d’attachement ou de tendresse.
+Affiner : Rendre plus pur ou plus précis.
+Afflux : Arrivée massive de personnes ou de choses.
+Agilité : Capacité à bouger rapidement et avec aisance.
+Agonie : Dernière phase avant la mort.
+Agressif : Qui manifeste une attitude hostile.
+Agriculteur : Personne qui travaille la terre pour produire des cultures.
+Aigle : Grand rapace symbole de puissance.
+Aigreur : Acidité ou mécontentement.
+Aile : Appendice permettant le vol chez certains animaux ou objets.
+Aimable : Qui suscite la sympathie ou l’affection.
+Aîné : Personne née en premier dans une famille.
+Air : Mélange gazeux qui entoure la Terre.
+Aisé : Qui est confortable ou facile.
+Ajout : Action d’ajouter quelque chose.
+Alarme : Signal avertissant d’un danger.
+Albâtre : Roche blanche et translucide.
+Album : Recueil de photos, chansons ou souvenirs.
+Alchimie : Science ancienne cherchant à transformer la matière.
+Alerté : Prévenu d’un danger ou d’une urgence.
+Algèbre : Branche des mathématiques étudiant les structures.
+Aliment : Toute substance servant de nourriture.
+Allégeance : Fidélité ou soumission à une autorité.
+Alliance : Union ou pacte entre parties.
+Allonger : Rendre plus long ou s’étendre.
+Allumette : Petit bâton servant à produire une flamme.
+Altitude : Hauteur mesurée à partir du niveau de la mer.
+Amadou : Substance inflammable utilisée pour allumer un feu.
+Amateur : Personne pratiquant une activité sans en faire profession.
+Ambassade : Représentation diplomatique d’un pays.
+Ambiance : Atmosphère générale d’un lieu.
+Ambigu : Qui peut être interprété de plusieurs manières.
+Aménagement : Organisation ou disposition d’un espace.
+Amical : Qui témoigne d’une attitude de bienveillance.
+Amnésie : Perte partielle ou totale de la mémoire.
+Amorce : Début ou élément déclencheur.
+Amphibien : Animal capable de vivre dans l’eau et sur terre.
+Ampleur : Importance ou étendue de quelque chose.
+Amputer : Couper une partie d’un tout, souvent dans un sens médical.
+Analyse : Étude détaillée d’un sujet ou d’une situation.
+Anarchie : Absence ou refus d’autorité.
+Anatomie : Science étudiant la structure des organismes vivants.
+Ancêtre : Personne dont on descend directement.
+Ancre : Objet permettant de stabiliser un navire.
+Androïde : Robot à forme humaine.
+Anecdote : Court récit souvent amusant ou instructif.
+Angle : Espace formé par deux lignes se rencontrant.
+Angoisse : État de grande inquiétude.
+Animal : Être vivant doté de sensibilité et de mobilité.
+Animosité : Hostilité ou antipathie manifeste.
+Année : Période de 365 ou 366 jours.
+Annoncer : Faire connaître une nouvelle.
+Annulaire : Relatif à l’anneau ou quatrième doigt de la main.
+Anomalie : Écart par rapport à la norme.
+Antagoniste : Opposé ou en conflit avec quelque chose.
+Anticiper : Prévoir et agir en conséquence avant un événement.
+Antidote : Remède contre un poison.
+Antipathie : Répulsion naturelle ou instinctive envers quelqu’un.
+Antique : Relatif à une époque ancienne.
+Anxiété : État d’inquiétude ou de tension nerveuse.
+Aorte : Principal vaisseau sanguin sortant du cœur.
+Apathie : Absence d’émotion ou d’énergie.
+Apogée : Point culminant ou sommet.
+Apprenti : Personne en cours d’apprentissage.
+Approche : Manière d’aborder un sujet ou une situation.
+Aquatique : Relatif à l’eau ou vivant dans l’eau.
+Arabesque : Motif décoratif à formes courbes.
+Ardent : Brûlant ou passionné.
+Arène : Espace pour des spectacles ou combats publics.
+Argile : Terre fine et malléable.
+Armature : Structure de soutien d’un édifice ou d’un objet.
 Babel : Tour biblique symbole de la confusion des langues.
 Bac : Récipient pour transporter des objets ou un examen scolaire.
 Baie : Petit fruit ou ouverture sur la mer.
