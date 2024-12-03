@@ -24,6 +24,7 @@ private:
     bool hasConflictsOnSameCoordinate(const PotentialCrosswordLine pcl,
                                       const CrosswordLine cl,
                                       std::map<Coordinate, CrosswordLine> &intersection) const;
+    wchar_t removeAccents(const wchar_t input) const;
 
     int dimension;
     Coordinate min, max;

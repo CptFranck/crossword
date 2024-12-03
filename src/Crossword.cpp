@@ -2,7 +2,7 @@
 
 Crossword::Crossword(std::shared_ptr<Dictionary> dictionary, int wordNumber) : min(Coordinate(0, 0)), max(Coordinate(0, 0))
 {
-    this->dimension = 20;
+    this->dimension = 10;
     std::cout << "Creation du mot croisé" << std::endl;
 
     bool wordFound;
@@ -12,7 +12,7 @@ Crossword::Crossword(std::shared_ptr<Dictionary> dictionary, int wordNumber) : m
         std::cout << "Mot °" << i + 1 << std::endl;
         for (int trialNumber = 0; trialNumber < 5 && !wordFound; trialNumber++)
         {
-            std::cout << "Essaie N°" << trialNumber + 1 << std::endl;
+            // std::cout << "Essaie N°" << trialNumber + 1 << std::endl;
             wordFound = this->findNewCrosswordLine(dictionary);
         }
         printCrossword();
@@ -38,7 +38,7 @@ bool Crossword::findNewCrosswordLine(std::shared_ptr<Dictionary> dictionary)
 
     if (isWordDefinitionUsed(newWordDefinition))
     {
-        std::cout << "Mot déjà utilisé : " << newWordDefinition.getWord() << std::endl;
+        // std::cout << "Mot déjà utilisé : " << newWordDefinition.getWord() << std::endl;
         return false;
     }
 
@@ -46,7 +46,7 @@ bool Crossword::findNewCrosswordLine(std::shared_ptr<Dictionary> dictionary)
 
     if (potentialsPlacement.size() == 0)
     {
-        std::cout << "Aucune lettre en commun " << newWordDefinition.getWord() << std::endl;
+        // std::cout << "Aucune lettre en commun " << newWordDefinition.getWord() << std::endl;
         return false;
     }
 
@@ -154,7 +154,7 @@ bool Crossword::hasConflictsOnSameCoordinate(const PotentialCrosswordLine pcl,
         if (it != futureCoordinates.end())
         {
             intersection.emplace(coord, cl);
-            if (std::towlower(character) != std::towlower(it->second.first))
+            if (std::towlower(this->removeAccents(character)) != std::towlower(this->removeAccents(it->second.first)))
             {
                 return true;
             }
@@ -183,6 +183,124 @@ bool Crossword::hasConflictsOnSameCoordinate(const PotentialCrosswordLine pcl,
         }
     }
     return false;
+}
+
+wchar_t Crossword::removeAccents(const wchar_t input) const
+{
+    wchar_t output;
+    switch (input)
+    {
+    // Lettres minuscules
+    case L'á':
+    case L'à':
+    case L'â':
+    case L'ä':
+    case L'ã':
+    case L'å':
+    case L'ā':
+        output = L'a';
+        break;
+    case L'é':
+    case L'è':
+    case L'ê':
+    case L'ë':
+    case L'ē':
+    case L'ė':
+    case L'ę':
+        output = L'e';
+        break;
+    case L'í':
+    case L'ì':
+    case L'î':
+    case L'ï':
+    case L'ī':
+    case L'į':
+        output = L'i';
+        break;
+    case L'ó':
+    case L'ò':
+    case L'ô':
+    case L'ö':
+    case L'õ':
+    case L'ø':
+    case L'ō':
+        output = L'o';
+        break;
+    case L'ú':
+    case L'ù':
+    case L'û':
+    case L'ü':
+    case L'ū':
+        output = L'u';
+        break;
+    case L'ý':
+    case L'ÿ':
+        output = L'y';
+        break;
+    case L'ç':
+        output = L'c';
+        break;
+    case L'ñ':
+        output = L'n';
+        break;
+
+    // Lettres majuscules
+    case L'Á':
+    case L'À':
+    case L'Â':
+    case L'Ä':
+    case L'Ã':
+    case L'Å':
+    case L'Ā':
+        output = L'A';
+        break;
+    case L'É':
+    case L'È':
+    case L'Ê':
+    case L'Ë':
+    case L'Ē':
+    case L'Ė':
+    case L'Ę':
+        output = L'E';
+        break;
+    case L'Í':
+    case L'Î':
+    case L'Ï':
+    case L'Ī':
+    case L'Į':
+    case L'Ì':
+        output = L'I';
+        break;
+    case L'Ó':
+    case L'Ò':
+    case L'Ô':
+    case L'Ö':
+    case L'Õ':
+    case L'Ø':
+    case L'Ō':
+        output = L'O';
+        break;
+    case L'Ú':
+    case L'Ù':
+    case L'Û':
+    case L'Ü':
+    case L'Ū':
+        output = L'U';
+        break;
+    case L'Ý':
+        output = L'Y';
+        break;
+    case L'Ç':
+        output = L'C';
+        break;
+    case L'Ñ':
+        output = L'N';
+        break;
+    default:
+        output = input;
+        break; // Garde les caractères non accentués ou inconnus
+    }
+    return output;
 }
 
 bool Crossword::DoNotRespectCrosswordDimension(PotentialCrosswordLine pcl)
