@@ -395,15 +395,105 @@ Crochet : Objet courbé pour accrocher ou outil de couture.
 Croissant : Forme en arc de cercle ou viennoiserie.
 Cuivre : Métal rougeâtre, conducteur d'électricité.
 Curiosité : Désir de connaître ou d'apprendre.
+Dague : Petit poignard à lame fine.
+Daim : Grand cervidé au pelage brun clair.
+Délai : Période avant l'échéance d'une tâche, temps supplémentaire.
+Délice : Plaisir intense, souvent gustatif.
+Démence : Altération grave des facultés mentales.
+Dépôt : Action de mettre quelque chose quelque part ou endroit où l'on dépose.
+Dérive : Mouvement ou tendance qui s'éloigne d'un but.
+Désert : Lieu aride, souvent sans vie, ou vaste étendue de sable.
+Détail : Élément précis d’un tout.
+Détester : Éprouver une aversion profonde pour quelque chose.
+Détente : Relaxation ou relâchement.
+Démolir : Détruire complètement.
+Dérapage : Glissade ou mouvement incontrôlé.
+Déroute : Fuite précipitée ou échec complet.
+Détour : Chemin indirect ou changement de direction.
+Doute : Incertitude, manque de conviction.
+Drapeau : Symbole textile, emblème coloré représentant un pays ou une cause.
+Drap : Pièce de tissu servant à couvrir un lit.
+Drogue : Substance pouvant entraîner une dépendance, légale ou illégale.
+Dromadaire : Chameau à une seule bosse, adapté aux déserts.
+Drone : Aéronef sans pilote ou mâle de l'abeille.
+Droit : Ce qui est légalement ou moralement juste.
+Duché : Territoire gouverné par un duc.
+Dune : Monticule de sable formé par le vent.
+Durée : Temps pendant lequel quelque chose se produit.
+Dynamique : Caractère de ce qui est en mouvement ou en changement.
+Dyslexie : Trouble de la lecture, de l'écriture.
+Démon : Être maléfique dans plusieurs croyances.
+Dépens : Coût ou charges occasionnées par quelque chose.
+Décision : Acte de choisir ou de trancher entre plusieurs options.
+Défaut : Manque ou imperfection dans quelque chose.
+Défi : Enjeu ou tâche difficile à accomplir.
+Délire : Perturbation de l’esprit, hallucinations.
+Divertir : Amuser, distraire.
+Délégation : Transmission d’un pouvoir ou d’une tâche.
+Dynamite : Explosif puissant.
+Décalage : Différence ou écart dans le temps ou dans l'espace.
+Distinction : Différence ou marque de reconnaissance.
+Détective : Personne chargée d’enquêter pour résoudre un mystère.
+Désir : Souhait ou envie intense.
+Déguiser : Modifier son apparence pour ne pas être reconnu.
+Délicat : Qui demande une attention particulière ou qui est fragile.
+Dominant : Qui exerce une supériorité, prédominant.
+Dépression : Baisse de moral ou état psychologique.
+Dépensier : Personne qui dépense sans compter.
+Diligent : Qui agit avec empressement et efficacité.
+Dignité : Qualité de celui qui mérite respect et honneur.
+Démangeaison : Sensation désagréable sur la peau.
+Duvet : Poils fins et doux, souvent sur les oiseaux.
+Dégâts : Dommages causés par un événement ou une action.
+Douteux : Qui suscite un manque de confiance ou de certitude.
+Détresse : État de souffrance ou de grande inquiétude.
+Dépendre : Être influencé ou déterminé par quelque chose d’extérieur.
+Délivrer : Libérer de quelque chose, remettre en état.
+Discret : Qui agit de manière réservée et prudente.
+Démarrage : Action de commencer ou de lancer une activité.
+Distillé : Filtré pour obtenir un liquide purifié.
+Dépistage : Action de rechercher des indices ou des signes d’une maladie.
+Discours : Prise de parole devant un auditoire.
+Difficulté : Obstacle ou problème à résoudre.
+Devoir : Tâche ou obligation morale ou scolaire.
+Déduction : Conclusion tirée à partir de prémisses.
+Déranger : Causer un trouble ou interrompre un état.
+Discipline : Règles d’une activité ou d’un comportement.
+Dépendance : État d’être dépendant d'une personne ou d'une chose.
+Défendre : Protéger ou interdire quelque chose.
+Divorce : Rupture légale d'un mariage.
+Débarquer : Arriver à terre ou débarquer d'un moyen de transport.
+Dossier : Ensemble de documents classés.
+Détruire : Rendre quelque chose inutilisable ou hors d’usage.
+Divine : Qui appartient à la divinité ou au sacré.
+Dériver : S'écarter d'un parcours ou d'un objectif.
+Diligence : Rapidité et efficacité dans l’action.
+Détourner : Faire changer de direction ou de but.
+Disparité : Différence marquée entre deux choses.
+Déficit : Manque ou insuffisance dans un domaine, souvent financier.
+Délasser : Relaxer ou soulager de la fatigue.
+Dominer : Exercer un pouvoir supérieur ou un contrôle.
+Démocratie : Système politique où le pouvoir est exercé par le peuple.
+Dégager : Libérer ou enlever un obstacle.
+Développement : Processus d’amélioration ou d’évolution.
+Dérangement : Action de perturber, de troubler.
+Dépouiller : Enlever des éléments ou des biens.
+Dégustation : Action de goûter et d’apprécier des mets.
+Dérisoire : Qui est insignifiant ou ridicule.
+Délaisser : Abandonner ou négliger quelque chose ou quelqu'un.
+Distraire : Éloigner l’attention ou amuser.
+Diminuer : Réduire la quantité ou l’intensité de quelque chose.
+Déficience : Insuffisance ou manque dans un domaine.
+Déplaisir : Sentiment de mécontentement ou de contrariété.
+Détournement : Action de dévier d’un objectif ou de détourner des fonds.
+Disposer : Organiser, arranger selon un ordre particulier.
 Dalle : Plaque de pierre ou de béton pour recouvrir un sol.
 Danse : Mouvement rythmé du corps, souvent sur de la musique.
 Débris : Restes d'objets cassés ou détruits.
 Déclin : Baisse progressive d'une chose.
-Défi : Action de provoquer ou de mettre au défi.
 Degré : Unité de mesure pour la température ou les angles.
 Dentelle : Tissu fin et ajouré, souvent décoratif.
 Désastre : Événement catastrophique.
-Désert : Région aride et peu peuplée.
 Dessin : Représentation graphique faite à la main.
 Diamant : Pierre précieuse, dure et brillante.
 Diète : Régime alimentaire particulier ou privation de nourriture.
@@ -416,7 +506,6 @@ Domicile : Lieu où l'on habite.
 Douceur : Caractère agréable ou tendre.
 Douleur : Sensation physique ou émotionnelle de souffrance.
 Drame : Événement tragique ou pièce de théâtre.
-Drapeau : Symbole national ou emblème coloré.
 Écarlate : Rouge vif.
 Éclair : Lumière intense et brève pendant un orage.
 Écume : Mousse blanche sur les vagues.
