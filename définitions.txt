@@ -126,42 +126,121 @@ Ardent : Brûlant ou passionné.
 Arène : Espace pour des spectacles ou combats publics.
 Argile : Terre fine et malléable.
 Armature : Structure de soutien d’un édifice ou d’un objet.
-Babel : Tour biblique symbole de la confusion des langues.
+Babel : Tour mythique ayant entraîné la confusion des langues.
+Babine : Lèvre pendante chez certains animaux.
+Baccalauréat : Diplôme marquant la fin des études secondaires.
+Bacille : Microbe de forme allongée.
+Badge : Petit insigne porté pour identification.
+Bagarre : Combat désordonné et souvent spontané.
+Bagage : Ce qu’on emporte lors d’un voyage.
+Baguette : Bâtonnet fin, utilisé en cuisine ou en musique.
+Baie : Petit fruit charnu ou ouverture sur la mer.
+Bain : Immersion dans l’eau, souvent pour se laver.
+Balai : Instrument pour nettoyer les sols.
+Balcon : Plateforme extérieure attachée à une façade.
+Baleine : Mammifère marin géant.
+Ballet : Danse classique sur scène.
+Banc : Long siège ou amas sous-marin.
+Banque : Institution gérant de l’argent et des crédits.
+Banquise : Étage de glace flottante polaire.
+Baptême : Cérémonie religieuse ou initiation symbolique.
+Barbare : Individu considéré comme sauvage ou cruel.
+Barbe : Poils sur le menton ou les joues.
+Barbier : Coiffeur spécialisé pour les hommes.
+Barque : Petit bateau à rames ou voile.
+Barrage : Construction retenant l’eau d’un cours.
+Barrière : Obstacle physique ou symbolique.
+Base : Fondement ou lieu de départ.
+Bassin : Large cuvette naturelle ou artificielle.
+Bataille : Combat entre deux forces opposées.
+Bateau : Moyen de transport naviguant sur l’eau.
+Batelier : Personne manœuvrant un bateau.
+Batterie : Ensemble d’instruments à percussion ou source d’énergie.
+Bavard : Qui parle beaucoup, parfois trop.
+Bave : Liquide sécrété par certains animaux ou mollusques.
+Bazar : Lieu où règne un désordre ou magasin exotique.
+Béat : Qui exprime une satisfaction naïve ou intense.
+Bébé : Tout jeune enfant.
+Bêche : Outil de jardinage à lame plate.
+Bécasse : Oiseau au long bec ou personne naïve.
+Bédouin : Nomade des déserts d’Arabie ou d’Afrique du Nord.
+Bégayer : Parler en répétant des syllabes involontairement.
+Béguin : Attachement amoureux ou coiffe médiévale.
+Beige : Couleur entre le blanc cassé et le marron clair.
+Belge : Habitant d’un pays voisin de la France.
+Belle : Qualificatif d’une personne ou chose attrayante.
+Berce : Grande plante herbacée.
+Berceau : Lit pour bébé ou lieu d’origine.
+Bergère : Femme gardant des moutons ou fauteuil confortable.
+Berger : Gardien de troupeaux, souvent de moutons.
+Béton : Matériau de construction solide et gris.
+Bibelot : Petit objet décoratif sans grande utilité.
+Biceps : Muscle situé sur la face antérieure du bras.
+Bienfait : Acte bénéfique ou généreux.
+Bifteck : Tranche de viande à griller ou frire.
+Bilan : Résumé ou conclusion d’une situation.
+Billet : Petit papier donnant droit à un accès ou indiquant un message.
+Binaire : Système informatique basé sur deux valeurs.
+Biscuit : Petit gâteau sec souvent croquant.
+Bison : Grand bovidé d’Amérique ou d’Europe.
+Bisou : Marque d’affection donnée avec les lèvres.
+Bistrot : Petit café ou restaurant populaire.
+Blague : Histoire ou situation amusante.
+Blanc : Couleur associée à la pureté ou l’absence de couleur.
+Blé : Céréale utilisée pour faire de la farine.
+Bleu : Couleur de l’océan et du ciel par beau temps.
+Blindé : Protégé par un revêtement résistant.
+Bloc : Masse compacte ou section d’un ensemble.
+Blog : Journal personnel en ligne.
+Blonde : Personne aux cheveux clairs.
+Boa : Serpent constricteur ou accessoire en plume.
+Bois : Matière des arbres ou petite forêt.
+Bolide : Véhicule très rapide.
+Bonnet : Coiffure couvrant la tête, souvent en laine.
+Bonobo : Singe proche de l’homme par son comportement social.
+Bonjour : Formule de salutation.
+Bonze : Prêtre bouddhiste.
+Borne : Repère ou limite d’un territoire.
+Bosquet : Petit groupe d’arbres ou d’arbustes.
+Botte : Chaussure montante ou assemblage de tiges.
+Bouée : Objet flottant utilisé en mer ou pour la sécurité.
+Bougie : Objet en cire produisant de la lumière.
+Bouillon : Liquide chaud obtenu par cuisson d’aliments.
+Bouleau : Arbre au tronc blanc.
+Bourdon : Gros insecte ou note grave d’un instrument.
+Bourgeois : Membre de la classe moyenne ou aisée.
+Bourse : Marché financier ou petit sac.
+Bovin : Relatif aux vaches ou aux bœufs.
+Branche : Partie d’un arbre portant feuilles et fruits.
+Bravo : Exclamation pour féliciter.
+Brebis : Femelle du mouton.
+Bretelle : Lien permettant de maintenir un vêtement.
+Brume : Légère vapeur dans l’air, réduisant la visibilité.
 Bac : Récipient pour transporter des objets ou un examen scolaire.
-Baie : Petit fruit ou ouverture sur la mer.
 Balise : Marque signalant un danger ou un passage.
 Balnéaire : Relatif à la plage ou aux bains de mer.
 Ballon : Objet rond pour jouer ou contenant de l'air.
 Banquet : Grand repas festif.
 Barge : Bateau à fond plat pour transporter des marchandises.
-Barrière : Clôture qui limite ou bloque un passage.
 Basalte : Roche volcanique noire et dense.
-Bateau : Véhicule pour naviguer sur l'eau.
 Battre : Frapper ou vaincre.
 Baume : Pommade apaisante ou adoucissante.
 Bec : Partie dure et pointue du visage des oiseaux.
-Béton : Matériau de construction solide à base de ciment.
 Bière : Boisson alcoolisée à base de houblon.
 Bijou : Objet précieux porté comme ornement.
-Billet : Petit papier pour voyager ou un titre de paiement.
 Bise : Vent froid du nord ou baiser rapide.
 Bitume : Revêtement noir pour les routes.
 Blason : Emblème représentant une famille ou une ville.
-Blé : Céréale utilisée pour faire de la farine.
 Blouse : Vêtement ample pour protéger les habits.
 Boisson : Liquide que l'on boit pour se désaltérer.
 Bonheur : Sentiment de grande satisfaction ou joie.
 Bord : Extrémité ou limite d'une surface.
-Borne : Repère marquant une limite ou une distance.
-Bougie : Objet en cire avec une mèche pour l'éclairage.
-Bourdon : Gros insecte ou son grave d'une cloche.
 Bouton : Petit élément pour fermer un vêtement ou une fleur naissante.
 Braise : Charbon ardent et rougeoyant.
 Brin : Petite tige fine d'herbe ou de fil.
 Brise : Vent léger et agréable.
 Broderie : Ornement fait avec du fil sur un tissu.
 Bruine : Pluie fine et légère.
-Brume : Légère vapeur d'eau dans l'air, réduisant la visibilité.
 Bucolique : Qui évoque la vie à la campagne, pastorale.
 Bureau : Meuble de travail ou pièce destinée au travail.
 Butte : Petite colline ou élévation de terrain.
