@@ -244,50 +244,124 @@ Bruine : Pluie fine et légère.
 Bucolique : Qui évoque la vie à la campagne, pastorale.
 Bureau : Meuble de travail ou pièce destinée au travail.
 Butte : Petite colline ou élévation de terrain.
-Cabane : Petite construction simple pour s'abriter.
+Cabane : Petite construction rudimentaire pour se protéger.
+Cabinet : Pièce de travail ou lieu d’aisance.
+Câble : Gros fil conducteur ou lien métallique.
+Cactus : Plante adaptée aux climats arides, souvent épineuse.
+Cadet : Personne plus jeune dans une fratrie.
+Café : Boisson chaude stimulante ou lieu où on la sert.
+Cage : Enclos grillagé pour contenir un animal.
+Cahier : Ensemble de feuilles reliées pour écrire.
+Caillou : Petite pierre.
+Calamar : Mollusque marin à tentacules.
+Calibre : Taille ou diamètre d’un objet.
+Calvaire : Grande souffrance ou chemin de croix.
+Caméra : Appareil servant à filmer.
+Camion : Véhicule lourd pour le transport.
+Campagne : Zone rurale ou période électorale.
+Canapé : Meuble pour s’asseoir confortablement.
+Canard : Oiseau aquatique ou journal humoristique.
+Candeur : Pureté et innocence.
+Canette : Boisson conditionnée en petite boîte métallique.
+Canon : Arme lourde ou modèle de beauté.
+Cantine : Lieu où l’on mange, souvent collectif.
+Capable : Qui a les compétences ou les moyens.
+Caprice : Désir soudain et souvent irraisonné.
+Capuche : Partie d’un vêtement couvrant la tête.
+Carbone : Élément chimique essentiel à la vie.
+Carcasse : Structure rigide ou squelette d’un animal.
+Cargo : Navire destiné au transport de marchandises.
+Carnet : Petit registre pour noter des informations.
+Carnivore : Qui se nourrit principalement de viande.
+Carotte : Légume orange et croquant.
+Carte : Objet utilisé pour localiser ou jouer.
+Cascade : Chute d’eau ou suite spectaculaire d’événements.
+Casier : Compartiment pour ranger des affaires.
+Casque : Protection pour la tête ou accessoire audio.
+Cassette : Petit boîtier pour stocker des enregistrements.
+Castor : Animal bâtisseur à la queue plate.
+Cauchemar : Rêve désagréable et angoissant.
+Causerie : Discussion informelle et détendue.
+Cavalier : Homme montant à cheval ou pièce d’échec.
+Caviar : Œufs d’esturgeon, mets luxueux.
+Cèdre : Grand conifère au bois parfumé.
+Célébrité : Personne connue ou renommée.
+Cendre : Résidu de combustion.
+Centime : Fraction d’un euro ou d’un ancien franc.
+Centre : Point ou lieu situé à égale distance des bords.
+Cercle : Forme géométrique ronde ou groupe fermé.
+Certes : Adverbe affirmant avec nuance.
+Cerveau : Organe central du système nerveux.
+Chacal : Canidé sauvage apparenté au loup.
+Chagrin : Grande tristesse.
+Chaise : Meuble avec un dossier pour s’asseoir.
+Chaleur : Sensation associée à une température élevée.
+Chambre : Pièce destinée au repos.
+Chameau : Animal du désert à une ou deux bosses.
+Chance : Hasard favorable.
+Chanson : Composition musicale avec des paroles.
+Chapeau : Accessoire porté sur la tête.
+Charbon : Combustible noir formé de matière fossile.
+Charge : Poids à porter ou responsabilité.
+Château : Grande résidence fortifiée ou luxueuse.
+Chaume : Partie des tiges laissée après moisson.
+Chemin : Voie de passage ou de direction.
+Chenille : Larve de papillon ou engin de chantier.
+Chêne : Arbre robuste au bois précieux.
+Cher : Coût élevé ou personne appréciée.
+Chèvre : Animal domestique produisant du lait.
+Chewing-gum : Bonbon mou à mâcher.
+Chiffre : Signe servant à écrire un nombre.
+Chirurgie : Discipline médicale opératoire.
+Chocolat : Friandise à base de cacao.
+Choix : Action de décider entre plusieurs options.
+Chose : Objet ou élément indéterminé.
+Chouette : Oiseau nocturne ou synonyme de « super ».
+Cible : Objet ou point à atteindre.
+Ciel : Espace au-dessus de la Terre.
+Cigare : Rouleau de tabac à fumer.
+Cimetière : Lieu où sont enterrés les défunts.
+Cinq : Nombre suivant quatre.
+Citadelle : Forteresse protégeant une ville.
+Citron : Agrume jaune et acide.
+Civet : Ragoût de gibier ou de lapin.
+Clair : Qui est lumineux ou facilement compréhensible.
+Cloche : Objet sonore en forme de coupole.
+Clown : Personnage comique au maquillage coloré.
+Cocotte : Poule ou casserole à couvercle.
+Coeur : Organe vital ou siège des émotions.
+Colline : Petite élévation de terrain.
+Compas : Instrument pour tracer des cercles.
+Compte : Calcul ou relevé de transactions.
+Conque : Coquillage souvent utilisé comme trompe.
+Coq : Mâle de la poule ou symbole de la France.
+Couleur : Perception visuelle d'un objet selon la lumière qu'il réfléchit.
 Cacher : Dissimuler ou rendre invisible.
 Cadence : Rythme régulier ou mesure du temps.
-Café : Boisson chaude à base de grains torréfiés.
-Cage : Enclos grillagé pour enfermer des animaux.
-Caillou : Petite pierre.
 Calme : Tranquille, sans agitation.
-Campagne : Zone rurale, en dehors de la ville.
 Canne : Bâton pour s'aider à marcher.
-Cantine : Lieu où l'on prend des repas collectifs.
-Caprice : Désir soudain et imprévisible.
 Carence : Manque de quelque chose d'essentiel.
-Carotte : Légume orange racine.
-Carte : Représentation géographique ou document de jeu.
-Cascade : Chute d'eau.
-Casque : Protection pour la tête.
 Cauchemar : Rêve angoissant.
 Causette : Petite conversation informelle.
 Cave : Pièce souterraine pour stocker.
-Cèdre : Grand arbre résineux.
 Céleste : Relatif au ciel ou aux astres.
 Cellule : Unité de base d'un organisme ou petite pièce.
-Cercle : Forme géométrique ronde.
 Cerise : Petit fruit rouge à noyau.
 Cerner : Délimiter ou entourer.
 Chaleur : Sensation produite par une haute température.
-Chapeau : Coiffure pour la tête.
 Charme : Attrait ou séduction particulière.
 Chaton : Petit du chat ou partie d'une bague.
 Chaud : Qui a une température élevée.
 Chauve : Sans cheveux.
 Chef : Personne qui dirige.
-Chemin : Voie ou route à suivre.
-Chenille : Larve de papillon.
 Cheval : Animal domestique utilisé pour la monte.
 Cheveux : Filaments qui poussent sur la tête.
 Chiffon : Morceau de tissu, souvent usé.
-Chocolat : Friandise à base de cacao.
 Chœur : Ensemble de chanteurs.
 Choisir : Faire un choix parmi plusieurs options.
 Choral : Relatif au chant en groupe.
 Chronique : Récit d'événements dans l'ordre du temps.
 Chut : Interjection pour demander le silence.
-Ciel : Espace au-dessus de la Terre, où se trouvent les nuages et les astres.
 Cirque : Lieu de spectacle itinérant ou dépression naturelle.
 Clarté : Lumière douce ou compréhensibilité.
 Classe : Groupe d'élèves ou niveau d'enseignement.
@@ -298,7 +372,6 @@ Cocarde : Insigne circulaire de couleur.
 Coffre : Grand meuble pour ranger des objets.
 Coiffe : Accessoire pour couvrir la tête.
 Colère : Forte irritation ou rage.
-Colline : Élévation de terrain de faible hauteur.
 Combat : Affrontement physique ou moral.
 Comble : Point le plus haut ou espace sous le toit.
 Comète : Corps céleste avec une queue lumineuse.
@@ -310,7 +383,6 @@ Conte : Récit souvent imaginaire ou fantastique.
 Corail : Animal marin formant des récifs.
 Corde : Long fil résistant pour attacher ou grimper.
 Couette : Couverture remplie de duvet ou de fibres.
-Couleur : Apparence d'un objet selon la lumière qu'il réfléchit.
 Courant : Mouvement de l'eau ou d'air, ou idée répandue.
 Coussin : Petit oreiller pour s'asseoir ou se reposer.
 Créature : Être vivant, souvent fantastique.
